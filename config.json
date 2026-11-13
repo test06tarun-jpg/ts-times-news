@@ -1,0 +1,7 @@
+{
+  "max_age_hours": 36,
+  "max_per_topic": 5,
+  "snippet_chars": 160,
+  "similarity": 0.5,
+  "timezone_offset_minutes": 330
+}
