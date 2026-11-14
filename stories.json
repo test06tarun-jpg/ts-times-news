@@ -1,10 +1,8 @@
 {
- "generated_at": "2026-11-14T01:31:08.436766+00:00",
- "stamp": "Updated 7:01 AM IST",
+ "generated_at": "2026-11-14T03:02:59.284053+00:00",
+ "stamp": "Updated 8:32 AM IST",
  "date": "Saturday, 14 November 2026",
- "feed_errors": [
-  "Business Standard (stocks): HTTPError"
- ],
+ "feed_errors": [],
  "stories": [
   {
    "id": "41c54bce2d",
@@ -33,7 +31,7 @@
    ],
    "published": "2026-11-13T16:00:00+00:00",
    "sensitive": false,
-   "score": 8.21
+   "score": 8.08
   },
   {
    "id": "c6791ebafa",
@@ -58,70 +56,116 @@
    ],
    "published": "2026-11-13T21:10:34+00:00",
    "sensitive": false,
-   "score": 6.64
+   "score": 6.51
   },
   {
-   "id": "849088f1df",
+   "id": "b0143db272",
    "topic": "ai",
    "kicker": "AI",
-   "headline": "Microsoft Outage LIVE: Microsoft apologises as global service outage eases",
-   "sub": "",
-   "card": "Microsoft is testing fixes, rerouting traffic and boosting server capacity as it works to stabilise its systems and restore services",
-   "full": [],
-   "why": "",
-   "source": "The Hindu (14 Nov, 12:23 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outlook-outage-status-microsoft-365-services-live-updates-november-14-2026/article71700692.ece"
-    }
-   ],
-   "published": "2026-11-14T06:53:31+05:30",
-   "sensitive": false,
-   "score": 4.99
-  },
-  {
-   "id": "12198c4ab9",
-   "topic": "ai",
-   "kicker": "AI",
-   "headline": "Microsoft Outage updates: No ETA yet on full recovery, company says",
-   "sub": "",
-   "card": "Microsoft services are beginning to come back online after a massive global outage left millions of users without access for nearly 18 hours",
-   "full": [],
-   "why": "",
-   "source": "The Hindu (14 Nov, 12:18 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece"
-    }
-   ],
-   "published": "2026-11-14T06:48:21+05:30",
-   "sensitive": false,
-   "score": 4.98
-  },
-  {
-   "id": "c9182bf09a",
-   "topic": "ai",
-   "kicker": "AI",
-   "headline": "ISU PETASIS, which produces high-layer printed circuit boards (PCBs) for artificial intelligence (AI..",
+   "headline": "US officials raise alarm over restricted Nvidia AI chips reaching China",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "매일경제 (14 Nov, 6:32 AM IST)",
+   "source": "WSYX (14 Nov, 8:14 AM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "매일경제",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42SDh1MzlMcTQxQVpGMENXM3ZSalkyaDZpbHk2M1pxWUlWTU9JVVlCR3VwNWozdG1NUlVyWWdTalllRktiTEJWVTEyZGZUMEk?oc=5"
+     "outlet": "WSYX",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHh4SGtENkt1aHdSYjdZVmoydENBUjRFMU55R29lRnowRjVzVlNGWU9IQ2M5UERqcGZ0QVcyNjlJYjRIM1Vkck43dVhSckhISDUyejJOR0RaNVN3a0ZDczVPT0Z6OUJCRWhEOTZYOGtpVkFhQlRQRXJhaTN5M2hlOFZILXNVQlRfV1Nvc0lzcVRVSUo5OXNTeXF3VnBmUVU2YXZTU1l3YWEzQUtucU1iZlp6VGY4V0FQZXpLc0s4QWt5V1U?oc=5"
     }
    ],
-   "published": "2026-11-14T01:02:44+00:00",
+   "published": "2026-11-14T02:44:28+00:00",
    "sensitive": false,
-   "score": 4.96
+   "score": 4.97
+  },
+  {
+   "id": "7e533b6b61",
+   "topic": "ai",
+   "kicker": "AI",
+   "headline": "The future of AI in the classroom",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "NBC 6 South Florida (14 Nov, 8:11 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "NBC 6 South Florida",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRnNsVGFpUjhWR2d1b0xkclgtZERZQ1JOdDM1d3JfNm0wTXZsdXVBdTJoNXhoYWVvU1p3UWhjdUZvbVItWFh2SEZJRlFILUY0b21nVUxhWWZmZHUxNE1tVFhxQ0pQc0sxUTVmei0xbnhTaGtYN1BCXzVSMUpSLUxqa2VEWGU0MF9zWlRoRdIBlAFBVV95cUxOQlY3SzAxMkxtcFVDd2xLZ29ZZmpGcXVrVzdYVE5rUkVkU2lNYjMySkwtZjJNbzN4U0kzX3l4c3RMNHlfTWl4UnpNVmJKb1JENGZvbHVjLWlaZ1hIejNFa2pfdWt0bmV0ZW0xYTZlQzRHYjg4TkFKZ05vMEtUYjFNSkp0cHg3VDFWbllpMXFFRnhjSjNP?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:41:39+00:00",
+   "sensitive": false,
+   "score": 4.97
+  },
+  {
+   "id": "69c6596bd3",
+   "topic": "ai",
+   "kicker": "AI",
+   "headline": "Nvidia scandal looms over US-China AI talks",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "RFI (14 Nov, 7:59 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "RFI",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeE5CemdyamtVUXd2Ml9hdFdVbkNyMFJHbXZUZHJWWmg2dTlHLVFHbGx2MndGaWZCanRWOGRJbm9OSm5ZZklGMFRHQjdETU1YUEJvaDdyS1JVVEt3MFdFclFBZ0kwcExWdG9OZkRTYkZqUjZXaC1ZX2dkVlY1a2FLZGtDQ1hMOFZTYWl4NFpoOENQX3JSNXZ4NA?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:29:37+00:00",
+   "sensitive": true,
+   "score": 4.95
+  },
+  {
+   "id": "1af1634a17",
+   "topic": "badminton",
+   "kicker": "Badminton",
+   "headline": "Smart attack takes Lakshya Sen past Yushi Tanaka and into Kumamoto Masters semis",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "The Indian Express, India.com (13 Nov, 1:09 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "The Indian Express",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQam5RYWUxbXlibDQ4bUtQdW1qN2FFaXZYVGZJQU5CVEN2YWdxakNRb1J0Z0VzLWVFc1h2SlBscFZfMUVNdVFJR2cxSWtkVmZYR0cwa1pXbEtYQjdmN1JGSVRMRG1qeFVCbm1YMkxaWU1aSlhzVnFhOXdsMGI1a2hGMUNSZWw3YWpIUzU0UzBCVDF3Um41ZnQ4LU04ZHBsRE5jOFp2V3pOSXBMMG51dVNkajJJZEJjNW10enfSAcABQVVfeXFMTWxrcEp4R1pxSDVDWk1udUxSZ1dMdVdWbVN4eVBCRHdPWGlJWm02MndNaUVmdGwyNnZPZElzUk83TnNoRHFoaVBtdGhyZDhBbjVVUjR0Si1JbmhIMHBuT09KeWlDbVZJVmJnOTlVQjdrOFUzUWcxQ0w2ckpyb0p6dmZuQUJZWE5NZDItNlRFWkNya1RxUldQaHZxR3JobW8tMFpUeThZX3NKTk9FM1NNSFNkTS1mNTRSLWd2UU9XaVdE?oc=5"
+    },
+    {
+     "outlet": "India.com",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdk81RWtxLUtyVjk5bmFGbFVXaE5qMUU2SzZNNXhMQ3NFVl9DUGgwUU5PRGEwbnU3ZGFYVlZVZ01CNXVKVXJ2Y01JRDR3QzhpaVY3WUloOEp1VlBjbnEzc2xPalhUazBJRUR0cnhoM1lubHhTVC1OYU11a0lmZWlYUUxHb01qanVTZ2NPR3Flc24tdnRteXl2UEphNFJLVFFyY2NvYUVxZmkxTGtpb19vZ0dhTERWQm1qNEFkM1FDQU5UcXhaQUVIc1N0QVbSAcwBQVVfeXFMTXZPNUVrcS1LclY5OW5hRmxVV2hOajFFNks2TTV4TENzRVZfQ1BoMFFOT0RhMG51N2RhWFZWVWdNQjV1SlVydmNNSUQ0d0M4aWlWN1lJaDhKdVZQY25xM3NsT2pYVGswSUVEdHJ4aDNZbmx4U1QtTmFNdWtJZmVpWFFMR29Namp1U2djT0dxZXNuLXZ0bXl5dlBKYTRSS1RRcmNjb2FFcWZpMUxraW9fb2dHYUxEVkJtajRBZDNRQ0FOVHF4WkFFSHNTdEFW?oc=5"
+    }
+   ],
+   "published": "2026-11-13T07:39:21+00:00",
+   "sensitive": true,
+   "score": 5.38
+  },
+  {
+   "id": "274bdc1cfd",
+   "topic": "badminton",
+   "kicker": "Badminton",
+   "headline": "Lakshya Sen takes a five-point lead in the deciding game!! 🏸 Lakshya lets out a roar as the shuttle lands outside, ensuring the Indian heads into the final interval leading 11-6. Live Blog in comments.",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Facebook (14 Nov, 8:30 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Facebook",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNkg3RlIyUW5XQzJlY1VtLUlzdnRkRWhhdkp2cExMM0xjd0NvaVRDeDFQRUxGd3VmMi1CQldJZkU4WEk1WnVYbEtWSXhfN0QybGhoVEJfWGx1OUZJb1FJWE5qZWpuTUFqMW1qbURFU2xJRGlpM1NDbjB5RW5mb3hia3VWT0dmS09xSGxFQWYxdEpubHhpLXZ2VDIyTlZ5dC16ZlcxZnVvVEhzbVEyWllVZXVuYlYzQk5CbnV4U2tzRVVZUmZTcFJTdlJsM0k2cVU4Rkxv?oc=5"
+    }
+   ],
+   "published": "2026-11-14T03:00:59+00:00",
+   "sensitive": false,
+   "score": 5.0
   },
   {
    "id": "25975b4e5d",
@@ -142,7 +186,7 @@
    ],
    "published": "2026-11-13T19:14:18+00:00",
    "sensitive": false,
-   "score": 4.48
+   "score": 4.35
   },
   {
    "id": "70f93c3711",
@@ -163,7 +207,7 @@
    ],
    "published": "2026-11-13T18:21:32+00:00",
    "sensitive": false,
-   "score": 4.4
+   "score": 4.28
   },
   {
    "id": "946ce204a2",
@@ -184,49 +228,7 @@
    ],
    "published": "2026-11-13T18:10:15+00:00",
    "sensitive": false,
-   "score": 4.39
-  },
-  {
-   "id": "5623cc269a",
-   "topic": "badminton",
-   "kicker": "Badminton",
-   "headline": "Lakshya Sen storms into semi-finals of Japan Masters 2026!! 🇮🇳🔥 Sen saw off Yushi Tanaka of Japan🇯🇵 in straight games (21-16, 21-15) to move to the semis of the BWF Super 500 event. 🏸 📸 Badminton Photo",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Facebook (13 Nov, 6:22 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Facebook",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYmNqRmw4LXJDMUZsR2wxQlNQM0hmRUhrQ3hLUEx2OUhEaUVGMmVuX015d1ZNajNQcVFqTjc3cXNVQ0pmdTB6UWNpMlcyajlOLTN6cEVnZEhsaTVRRnpmXzg0ZXJXNGFlSzBWd1FsY19rMTQzU05iTE10b29GbnFfdV9ab0V4dkJ2cmFxU0JleFZiOTNiM0lkMlBHVllweGtFUy14VGlCNDJMekxSdGJoNk9lLWg2elBnTzc1ZWswZ1N2ajA1YXdaVTZZdnZ0WUlJb3M0?oc=5"
-    }
-   ],
-   "published": "2026-11-13T12:52:17+00:00",
-   "sensitive": false,
-   "score": 3.95
-  },
-  {
-   "id": "d240f80f1a",
-   "topic": "badminton",
-   "kicker": "Badminton",
-   "headline": "Dakar Youth Olympics 2026: From Swimming Breakthroughs to Missed Opportunities – India’s Youth Olympic Review",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Revsportz (13 Nov, 5:44 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Revsportz",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdmYzbGIyeHJKWU1BeFVsTllHcVVlYmRBOVBfcWpZc09oc2xOdWlwZzZMZElfMUV4X1FZV0syUnd2U3NWOHRJeWFnM250VDhKajBvOTY4ZHBxM2NzVnpsS0pCRWJTT1BKTFlrRU9lWFFJdnVSNEdHMEFxQklBTzBzX01vQ1BSeWh1YnZpVkpQeDFrN2xPZlJZLXVtQUZVOXVzVnNEVEE4VlRWOTdhY1dUbEh4UFA1OE1SRG5HMUs4eVBMbHhab1HSAc4BQVVfeXFMUElJVG1wdVNtd2tBUzdRZUlRalJCcEttem5DTFlJRU1iTGJiXzc4ZXA3ZG9CY2pUODdKblExakFldE9HWHZpWURVYU1DZnA2X3FodFJKcjdPbm43QWlFU3E0UEVfN3VtWXlBX24xYWZJWlBWT0x1aXhZZ29wX3NDcGtwZUhHUDlVX0x6d2VyM1dXZFBmaF9XTzViTW9rNVJNOUxSX2QxSngzR2xCUTVaVmpNc3lkY3M5dlYxb1JzTUVWb3VPNGpPUzdWOE04aEE?oc=5"
-    }
-   ],
-   "published": "2026-11-13T12:14:12+00:00",
-   "sensitive": false,
-   "score": 3.89
+   "score": 4.26
   },
   {
    "id": "8cd97bd75c",
@@ -247,7 +249,7 @@
    ],
    "published": "2026-11-13T14:17:27+00:00",
    "sensitive": false,
-   "score": 4.06
+   "score": 3.94
   },
   {
    "id": "ce31b2ceb8",
@@ -268,7 +270,7 @@
    ],
    "published": "2026-11-13T19:39:37+05:30",
    "sensitive": false,
-   "score": 4.05
+   "score": 3.93
   },
   {
    "id": "3752722875",
@@ -289,7 +291,7 @@
    ],
    "published": "2026-11-13T13:56:43+00:00",
    "sensitive": false,
-   "score": 4.04
+   "score": 3.91
   },
   {
    "id": "3c0a711294",
@@ -310,7 +312,7 @@
    ],
    "published": "2026-11-13T18:38:42+05:30",
    "sensitive": false,
-   "score": 3.97
+   "score": 3.84
   },
   {
    "id": "3eea85eb6d",
@@ -331,7 +333,7 @@
    ],
    "published": "2026-11-13T12:23:47+00:00",
    "sensitive": false,
-   "score": 3.91
+   "score": 3.78
   },
   {
    "id": "97456f412a",
@@ -352,7 +354,7 @@
    ],
    "published": "2026-11-14T00:17:45+00:00",
    "sensitive": false,
-   "score": 4.9
+   "score": 4.77
   },
   {
    "id": "d5d834db25",
@@ -373,7 +375,7 @@
    ],
    "published": "2026-11-14T00:03:56+00:00",
    "sensitive": false,
-   "score": 4.88
+   "score": 4.75
   },
   {
    "id": "95e8a9f1df",
@@ -394,7 +396,7 @@
    ],
    "published": "2026-11-14T00:01:01+00:00",
    "sensitive": false,
-   "score": 4.87
+   "score": 4.75
   },
   {
    "id": "555c7b0f18",
@@ -415,7 +417,7 @@
    ],
    "published": "2026-11-13T19:01:56+00:00",
    "sensitive": false,
-   "score": 4.46
+   "score": 4.33
   },
   {
    "id": "2ab405e515",
@@ -436,7 +438,7 @@
    ],
    "published": "2026-11-13T18:50:15+00:00",
    "sensitive": false,
-   "score": 4.44
+   "score": 4.32
   },
   {
    "id": "0cb0264a05",
@@ -461,7 +463,7 @@
    ],
    "published": "2026-11-13T19:49:31+00:00",
    "sensitive": false,
-   "score": 6.53
+   "score": 6.4
   },
   {
    "id": "3b75f518b9",
@@ -486,83 +488,87 @@
    ],
    "published": "2026-11-13T02:27:37+00:00",
    "sensitive": false,
-   "score": 5.08
+   "score": 4.95
   },
   {
-   "id": "b0c31cbe46",
+   "id": "f284c9f740",
    "topic": "courts",
    "kicker": "Courts & Law",
-   "headline": "After CBI, ED arrests Mahadev betting app scam accused",
+   "headline": "Microsoft outage hits businesses worldwide; India feels impact",
    "sub": "",
-   "card": "“In ED custody, Saurabh Chandrakar will be confronted with the statements of his associates, digital data and documents concerning his foreign entities and…",
+   "card": "Disruption to Microsoft’s cloud-based email service affects business operations and airline customer support in India; public services in several countries…",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 11:34 AM IST)",
+   "source": "The Hindu (14 Nov, 12:51 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/after-cbi-ed-arrests-mahadev-betting-app-scam-accused/article71699161.ece"
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-hits-businesses-worldwide-india-feels-impact/article71698919.ece"
     }
    ],
-   "published": "2026-11-14T06:04:01+05:30",
-   "sensitive": true,
-   "score": 4.92
-  },
-  {
-   "id": "d87a9a718e",
-   "topic": "courts",
-   "kicker": "Courts & Law",
-   "headline": "Two-year-old dies after firecracker explodes inside his mouth",
-   "sub": "",
-   "card": "The victim parents said that the boy put a pop-pop firecracker in his mouth while playing, which exploded, injuring his gums and causing bleeding",
-   "full": [],
-   "why": "",
-   "source": "The Hindu (14 Nov, 10:08 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/chhattisgarh/two-year-old-dies-after-firecracker-explodes-inside-his-mouth/article71699299.ece"
-    }
-   ],
-   "published": "2026-11-14T04:38:21+05:30",
+   "published": "2026-11-14T07:21:27+05:30",
    "sensitive": false,
-   "score": 4.8
+   "score": 4.9
   },
   {
-   "id": "e35d837a25",
+   "id": "759aa0a3d7",
    "topic": "courts",
    "kicker": "Courts & Law",
-   "headline": "File FIR against those who tarnish party’s image says Bengal BJP chief",
+   "headline": "Himachal approves ₹1,500 monthly financial assistance for women",
    "sub": "",
-   "card": "“BJP has reached here (came to power) by keeping them out. BJP has no need to touch them,” West Bengal BJP president Samik Bhattacharya said, adding that doors…",
+   "card": "Under the scheme, eligible beneficiary families will also receive 300 units of free electricity",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 9:30 AM IST)",
+   "source": "The Hindu (14 Nov, 12:47 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/west-bengal/file-fir-against-those-who-tarnish-partys-image-says-bengal-bjp-chief/article71699315.ece"
+     "url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-approves-1500-monthly-financial-assistance-for-women/article71698523.ece"
     }
    ],
-   "published": "2026-11-14T04:00:32+05:30",
+   "published": "2026-11-14T07:17:55+05:30",
    "sensitive": false,
-   "score": 4.75
+   "score": 4.9
   },
   {
-   "id": "d16a27f7cb",
+   "id": "bd3a29d1ed",
+   "topic": "courts",
+   "kicker": "Courts & Law",
+   "headline": "Over 7,000 books removed from District Central Libraries in Vellore, nearby districts",
+   "sub": "",
+   "card": "Ranipet and Tirupattur have the highest number (2,401) of books each from these publications",
+   "full": [],
+   "why": "",
+   "source": "The Hindu (14 Nov, 12:43 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "The Hindu",
+     "url": "https://www.thehindu.com/news/national/tamil-nadu/over-7000-books-removed-from-district-central-libraries-in-vellore-nearby-districts/article71698167.ece"
+    }
+   ],
+   "published": "2026-11-14T07:13:03+05:30",
+   "sensitive": false,
+   "score": 4.89
+  },
+  {
+   "id": "9ae040035f",
    "topic": "cricket",
    "kicker": "Cricket",
-   "headline": "India U19 vs Pakistan U19 Asia Cup final Match Live Cricket Streaming: When and where to watch IND vs PAK match live",
+   "headline": "India vs Pakistan U19 Asia Cup final 2026 live streaming: Where to watch the match on TV, online, toss tim",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "The Indian Express, Jagran Josh, News9live, CricTracker (13 Nov, 10:24 PM IST)",
+   "source": "The Economic Times, The Indian Express, Jagran Josh (14 Nov, 8:00 AM IST)",
    "label": "multi",
    "sources": [
+    {
+     "outlet": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOd0dOQnFvY0FDZEVKM2J1VG93WVB4THBIQjJPNTRQd2xOcUthVkFyN21ab2VlMTd6ekRtNVI3LUlkOFhrMGNaUy1NY1F1RFk0SGJxNjFLOUl3QnF2bFcyemRHSzhKOWhnVUZncXJyM3NoTDBCYS12b3poV1dEMXZnMzdQYlJ0YVBncXJrbVZOQVljcEE3SDRXMVZJaElWRFFmTjhKODFpWkpINUhVUFJLZU9KWlc2N0JxVHhsc1hkSkxYU2gtNnZfM1c3MDJqMkl5THB1blZySEVPNjVfdWtVTXNFSVdjZmxJUkU5OFNPM0xpVWZxZlRQU05zNW9mY1VqbzdGTW9ZalhCV3k5NmFENlpJOUJFRkF5Z0Y5VkZvOWZSX3NONDJyZlY0OG1nejhqNnfSAbcCQVVfeXFMTlRSb1ROZHZSU2FGZ1lzRU9Hamx3ZklkZllyRW9BZmxOcFBBVzA3eHNiaXJMMm81SjRCR0FFa0V1RU9WQUZWbEYzeWV5RDRkNWo2QTNkWkNNcmdnelRlMi03Z180d3E5NWJuSHZHS1hCOTZieXZfcFUwM2NXNDljX0ppM1cwUXZVeS1PZVJPdXZmT3dlMnlOOUlLeUlPS2pkbzdjZ2N4Y1N6My1Hb2IyMUhoRTlMVi10WHlpQXY5SV9fZ3FYajdRRktjdUNZaEk3bGVrWHFyeE1vX0ZVd3JESkZ3b3FFejhNVzlmdGg5eUNnVC1ua3AyRW8tOFhhLUFKb1lHX1dNSzg0SzFHcGdPV1U0eDJZTzlLR01ENGlIcHJOY0N6Mm9MREE1YWd1TEJpSHNBazhVLW8?oc=5"
+    },
     {
      "outlet": "The Indian Express",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZzU0bVdvcXZFMkhWTm03c3JFczlrX2hHcGdqM1BaNDlCNDF6djI3QnVBTGFqdzFiQXJpQlV6U3pXbm1zZE5TYS1JcU9mYVZmeFBHeDRaU3ZaZGZCaGZIWUw1RDNVcVJFUzMzaU1mZGo3WUxidkRGX3dCYnE1anFEbHE3TmJNSm9XYTAyYlg4ZldCOVdZTGVodU10bTFwWnF2dFAzSWw5c0dMUld3SjlWLWZiN2o0WDNOdWFsLS1DMFNkWWNC0gHLAUFVX3lxTE5tN09sTjN4VW5aQ1IxMHMxRGdxd1lUbWZTYmZNajZhMDB3Zm45ZFRjbkhpVkQwc1lvTzdJZFUwQzVhSzFPczNpbExjdWVWYzZ2N0hkY3NKLUQtc2RlcnBNNzNzYTN5LWRvRUEybkxlT1hCOGxqOFhRT0dhSlNCTWhYUVowc2tKaVh2VVBpckUyRWdacnVacUJlTVdEUVFGX1NiaDRXYzhpeG8tUFRZTEd2UnZFSHA4d1NrR3ZvcXZxaENJODhqRWM4MjBV?oc=5"
@@ -570,19 +576,36 @@
     {
      "outlet": "Jagran Josh",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTFoyUEZKOC1DX1Zvd3VXLWs5UjlPLWRVZlpBVUVHNy1oODYzUjVWUVJlNWo3bkQ3OUk2NlB2bjNYcUFiTDk0Q3M2SDRvUFh4a2lwSkhnbkZ4OVRqT0hLZ2YwX0ZlajkxZzV3cFJUcDhuN0U3ckdCMXRFX1ljVHNyNHFkdmlVMV9HaTR0TDR4QWY0VmlVUml6dTBhYU16RUN1SnlPUXNHMHJuV2JBcTltUnU3RV94OHlnNVp6aDV6LTBTamlIM2pMaDl30gHQAUFVX3lxTE8zMXZHSVBLdFNqdm53SkJRRENDWFVleUE5YUZmamVobUo4bkNiX3ZEVFdnQXFFTS1lVDZuMzFnOGpHa0xoakdMdDFaVlhYQU4wbjlUcFBLVEhvcGNrRmg1dkVCMV9kZ3czTjdENGdiajhPQnZLSndzZVpNaFdIQjEyOGNOdnd0dUpDek9jUzktS0dUSnRlc2RFN0VRak4zX05DV2VSWmN4WHp0bVNJVm5jWUphdXBIaFJXTzRsNS1LYlJCWUJyalc4dGVYQnp4ZVA?oc=5"
-    },
+    }
+   ],
+   "published": "2026-11-14T02:30:22+00:00",
+   "sensitive": false,
+   "score": 8.95
+  },
+  {
+   "id": "9ceed7bee1",
+   "topic": "cricket",
+   "kicker": "Cricket",
+   "headline": "PAK vs IND, U19 Asia Cup 2026 Final Match Prediction & Pitch Report: Who will win today’s match between Pakistan U19 and India U19?",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Cricket Times, CricTracker (14 Nov, 8:00 AM IST)",
+   "label": "multi",
+   "sources": [
     {
-     "outlet": "News9live",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbmdDVEkweUFPdkF6MVI2MVRnbzMzUkk0YlRyRDUySjAtbnRmbEo1QS1wcXZlU016V1ZvRWJCeHVGMkgyQTVpM2U5Z0RFSXdmM05qSU4xc0pfYVpPc2pGa20wX3Y0dzd3Y3owbXF5Y1E3V2M3TGtCUUpUWFp2Ql9hX2VSYXZzdUFVY1l2el93Q1J0eVBRS3hHU2dSeTlXNkFLcERENVVLNmctT09RVW1iaFdTU3Ruc1VpS2FnaGxlSGZtcnRyNm1SR1ZTMjNjOXFsSHVkNkxBdWd2V25SMFdz0gHkAUFVX3lxTFBFZm1VTVR0dWRSM0d0NjAwQS1OX2g5UWRPMlFKdWlFM19MeWEwX1BIVDlGMHdBSzY3NVNsdFVydE1mcTZsVGxJNkRSeVdJejlmcGdjdG5FaFI0WmhhNV9zNFZJOUJ2R0p1RDgybUVPaWR3dzZEUEpuWG5ZeHVLYkcxQlV6OVFZaVVwOVFEcHhaTTRWUkJURzZCNDBnUTF2MC1jNDd6aWZuTnBhSHVTbGwzMk5zdHpqbF9jc3dCNDZWWU1MeGZJUnJYREtiUU5zZjR1VU1zZkU3ZEV3MmpxTzYwSnlBcw?oc=5"
+     "outlet": "Cricket Times",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ3NOaVFIT19CQU04elgtNDgwVjA0RW9sSjVERjIwbF9FbEVXSDZYSXcxZ29Hd1pHQ242WWV2Mi1aX0I5WFBTaExBVXVySUZjLUk1NmhhUmdqcjM0NERhMnRmdHM2N1ZnOWdFSW13dXlFeUV2c09tNDExS29EcUY2clJJMmxtdjVaVVpLdnl2a2x2d1pDLXRnQnpDZ1dRQ2FBWDNHVlVjc2pTcVRuTFZLTm9uR2s4MWt2T0tybW5KN0NwZzRPY2ZqYmxUWGFZWjJwT1JURW9LRl9Qd0lwVmhKTEtaNjVDa2VTSXJBMEtFRDQ?oc=5"
     },
     {
      "outlet": "CricTracker",
      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxORVg3cVFCVi1YSWxpWG00VzgtZFo0OWxRazBpT0J4SGVzc2ZfS2hVdFBJcDJpbktweEJtWTFXYjVwSGFaOGpKaEpjRS1jaXN6UnpLcFIxUW1WOXVBYWRTbU5MWE5tWjV3Z1hnXzAtcnlzOV8yRWJvZEIwOVpLMFFnN0FSaWhaWUFuclF5WUpvbk5CTUVFeWVNU1NLc2hEb05UMm5xMjhMYndlU3RGblQxZWlOZDlQM0hhN0RmYnNLV19RUXQtMjRHVE13MXk1ejZrTk1NbGQ3RmlrNU5pMUZuVTdYU1I1bUdITEpKZzBMMmJNaWQ2Rkl0NW9Ec2dYaENKMENOY096VmNxdU3SAZMCQVVfeXFMTXBhQ180dTJCemlNQ2kzRzFhc0Q5Z2toRXBXWjN6cXZvR0lldVh0RnJldG9KODliYzAwVEtqbzdZNnlTdUhuazBpeFU0eUstMkk4TkpKT0M2cXNsSjJTYmd5WGcxTHVCNDlIM3REUWVxNGF2MlhNTU94RWlMLU5Yb0FUeUFqV1lEZjBwbnZZbzI1WURJVzM5cFpNM3lFWmUxcmJQT3B0WS1Xa0UxSFgwQmFCRFVxbEFLdTRKWXc2SC1ySVFrSk5tNWJWMHEwMUN1UEZPTE8wbUtYVkR4R2F4S1dsM3dnYzZjYlFzcDRWb2d2Y2JJVm1HYkx4ODdsMVpvTUhPVEVEZ0JIQ1k2SGxRS2huamM?oc=5"
     }
    ],
-   "published": "2026-11-13T16:54:40+00:00",
+   "published": "2026-11-14T02:30:22+00:00",
    "sensitive": false,
-   "score": 10.28
+   "score": 6.95
   },
   {
    "id": "3ecc2f10c1",
@@ -607,7 +630,7 @@
    ],
    "published": "2026-11-13T14:42:09+00:00",
    "sensitive": false,
-   "score": 6.1
+   "score": 5.97
   },
   {
    "id": "a3680d5173",
@@ -632,49 +655,28 @@
    ],
    "published": "2026-11-13T12:34:11+00:00",
    "sensitive": false,
-   "score": 5.92
+   "score": 5.79
   },
   {
-   "id": "52a7e497b9",
+   "id": "0a3d19eb1c",
    "topic": "cricket",
    "kicker": "Cricket",
-   "headline": "Sri Lanka threaten but Pakistan survive as Test ends in draw",
-   "sub": "",
-   "card": "Both sides shook hands just 25 minutes into the final session, with Pakistan leading by 272 with two wickets still in hand",
-   "full": [],
-   "why": "",
-   "source": "ESPNcricinfo (14 Nov, 6:22 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "ESPNcricinfo",
-     "url": "https://www.cricinfo.com/ci/content/story/1562490.html?ex_cid=OTC-RSS"
-    }
-   ],
-   "published": "2026-11-14T00:52:35+00:00",
-   "sensitive": false,
-   "score": 4.95
-  },
-  {
-   "id": "59ad01d1e4",
-   "topic": "cricket",
-   "kicker": "Cricket",
-   "headline": "\"Very difficult to assess Kuldeep from one match\" - Former RR batter backs Indian spinner despite expensive spell in NZ vs IND 2026 4th ODI",
+   "headline": "NZ vs IND Today’s Match Prediction & Cricket Betting Tips: India Tour of New Zealand 2026, 5th ODI, November 15",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Sportskeeda (14 Nov, 4:29 AM IST)",
+   "source": "India Fantasy (14 Nov, 7:16 AM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Sportskeeda",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeXhsMm1Pck1HZVUweXVSVjFHaDUySVBCanNNcjJMeEM1dS1walVGZ2ppNDE5bFNHeW03Q2I0aW9kaGRCbVBHeF8xeEJiZy11ejJrb0dxNE85ak9UZVFBSUVmbUUyenF1dzYtSzNfOVNVS0Vwb2c4ZGlaaFBBWUllWm9IaHdvNTVBVmxOMGc1V2NycTM1XzY4RmphZ2dvZWtwZkxtdmt2YWpnWGtaSDRRcWZ4M0pkak5LdEZJR00tM2E4ZnFrMDlRWHRQV1JsNlNnVF9iNllpYjhWQjBBQ2Y5WmltREpzVlRtZlFrS0FpSUtnN3FIWkZSTw?oc=5"
+     "outlet": "India Fantasy",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vQmQ3TFpEV2xCUGY1cFIyeDBrSGxWeEhDMmM2dkJScUF0SHhDWTRkQjQ5WW1QRFU0OXA2MU1jejh6QjZPQ1BfT0R6eEJqT285QmtRTjdJNGVLeUNrYmd5Z0sxX1pSQjUtdDNsR0FFZGtTNVlFUjJRUzk3NDQ?oc=5"
     }
    ],
-   "published": "2026-11-13T22:59:02+00:00",
-   "sensitive": false,
-   "score": 4.79
+   "published": "2026-11-14T01:46:33+00:00",
+   "sensitive": true,
+   "score": 4.89
   },
   {
    "id": "149d8a5d74",
@@ -699,7 +701,7 @@
    ],
    "published": "2026-11-13T22:07:09+00:00",
    "sensitive": false,
-   "score": 6.72
+   "score": 6.59
   },
   {
    "id": "29d86f6545",
@@ -724,7 +726,7 @@
    ],
    "published": "2026-11-13T20:31:27+00:00",
    "sensitive": false,
-   "score": 6.58
+   "score": 6.46
   },
   {
    "id": "4a69ee7f38",
@@ -749,7 +751,7 @@
    ],
    "published": "2026-11-13T18:59:04+00:00",
    "sensitive": false,
-   "score": 6.46
+   "score": 6.33
   },
   {
    "id": "2e4bdf4cdc",
@@ -774,7 +776,7 @@
    ],
    "published": "2026-11-13T11:32:03+00:00",
    "sensitive": false,
-   "score": 5.83
+   "score": 5.71
   },
   {
    "id": "352f3f45b4",
@@ -799,7 +801,28 @@
    ],
    "published": "2026-11-13T11:18:47+00:00",
    "sensitive": false,
-   "score": 5.82
+   "score": 5.69
+  },
+  {
+   "id": "0e688a4af0",
+   "topic": "economy",
+   "kicker": "Economy",
+   "headline": "IMF raises India’s growth forecast to 7% for 2026, keeps it among fastest-growing major economies",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "DD News (14 Nov, 12:24 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "DD News",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXpPSDNsN2kyWlY5cmdrQUVjQm9aRGpFUjZFWlBWMnRKSmJTMU1qVFVnNzh6VmVHZjdDeE11R3g2YmZtaDhIWHZmN0RJUHlLSmxjMEUzRGc1c3Axbm9SdWZ1YVJxZHBKcUtMdlFmSnI2Y2djTF9LWVQzUl9sZTZaY0o1dl9sUEtyRlhfWWtoV2ZaWHBHc0hKVkdRWHhwaEt2eTVyLTFUcU80Ymw5NGVQOGE0MUJNZEFzZUxxZQ?oc=5"
+    }
+   ],
+   "published": "2026-11-13T18:54:05+00:00",
+   "sensitive": false,
+   "score": 4.32
   },
   {
    "id": "9e37b048c3",
@@ -820,7 +843,7 @@
    ],
    "published": "2026-11-13T18:45:00+00:00",
    "sensitive": false,
-   "score": 4.44
+   "score": 4.31
   },
   {
    "id": "572ca337d5",
@@ -841,7 +864,28 @@
    ],
    "published": "2026-11-13T17:07:56+00:00",
    "sensitive": false,
-   "score": 4.3
+   "score": 4.17
+  },
+  {
+   "id": "170bd24be4",
+   "topic": "economy",
+   "kicker": "Economy",
+   "headline": "Government notifies commodity trading contract as financial product for IFSC GIFT City",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "The Economic Times (13 Nov, 9:46 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNODhSd1dmakN4VTJDeUp1bEpjWV9KcGFqOS1GY0hXWWtEc3pJd0NQbjZuSXdtb1c5cHBjM3h2OVlEclp3VE5HMXZrRU5WTlNWM0R4dWZaUG51aWFpQ25wdU0wS0RZSDh5NUNHaWNMbDJFbFRUTzBPTmt0Sk9HdWdZeDFsQmJMeUlLY0hIWWFoZ0Qtc3ozdGkzZ3FjdDlTOUp3RXB1Sm9YcEpKRVl6ZlFUSmY0WGxKamdITk9XbkFnYmNHOThKM1I5X2llV1p5djl2eWEwSTJCSjNiSG9Kc2g3bl9EeGVSUjA10gHuAUFVX3lxTE9Va25NazFBN1QzdWJSUXlpeVFkaElpcGplZHJ3elNueGtxZW1LMWlZb1dFczNFaDA3QnlzOUtNc00tbnZSQlJSek43TGdNclhJOU9RUlk3cDNoOEJTazNoOWx3c0lSNld2b0JRTkc3dU4yZ3BWN1c5QlVCZ3lOdjhRMGM5Y081NHV1YUptaE9pZENwTWxWX2tmUU5HYzQ3QW9XX1VxN2dYYUtQekw5U3JHY3FGbTc2RjBKdmJ6U1ZQbmVGNE93eTVSVlduRktRNERWazZxb0F5REw1eHBlV2xRV0M1TGxOTkZyY3JmLXc?oc=5"
+    }
+   ],
+   "published": "2026-11-13T16:16:14+00:00",
+   "sensitive": false,
+   "score": 4.1
   },
   {
    "id": "b78447ba56",
@@ -862,49 +906,7 @@
    ],
    "published": "2026-11-13T21:23:22+05:30",
    "sensitive": false,
-   "score": 4.2
-  },
-  {
-   "id": "2d3e988e7f",
-   "topic": "economy",
-   "kicker": "Economy",
-   "headline": "Moody's Raises India's GDP Growth Forecast to 7 Percent for FY27 on Broad-Based Momentum",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "theopenpress.in (13 Nov, 9:17 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "theopenpress.in",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZVczTDRzU2RyYW9FMUdEMVdDLXFnb1A5Z1RHdmZ6SFp0enlaOHBacGV5M0ZGdGlQRHhzZGFwNkR2WG4zSWpDdWFHd3pIb2J6VlljWFlFNHFKc3pDb2U3WXUtb085YTl4MXVHaThVanBVejBpRGo2RXN1X2tyUFJCLVJQOXJoRWJfVkZERTRSV2FncGppdjhvM3laaWJPczhMczJwTA?oc=5"
-    }
-   ],
-   "published": "2026-11-13T15:47:31+00:00",
-   "sensitive": false,
-   "score": 4.19
-  },
-  {
-   "id": "9ac6c258cf",
-   "topic": "economy",
-   "kicker": "Economy",
-   "headline": "India Credits Policy, Not Luck, as GDP Grows 7.8% in Q1 FY27",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "JournalArta (13 Nov, 8:56 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeVY5YXNsZmpjMFNRNjhjRmRiUGZScW90OUJxQnJMcUJHSS1DR25CbHBRWnFndlZ4czJILVNsNHFSX18wRjdxWWhrUzdiZ25wNXIzMXBjNjZGdHJpbzFmV3BsOWdocHpRc0lwc0pXMXA5aWVWWVdwR0pfUHNMYjFVdEo0VkdJTk1QdFpYZDIyaw?oc=5"
-    }
-   ],
-   "published": "2026-11-13T15:26:14+00:00",
-   "sensitive": false,
-   "score": 4.16
+   "score": 4.07
   },
   {
    "id": "86367a79c2",
@@ -937,7 +939,7 @@
    ],
    "published": "2026-11-13T10:35:41+00:00",
    "sensitive": false,
-   "score": 9.76
+   "score": 9.63
   },
   {
    "id": "d5a6aa3319",
@@ -966,7 +968,7 @@
    ],
    "published": "2026-11-13T17:43:52+00:00",
    "sensitive": false,
-   "score": 8.35
+   "score": 8.22
   },
   {
    "id": "b633bfb207",
@@ -991,7 +993,28 @@
    ],
    "published": "2026-11-13T11:00:29+00:00",
    "sensitive": false,
-   "score": 5.79
+   "score": 5.66
+  },
+  {
+   "id": "57561c73fa",
+   "topic": "elections",
+   "kicker": "Elections",
+   "headline": "PT Usha faces eligibility questions over Ice Hockey nomination ahead of IOA elections",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "India Today (14 Nov, 8:00 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "India Today",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQU1FoZTllRFdIcWM2QmNja2hnVFRvZjZaTkR6LXVkV0IzeWZyQUxUc3ZOaVJENkVjeUx5MGliTnBORUNwRFVBcVIzTjNJQTRYV2ZiT1dPMkRYT0M3RDk1Y3htbDdOVEQtY2NoamJkN0NPR0FEc3B2dFR4S3RpaXFCd19qcVZ3QVJZcldUQ2Z1VEg5UU80STIwU0VvTENOY1FwY01iY0xlZlFWWWcwSlZmS1B0ZXB6SDhEMkRrOVRiOEs5c2t4RTJv0gHMAUFVX3lxTE5ZeGNUX3lIV0RwTW83QTV6NC1KcjJkclpia19tQVZSVXdJRGlSN1BHQ1ByM2RGQUtYeTg4YmREaVphTGZsMHViSU54dm51aVU1THRERVJILTN6aWVka3RsLXFKcmlwTXpNSV84MHZ1OFBzd3VFYUVCMGhVZFJac2xwbnNaemFmRTg4OFhVVlJmWE1LS3NiWEVzN040Q0thMkVzS0ZQUE16SGdTOFJKU3RCY2ljS0loWFRzLTJTSlNfdVc2aW82WjlpUXNfdA?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:30:52+00:00",
+   "sensitive": false,
+   "score": 4.96
   },
   {
    "id": "25cdd7404e",
@@ -1012,28 +1035,7 @@
    ],
    "published": "2026-11-14T00:32:00+00:00",
    "sensitive": false,
-   "score": 4.92
-  },
-  {
-   "id": "d431af1b28",
-   "topic": "elections",
-   "kicker": "Elections",
-   "headline": "Meeting of Electoral Registration Officers held under the chairmanship of District Election Officer",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Cityairnews (14 Nov, 1:31 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Cityairnews",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNUlqVk04RXlXb25mcWFIeEtyWmtrcTlpaVJNU3A0U185RU0tRE1Jb0RmY2VwaWZDbTVUM3dlUGxSNGxOQndRNDItZ0l6TXhrclg4VTE3czFnXzFaaTQxUFJlcVQ3Q29pT1hYbHlveXRRQ3NRY25fN0Nna185STk5X0VJamo0T2NVa1JZZVJBYjlfQ2Vzd1cweGtmVFFicm9rUWc2OXNzUkVMSk5xOTNqZnpxOFhuVWdJMGNQMXZLcEVGbHh1bS1SRFUwLWd0Ml93?oc=5"
-    }
-   ],
-   "published": "2026-11-13T20:01:58+00:00",
-   "sensitive": false,
-   "score": 4.54
+   "score": 4.79
   },
   {
    "id": "d0b196b5f5",
@@ -1054,7 +1056,7 @@
    ],
    "published": "2026-11-13T19:39:37+05:30",
    "sensitive": false,
-   "score": 4.05
+   "score": 3.93
   },
   {
    "id": "dfb7c7a21a",
@@ -1075,7 +1077,7 @@
    ],
    "published": "2026-11-13T18:38:42+05:30",
    "sensitive": false,
-   "score": 3.97
+   "score": 3.84
   },
   {
    "id": "73398ecde0",
@@ -1096,7 +1098,7 @@
    ],
    "published": "2026-11-13T15:31:25+05:30",
    "sensitive": false,
-   "score": 3.71
+   "score": 3.58
   },
   {
    "id": "70067694f4",
@@ -1117,7 +1119,7 @@
    ],
    "published": "2026-11-13T00:28:51+05:30",
    "sensitive": false,
-   "score": 2.46
+   "score": 2.33
   },
   {
    "id": "76816d7bbd",
@@ -1138,7 +1140,7 @@
    ],
    "published": "2026-11-13T00:19:00+05:30",
    "sensitive": false,
-   "score": 2.44
+   "score": 2.31
   },
   {
    "id": "14624954a5",
@@ -1167,7 +1169,36 @@
    ],
    "published": "2026-11-13T18:57:50+00:00",
    "sensitive": false,
-   "score": 8.45
+   "score": 8.33
+  },
+  {
+   "id": "f11b1b2e0d",
+   "topic": "f1",
+   "kicker": "Formula 1",
+   "headline": "Why the Las Vegas Grand Prix is special",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Formula 1, Iosco County News Herald, https://www.autohebdof1.com/ (13 Nov, 11:34 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Formula 1",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV1MzRzlvNEs1WGxrNmV3NmNNa3BydjV6WW4wMVRLOEpxdDR5elhMTVZmaHNrc3k0bWRnNkdkTmdvM05DbXlxd0F0Sm9YQTlKaXVKakJXWHVpQ3pGVHVWbEdIMHdCU1RkWlpqNDAxWDhqTEtPeUVVblg1ZDJBZ0xjYktGSjVKQ2luSWlUNlNuc0NoXzJCdDl0ZVVid1R2emlKRFZPcTBhVVVQaFliNHdBWkhLSmo3dHVkNDV1aWJyWDJVWVhKZHVhR2lUdll3Szlw?oc=5"
+    },
+    {
+     "outlet": "Iosco County News Herald",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcVRPTVNUV3RxbV9pb2NwNEdtTTVNdHY0UEMtOTlrR2p6emR4Nnh3eE5Pd1d6YkVOTGRfaXFPRjdiaHdNU1JOS0JBalY3SjI2LXJzR2t6Zk1NRWIyaFpFRTZWSEtLSHdxRzV3UjQ1eVg0MTFvOU9MUlhOTXVKWTdTZXVUMW83YllGclZQMWt2OFE?oc=5"
+    },
+    {
+     "outlet": "https://www.autohebdof1.com/",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSElRQVVpeVNDZ29jUGJITVFRdHJOdmhQWlA0YkZGTmVTREs5MERrSTZTejhzTy1YMWEzeEkyY1hXVVRMTk80azR1YklUQV9yTXhRWERPWDdBSkVYajREV2lMY2R5VWFZSWxLSjFubTIxV3BMME5BQzk4LVBLWWEzR0Fvck1fSWtTWm9fWEVBWXBpTDVVMGI3elZqTzhIbDM1MUNHOHVfMzc1dw?oc=5"
+    }
+   ],
+   "published": "2026-11-13T18:04:03+00:00",
+   "sensitive": false,
+   "score": 8.25
   },
   {
    "id": "1eb7cf15f3",
@@ -1192,32 +1223,7 @@
    ],
    "published": "2026-11-13T19:25:02+00:00",
    "sensitive": false,
-   "score": 6.49
-  },
-  {
-   "id": "fb7275d9bb",
-   "topic": "f1",
-   "kicker": "Formula 1",
-   "headline": "One Weekend, a Thousand Ways to Experience the Las Vegas Grand Prix",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Iosco County News Herald, Formula 1 (13 Nov, 10:15 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Iosco County News Herald",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcVRPTVNUV3RxbV9pb2NwNEdtTTVNdHY0UEMtOTlrR2p6emR4Nnh3eE5Pd1d6YkVOTGRfaXFPRjdiaHdNU1JOS0JBalY3SjI2LXJzR2t6Zk1NRWIyaFpFRTZWSEtLSHdxRzV3UjQ1eVg0MTFvOU9MUlhOTXVKWTdTZXVUMW83YllGclZQMWt2OFE?oc=5"
-    },
-    {
-     "outlet": "Formula 1",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV1MzRzlvNEs1WGxrNmV3NmNNa3BydjV6WW4wMVRLOEpxdDR5elhMTVZmaHNrc3k0bWRnNkdkTmdvM05DbXlxd0F0Sm9YQTlKaXVKakJXWHVpQ3pGVHVWbEdIMHdCU1RkWlpqNDAxWDhqTEtPeUVVblg1ZDJBZ0xjYktGSjVKQ2luSWlUNlNuc0NoXzJCdDl0ZVVid1R2emlKRFZPcTBhVVVQaFliNHdBWkhLSmo3dHVkNDV1aWJyWDJVWVhKZHVhR2lUdll3Szlw?oc=5"
-    }
-   ],
-   "published": "2026-11-13T16:45:00+00:00",
-   "sensitive": false,
-   "score": 6.27
+   "score": 6.36
   },
   {
    "id": "e8ecf60c8c",
@@ -1242,7 +1248,7 @@
    ],
    "published": "2026-11-13T13:52:11+00:00",
    "sensitive": false,
-   "score": 6.03
+   "score": 5.9
   },
   {
    "id": "0dcc6b50a3",
@@ -1267,28 +1273,7 @@
    ],
    "published": "2026-11-13T13:41:00+00:00",
    "sensitive": false,
-   "score": 6.01
-  },
-  {
-   "id": "95f129adc5",
-   "topic": "fashion",
-   "kicker": "Fashion",
-   "headline": "Polo Ralph Lauren Opens First Store In Bengaluru At Phoenix Mall Of Asia",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "IFAB MEDIA (13 Nov, 9:05 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "IFAB MEDIA",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jczk1N2pzcVV2UkJLa2c0U1d0eTNDTGpKZWZ1ZjlpWHFRS1FZeTNtMTA0cTNQcW9YOTFKSHdFZ2U0YlE1dVNFbXF1UTlLcFV3UFhBM25xTXlZU1JJeVlZOWZrbEo0dw?oc=5"
-    }
-   ],
-   "published": "2026-11-13T15:35:46+00:00",
-   "sensitive": false,
-   "score": 4.17
+   "score": 5.89
   },
   {
    "id": "ffde0c841b",
@@ -1309,7 +1294,7 @@
    ],
    "published": "2026-11-13T14:54:07+00:00",
    "sensitive": false,
-   "score": 4.12
+   "score": 3.99
   },
   {
    "id": "ecfdb1a52b",
@@ -1330,7 +1315,7 @@
    ],
    "published": "2026-11-13T14:48:33+00:00",
    "sensitive": false,
-   "score": 4.11
+   "score": 3.98
   },
   {
    "id": "35c900315c",
@@ -1351,7 +1336,7 @@
    ],
    "published": "2026-11-13T13:16:13+00:00",
    "sensitive": false,
-   "score": 3.98
+   "score": 3.85
   },
   {
    "id": "91de5245c6",
@@ -1372,7 +1357,28 @@
    ],
    "published": "2026-11-13T13:11:40+00:00",
    "sensitive": false,
-   "score": 3.97
+   "score": 3.85
+  },
+  {
+   "id": "127baedf35",
+   "topic": "fashion",
+   "kicker": "Fashion",
+   "headline": "Tarun Tahiliani’s Tasva unveils The Modern Indian Dress Code featuring brand muse Shubman Gill",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "t2ONLINE (13 Nov, 3:50 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "t2ONLINE",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWWFtZWZFTDljOFpCbFN1SnZPNTQ2MTdFWC13ZnY3a2pOSUZsLXBBbFpCWkZKQlFtdHlGdVk4N0dBNWt5VjdLaU9sVEdDTXp0TDFKSGEwMTRoaVdFSkxrSWZ0UXZTM3YwV0ZiNC1vZEFqOTFJcGZiRTZEZVFsRk0tdURSZWFVUXJ6cHdvdG5adFlQbl8yTUY5LTQwVTdpb0U4U081TkNiYjEwYmUyT0pRUGxYbHREUTdsSmlIangtOEtVN2F4cUthbENLS2x0SUQxSWJjMlJBWlp3cjNuSHFN?oc=5"
+    }
+   ],
+   "published": "2026-11-13T10:20:00+00:00",
+   "sensitive": false,
+   "score": 3.61
   },
   {
    "id": "4817345332",
@@ -1401,7 +1407,7 @@
    ],
    "published": "2026-11-13T07:39:25+00:00",
    "sensitive": false,
-   "score": 7.51
+   "score": 7.38
   },
   {
    "id": "9c37bff368",
@@ -1426,7 +1432,7 @@
    ],
    "published": "2026-11-13T14:01:08+00:00",
    "sensitive": false,
-   "score": 6.04
+   "score": 5.91
   },
   {
    "id": "b4b1152964",
@@ -1447,7 +1453,7 @@
    ],
    "published": "2026-11-14T00:00:00+00:00",
    "sensitive": false,
-   "score": 4.87
+   "score": 4.75
   },
   {
    "id": "c4e12b9a3d",
@@ -1468,7 +1474,7 @@
    ],
    "published": "2026-11-13T16:09:13+00:00",
    "sensitive": false,
-   "score": 4.22
+   "score": 4.09
   },
   {
    "id": "95f666a549",
@@ -1487,9 +1493,30 @@
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSHMzcmpsbDNkMHdNX2ItS2paYi1RQ0NBaXhRMXF4elJGTlBRbDQyalhaR3ZONmNuNUpGN25YLU56bHZCWHVvZ0VUTlFYN0RfMktOZUd5NWdrQjNmZlFSQVlPX2Z3UGV1TVhRQzRodjl3aGlUN3NMaXhycFJmUXVBM3drb1E0TDBya3pDZnhQT3JsU1psVVdUenRDOGp2VS1MRTB0bFdZMXpxNVhyQkN0YXVNdHMtalhLQV9LX19RSjhRVG03ZkY5dHdaZXRXQTEw0gHWAUFVX3lxTE1kai1rNDdVRzR5YS1qZXNIV3BXVnBORTlfN0NpaW1rRXM5enVyZE9qOWZoYVR4cGVTdDNhNHJKUk4taW9LQmNnc09EUkRQcldKTkFibmFoMjZzSVdpT3lfdzNzZS1xcTByaXEydXBwTm5kemxYOG44cHdRUFItOUhHeXVxdzF0RFFFMlpIa3ZxMnVfcUFEYkVsamt6TDZfM0RnTk54bnNJanBuRWFEeklPRTNrRHd1SXU2SmZ6TXNMRm5JMFV3V0tDcHVpeFJRUGR6QXlVUlE?oc=5"
     }
    ],
-   "published": "2026-11-13T15:36:00+00:00",
+   "published": "2026-11-13T15:36:13+00:00",
    "sensitive": false,
-   "score": 4.17
+   "score": 4.05
+  },
+  {
+   "id": "f50e46fa61",
+   "topic": "fitness",
+   "kicker": "Fitness",
+   "headline": "Eat food, not too much, mainly plants: AIIMS director's health mantra for India",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "India Today (14 Nov, 7:30 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "India Today",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXAxenM4dGk0dmNNaWFqZnd4UFd5SjhEY2NhWElZeG0wSGk2el9HRGpoaTZXUVlaOGJoNkZFekZ6VkVwUG82YjhJU0lfVjVYZ0JjQ1hFaC1paVUxZXJCMWp4MDlPTzFTUVlJM3c0S0Y5Z1VZbjVOU3VmTUJyb3ViUWxOWl9IWi1vVFBqcFQxUEtSM0x2c3BBcjdOWnVuQlpueUVwX245WTJyRVJpYm1neVRlMVY2MmtuZDhvTWpCNNIBxAFBVV95cUxPS3pSNU9XV21NNnBxSlFhYTlESXJZMWZTdmNKRk1Pa0wxc0RyN2ViSzZyZnpUVW8xWFBXT3prblVfVTMtejRpMkxsZ3JaUjZySEVTOU5xZmxVX0J5UjdtUFN1V296ekNvdW5mRnlwQVBDOUVOQlY5V083N0FsODVURUpnbWtFY0hsUWdUOUw2S19vVDYwalFXS1FjZEt0WVBwYXNQUHF0M1pOZkdqWnBCclMtSWcteHY5YkhjNEZrNlRmdjR5?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:00:00+00:00",
+   "sensitive": false,
+   "score": 4.91
   },
   {
    "id": "7a7d653ca4",
@@ -1505,12 +1532,12 @@
    "sources": [
     {
      "outlet": "The Financial Express",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTWlEZW9FSkpURFB1Tzdhc1F2V3dmRTJiUUVFV2FROEpHWVhRM1RrMEFaQ3FSYnVrYnE1Tm1SNDhURWxVbWhiY2lNb1FvZFZvYUJhMU80QWNyQWYwZ24zMHFMenFHQVhjN2FJbXVndE0zYmlXY09xMVZMTi1MSUFzQXNmMmlLckF6OEVNbUFhYnI3Y2trNjYzRkF4ei1oZXZpVHQ4VVpCRHBfRzQ2MTMxYlNjWW9XTkF1dUHSAboBQVVfeXFMTk1pRGVvRUpKVERQdU83YXNRdld3ZkUyYlFFRVdhUThKR1lYUTNUazBBWkNxUmJ1a2JxNU5tUjQ4VEVsVW1oYmNpTW9Rb2RWb2FCYTFPNEFjckFmMGduMzBxTHpxR0FYYzdhSW11Z3RNM2JpV2NPcTFWTE4tTElBc0FzZjJpS3JBejhFTW1BYWJyN2NrazY2M0ZBeHotaGV2aVR0OFVaQkRwX0c0NjEzMWJTY1lvV05BdXVB?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVpzdW1JSl9jaVI0cW5TNU5MQk5lLW9oTV9OVFEyU0JxX1hQWFNSV1FlUTJ6M25rcVV0TE5BNlBrLW10ZWVpaDV5cDNxQnRTemFoRDh1SWd1cXZ1aU9sVDgyQnJZaVUtVF9waWQ1SnRMU0dmem9WdXc3SmpRY1pEV3BZQXVHYmJ5b0pZOTV6SEpWemNUQV9LSU44VXVtSjRXRG92VFJad2xoT0dRT1FzUzhVVdIBugFBVV95cUxOTWlEZW9FSkpURFB1Tzdhc1F2V3dmRTJiUUVFV2FROEpHWVhRM1RrMEFaQ3FSYnVrYnE1Tm1SNDhURWxVbWhiY2lNb1FvZFZvYUJhMU80QWNyQWYwZ24zMHFMenFHQVhjN2FJbXVndE0zYmlXY09xMVZMTi1MSUFzQXNmMmlLckF6OEVNbUFhYnI3Y2trNjYzRkF4ei1oZXZpVHQ4VVpCRHBfRzQ2MTMxYlNjWW9XTkF1dUE?oc=5"
     }
    ],
    "published": "2026-11-14T00:23:03+00:00",
    "sensitive": false,
-   "score": 4.91
+   "score": 4.78
   },
   {
    "id": "6174a3b7a3",
@@ -1531,7 +1558,7 @@
    ],
    "published": "2026-11-13T23:20:14+00:00",
    "sensitive": true,
-   "score": 4.82
+   "score": 4.69
   },
   {
    "id": "52531c507a",
@@ -1552,7 +1579,7 @@
    ],
    "published": "2026-11-13T19:31:09+00:00",
    "sensitive": false,
-   "score": 4.5
+   "score": 4.37
   },
   {
    "id": "b089fd68c4",
@@ -1573,28 +1600,7 @@
    ],
    "published": "2026-11-13T18:39:00+00:00",
    "sensitive": false,
-   "score": 4.43
-  },
-  {
-   "id": "363e6e7b71",
-   "topic": "fitness",
-   "kicker": "Fitness",
-   "headline": "Protein Paglus, Bad News! A New Major Study Suggests Eating Less Protein To Slow Aging",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "News18 (13 Nov, 8:57 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "News18",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbUlnMkVwUEkycEdkTUJmcTViSkJqZ1luamNqelFhWjAyTEFsUHlGWHdldlliT1lPWnVNT0xydkFxZ21XSWxOdkJTQ3QyN2plMS1qVm5zYkdnWGwwM255TkktWXNwc1Uwb2NsbmZTdVV4ZHg4RXRUekY4X1ZHdDJibm9UNVZQa295VkhBcEY5UUpnQ3JMeDMwWGlESE1LRGE1R3FkZnJoMWVFV2NjcVZ0Mkt3T1RxdlFSWnI4RzhDcDU5b2I3eWlSMUFQWklOTWxrb0xKZGFlZmIwclI4VWtnV2d1VVHSAeoBQVVfeXFMTUpwS1NudmRBNGduelZBNkZkaVVrY2NTclUySE12OUYtRk12NlhpbXR0RXB2OTd0UlBqRTk1TkR4TGdmaUE4bDg4Nlp1ZmdfSkIyY25aVjF1aHhEOUZSWndGc09qbC1jZmZkTFgtUkxKYVFqNDBDb0JlMXhfdjhhZ0RpNzU4OU9BRDFvLUF1YnNSQi04aWE5Vk9sUDZNYUp4eHVaV2tzVk9hMnhxY2dtWUI3UG5Ib2l1QnNkRE5Hb1o4OG1iWUlkbGJtdHJsRnN0aG1RdWdDUFpjM1IzWnpCd0JqZHpuUGNwWnl3?oc=5"
-    }
-   ],
-   "published": "2026-11-13T15:27:43+00:00",
-   "sensitive": false,
-   "score": 4.16
+   "score": 4.3
   },
   {
    "id": "4bff31575b",
@@ -1605,7 +1611,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "IndiaWest, The Times of India, Business Standard, Moneycontrol.com (13 Nov, 11:55 PM IST)",
+   "source": "IndiaWest, The Times of India, Business Standard (13 Nov, 11:55 PM IST)",
    "label": "multi",
    "sources": [
     {
@@ -1619,15 +1625,11 @@
     {
      "outlet": "Business Standard",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVHbkw5aXFVS1Etai1nNWZQU2ZkMEpmb01PeHAtTmN5a3FkaDRwNEc5SFhZN0pWSWxBWFp0T1llM28zRlRzWEtWd05KeGVKX0NWWGZhdl9VX1NyekpSQl9DQkY4SkVJdDFNbmxUZV9uTmxfU0JoYzZiajVHSk9rMUtXenE1VFVwOFdBQlo4cE5NOFowNHFneVdIRk1TdVE4VEVTY2tWWC13MGFXRkwwVGVSOUIwMXo1UWEyamUxYWJMMjFBV2Z1R05peHQ2TDlZX0NlTkR30gHbAUFVX3lxTE5WdjdMM0NHaG1DRXNVd1ZXZ2E3ak5CZDEzRXJWSFJfQ0FTVGZveGs3anVkYjA4UVMwWkdCLWIxclR3RHFYS3ZSeHVfd1lqM0lLaVZIcjUxWGZjOHlMUjR2WFNwaXhlX1Q3VmVoMXd5anNGZndhNkdTN0hLRllBS0VqbnEtV0Q5Z1dGZGxBdnF0eUFzLXZOcWNONWRMMllrZS1kdHZvZzNweW5RZ3JZOUxoWTI0SU9wLS1XSl92dTNkd01iZkJ1UVJYNTkzVnNIYjBlSjd5cU9XWnlPWQ?oc=5"
-    },
-    {
-     "outlet": "Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObEFMMnpQaVUtWUZUbzB4WmVhUTY0bVBXRDFYcmdwLTlQcTc3dEJvczNOckhaUzhpTnFTc2dyTVlOWHh0ekhWNzZaWG14bFdwelZISWRycnVUc0pyOHFkczRwRmwzdEs5ZUhjMnFzVUdrazF5dGF2REp1N3ZVNkdpZ2ttekpuVW9QNFRIQmlkUmk1SmJVWHpic0pzeHZjQTNOQ1hxLVd1TFo3Yng4bDZCSV9tOUdjcWdqdEt4S2NyNlkzTU5WLWpOcklqRHd6bG1OWmxOR3V0TEFZaU9kalVuYThTS0FNcTllZzhiREln0gHzAUFVX3lxTE5vX0pybkR3NWJ0TEFSU1U2ZEl2V3ZVR3JzMVE4YVF6dWI3SUJQSm9yaXVZU3NfMDJ6VEdqOWJpSVd6R1QwYmJuYUVtS3BjRFBMSkV1Z0VhVWhVcTQzdkZxMjRvY0dMZGhLWjdsSUdCTlNIdHpVVlp4NzZCUUNYWTVobTJxU1RqclNjTlRRdm1sZ3I4eXFmNFlWVk1QRzZfMmlWMmdrRHRvaDdac0VYN2ZRYkxBN3JiTmwtUzJyUFNtY2phSUs5bjNyRnhLX3RFSkstaVZ5S3lCZVdDbnB0QjRGYmd1eDlUYllYNnNXVUxwd2E1RQ?oc=5"
     }
    ],
    "published": "2026-11-13T18:25:42+00:00",
    "sensitive": false,
-   "score": 10.41
+   "score": 8.28
   },
   {
    "id": "5c3962de16",
@@ -1648,7 +1650,7 @@
    ],
    "published": "2026-11-13T19:29:49+00:00",
    "sensitive": false,
-   "score": 4.5
+   "score": 4.37
   },
   {
    "id": "b3e6ba4fec",
@@ -1669,7 +1671,7 @@
    ],
    "published": "2026-11-13T18:01:48+00:00",
    "sensitive": false,
-   "score": 4.38
+   "score": 4.25
   },
   {
    "id": "53126e0369",
@@ -1690,7 +1692,7 @@
    ],
    "published": "2026-11-13T14:52:27+00:00",
    "sensitive": false,
-   "score": 4.11
+   "score": 3.99
   },
   {
    "id": "217a4bdada",
@@ -1711,28 +1713,49 @@
    ],
    "published": "2026-11-13T14:00:00+00:00",
    "sensitive": false,
-   "score": 4.04
+   "score": 3.91
   },
   {
-   "id": "4449bf237f",
+   "id": "766dc5e0bc",
    "topic": "football",
    "kicker": "Football",
-   "headline": "South Africa vs Kenya: Africa Cup of Nations Qualification stats & head-to-head",
+   "headline": "PIAA, WPIAL football playoff scores | Live updates, results from Karns City, North Catholic games",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "BBC (14 Nov, 6:36 AM IST)",
+   "source": "Butler Eagle (14 Nov, 8:30 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Butler Eagle",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMUEyOVd2LWszY0ZIZEZ1dWx4a2hSZFFreE1DLUI2d1hfQ1pvT1FLZGhrYW5Vek5yNTVhVjdkaHowdmduYlhMOWhocmVnWWh0NGZ3WEs3QUp1SUhtV0RmX1kzSlFtTXBvQjNjME5nOWs1WTMyODV4dWFUdWJ5YUFMRzhlWlUzdWUwMmc1SXZEZ3lyMDlvNUdLRVQwall2SkVsRnB6UzNmUGw3QzRLSm9fTFdnYk9QbGVkRUo5UWdIMVhrWnBhQUlnXzlR?oc=5"
+    }
+   ],
+   "published": "2026-11-14T03:00:00+00:00",
+   "sensitive": false,
+   "score": 5.0
+  },
+  {
+   "id": "0b0dd4bc27",
+   "topic": "football",
+   "kicker": "Football",
+   "headline": "Egypt vs Malawi: Africa Cup of Nations Qualification stats & head-to-head",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "BBC (14 Nov, 7:12 AM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "BBC",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sUXg2NnliUEYzV0hJMzJXZzBVdnM4d29xaTRpMTV3RmdQMTQ4NUF0YVJDUWVCTXFnMkg2WDBwQ1JtQlFfUl84Q0RoaWpqb2NZNUdJTV9Ca3FJcDNZTUVwbTRMbGNBdw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HUjh0TUtsdzVBSzB6aC1JcGV1MlA2MlN2ZnpuMmlLNVR1TmFELVVmOHJvb1U2OE5udzZhUmxha0VhSWlxNFVQNjlSYmZGU281bDh5LTNFMWRNRldycE5JTjN4WGFXUQ?oc=5"
     }
    ],
-   "published": "2026-11-14T01:06:44+00:00",
+   "published": "2026-11-14T01:42:03+00:00",
    "sensitive": false,
-   "score": 4.97
+   "score": 4.89
   },
   {
    "id": "6d3f5db03b",
@@ -1753,7 +1776,7 @@
    ],
    "published": "2026-11-14T00:45:38+00:00",
    "sensitive": false,
-   "score": 4.94
+   "score": 4.81
   },
   {
    "id": "255d5c5274",
@@ -1774,7 +1797,7 @@
    ],
    "published": "2026-11-13T23:19:09+00:00",
    "sensitive": false,
-   "score": 4.82
+   "score": 4.69
   },
   {
    "id": "6714394a94",
@@ -1795,28 +1818,7 @@
    ],
    "published": "2026-11-13T23:06:45+00:00",
    "sensitive": false,
-   "score": 4.8
-  },
-  {
-   "id": "f607aaf4fa",
-   "topic": "football",
-   "kicker": "Football",
-   "headline": "Ferguson 'made up' with first win as Glentoran boss",
-   "sub": "",
-   "card": "Glentoran manager Duncan Ferguson said he is \"made up\" with his first three points on his home debut, after a 2-1 win over Bangor.",
-   "full": [],
-   "why": "",
-   "source": "BBC Sport (14 Nov, 4:24 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "BBC Sport",
-     "url": "https://www.bbc.co.uk/sport/football/articles/c95y10z6rpj8o?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "published": "2026-11-13T22:54:49+00:00",
-   "sensitive": false,
-   "score": 4.78
+   "score": 4.67
   },
   {
    "id": "b47cccb958",
@@ -1845,7 +1847,7 @@
    ],
    "published": "2026-11-13T15:06:17+00:00",
    "sensitive": false,
-   "score": 8.13
+   "score": 8.0
   },
   {
    "id": "3893a704ad",
@@ -1874,7 +1876,28 @@
    ],
    "published": "2026-11-13T14:51:35+00:00",
    "sensitive": false,
-   "score": 8.11
+   "score": 7.98
+  },
+  {
+   "id": "3eda53256a",
+   "topic": "gadgets",
+   "kicker": "Gadgets & Apps",
+   "headline": "Microsoft outage hits businesses worldwide; India feels impact",
+   "sub": "",
+   "card": "Disruption to Microsoft’s cloud-based email service affects business operations and airline customer support in India; public services in several countries…",
+   "full": [],
+   "why": "",
+   "source": "The Hindu (14 Nov, 12:51 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "The Hindu",
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-hits-businesses-worldwide-india-feels-impact/article71698919.ece"
+    }
+   ],
+   "published": "2026-11-14T07:21:27+05:30",
+   "sensitive": false,
+   "score": 4.9
   },
   {
    "id": "2f6031fc73",
@@ -1885,7 +1908,7 @@
    "card": "Microsoft is testing fixes, rerouting traffic and boosting server capacity as it works to stabilise its systems and restore services",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 12:23 PM IST)",
+   "source": "The Hindu (14 Nov, 12:31 PM IST)",
    "label": "single",
    "sources": [
     {
@@ -1893,9 +1916,9 @@
      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outlook-outage-status-microsoft-365-services-live-updates-november-14-2026/article71700692.ece"
     }
    ],
-   "published": "2026-11-14T06:53:31+05:30",
+   "published": "2026-11-14T07:01:36+05:30",
    "sensitive": false,
-   "score": 4.99
+   "score": 4.87
   },
   {
    "id": "b2bcf2daf4",
@@ -1916,28 +1939,7 @@
    ],
    "published": "2026-11-14T06:48:21+05:30",
    "sensitive": false,
-   "score": 4.98
-  },
-  {
-   "id": "9f9a836518",
-   "topic": "gadgets",
-   "kicker": "Gadgets & Apps",
-   "headline": "Tech Now",
-   "sub": "",
-   "card": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
-   "full": [],
-   "why": "",
-   "source": "BBC News (14 Nov, 6:30 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "BBC News",
-     "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "published": "2026-11-14T01:00:00+00:00",
-   "sensitive": false,
-   "score": 4.96
+   "score": 4.85
   },
   {
    "id": "5ffd02e9c4",
@@ -1958,7 +1960,7 @@
    ],
    "published": "2026-11-13T23:31:00+00:00",
    "sensitive": false,
-   "score": 4.83
+   "score": 4.71
   },
   {
    "id": "609a0be028",
@@ -1979,7 +1981,7 @@
    ],
    "published": "2026-11-13T21:04:45+00:00",
    "sensitive": false,
-   "score": 4.63
+   "score": 4.5
   },
   {
    "id": "70a60f8fe3",
@@ -2000,7 +2002,28 @@
    ],
    "published": "2026-11-13T14:13:44+00:00",
    "sensitive": false,
-   "score": 4.06
+   "score": 3.93
+  },
+  {
+   "id": "4ad0e94e30",
+   "topic": "gaming",
+   "kicker": "Gaming",
+   "headline": "Who Is Yash Bhanushali? Meet Vaaste Singer Dhvani Bhanushali's Fiance",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Times Now (13 Nov, 7:25 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Times Now",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQ0VTZDdZbzM0X3lpZ0RMWmVSem9vRm9OSUI2R2ZKc1BWWXNxRVg5TnBPMEFIVjJIMExrdEZvOGlWVmQ4TW4xNHBwMXdDVFRCTFJJbllyMW95aml0c2JiLWZFMTlHQlpWMUtfQkkySnB6MENVSV9Hc09JYXVpUHlhRm54bG5aY0hnMzJlblZxTVNGRU1MVDRXWXdaTVQyNkRLNGVQcnM2UGtXTm5STXZUS1JYNlhHRUFLN3Axa1FEOWdvSzZXcUxvLTNWYkZMNW15VFJ0eFpHTnphYm_SAeABQVVfeXFMUHByUVRPVnRmNm9yYTVTeWJtQXAtRl9FUk1rS0lKYi03YVNNUmt0LUxSeGJsNTU1cEJrVzdrUWJNWFFSV3ZXejR6LW9UZjZua1MwRHhMNW9FSF9xc2xXLXN2NXBFTkdWdHpsYkpBaVZsMXlOVGwtV0c0T0hiS04wczlTbWlTTXVtLVpVa1lRVVE2ZnZPeHRFLUo5N1BwMkYwVXFiYjhSS3NlNkF0TTIyV2pJY1hGMENJZWhFVEJralZIUmktWWZCRlVnR3RNd2dQTUVjWUxxS0hudlUtV1FIRmo?oc=5"
+    }
+   ],
+   "published": "2026-11-13T13:55:47+00:00",
+   "sensitive": false,
+   "score": 3.91
   },
   {
    "id": "b8a7289511",
@@ -2021,28 +2044,7 @@
    ],
    "published": "2026-11-13T08:45:00+00:00",
    "sensitive": false,
-   "score": 3.6
-  },
-  {
-   "id": "d6ae9a981a",
-   "topic": "gaming",
-   "kicker": "Gaming",
-   "headline": "Revenant XSpark Unveils New VALORANT Roster Featuring South Asian Champions Ahead of 2027 Season",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Passionate In Marketing (13 Nov, 10:22 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Passionate In Marketing",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVDlrdHNUbDV6UUxxWVBXQzE0RVVadVE5QzlaMDZCS2JfWkFpYVF2blYzTjJvSm9SUEJGekRxUFJabE5fTk55RFRZOEFGZ0pkT2NuRGF6RXdZeWdVLU1ydVRILVctemFvWjl5cmt1czVoSFIyQU5ySGJyNzZWWnVUM2wtSXg1Mi1RSEU1VjZoSlhFRWtITHd1RUtBZ3A4el9SRlZ6QmQtUzliUEZuYktVZEV1c3duMk9SN1J3dG13NUNJZFNMaG9udExqWjVMVF9E?oc=5"
-    }
-   ],
-   "published": "2026-11-13T04:52:42+00:00",
-   "sensitive": false,
-   "score": 3.28
+   "score": 3.48
   },
   {
    "id": "c7a5c1681a",
@@ -2075,7 +2077,7 @@
    ],
    "published": "2026-11-13T08:01:13+00:00",
    "sensitive": false,
-   "score": 11.54
+   "score": 11.41
   },
   {
    "id": "836ae68423",
@@ -2100,7 +2102,28 @@
    ],
    "published": "2026-11-13T07:55:54+00:00",
    "sensitive": false,
-   "score": 5.53
+   "score": 5.41
+  },
+  {
+   "id": "b1d3cdd268",
+   "topic": "gold",
+   "kicker": "Gold",
+   "headline": "Gold Prices Today: 24k Gold At Rs 1.36 Lakh Per 10 Grams In Delhi, Mumbai On 13 Nov",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "BW Businessworld (14 Nov, 3:09 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "BW Businessworld",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd1AyXzNVQmFKYmw1R1lnUk9XNFF2bVlicndYS1czQ1NTR0EzVURmdTU4MWVESUxtdnBtUUNnQjdEcDIxSno5dUVORzJCZzhwQVEyTjVOLUNuS05DQ25Scl9OajVwaXJlTVUzQk1hTVk1WVVvZGRCNUk2OFRoRk9WLVIwdGI1Y0FlZm0ydGw3SDNZMEJUbVVrM19UcVBBcjF1blJqWGRJRzJtWlgzcGtUbEFSaGZwRVo2SElQSlNIcVFkTmM?oc=5"
+    }
+   ],
+   "published": "2026-11-13T21:39:06+00:00",
+   "sensitive": false,
+   "score": 4.55
   },
   {
    "id": "208510fa29",
@@ -2121,7 +2144,7 @@
    ],
    "published": "2026-11-13T08:31:43+00:00",
    "sensitive": false,
-   "score": 3.58
+   "score": 3.46
   },
   {
    "id": "36884a2304",
@@ -2142,28 +2165,7 @@
    ],
    "published": "2026-11-13T08:01:13+00:00",
    "sensitive": false,
-   "score": 3.54
-  },
-  {
-   "id": "eb156afae0",
-   "topic": "gold",
-   "kicker": "Gold",
-   "headline": "Gold Rate Today, November 13: ₹2,970 Gap in 24K Rates, Silver Differs by ₹20,340 - Why?",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "The United Indian (13 Nov, 12:48 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The United Indian",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN3VpWnV4dUJNbzZVNWc0SmVPeklqZDJsZ2UxdUJOd1c2ZjRmdjIwZ05XTDlHOUpjczBYYWJUQ0xPazBLWnJHWTFGQ3RYSXNmVGNGeFZuM19xMU1MVUlzZmhqVG9zNk1OOXpzRVUyWWxYVi1MbXphQ3dFcHN4WVlvZnNfTHZUWWJwZ1BMNTNJNHRmSmxoVEROSkJfMTMxQQ?oc=5"
-    }
-   ],
-   "published": "2026-11-13T07:18:14+00:00",
-   "sensitive": false,
-   "score": 3.48
+   "score": 3.41
   },
   {
    "id": "b5ab7f8e78",
@@ -2174,7 +2176,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Sportscape Magazine, Inshorts, Scroll.in, Indian Sports Home (13 Nov, 4:05 PM IST)",
+   "source": "Sportscape Magazine, Inshorts, Scroll.in, Dailyhunt (13 Nov, 4:05 PM IST)",
    "label": "multi",
    "sources": [
     {
@@ -2190,13 +2192,13 @@
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcG4yMGVqeVljOFJDdWEzZ0QzTXVBQ1EwSVB4eGFnZGt0eldNQTBlZUtpNmRhN0lEZzBtWUdEUjhMVkNGYzZuOVo4YWFURklaNmNmQTA4emJqclJ0QTBiUTRxOHZ4cHlIVGhVcG1wSnZYZWFSRm11UWVxNFZMeFhtY2dWdUlhM1h5Zk9JbzNsczNSUWo4N21XaXhvQlVmWW9hN1lMWk1uUkFKWV9CMERGM2gtMVY0ZjU2UWxTYUl0SXNFTlVQakpUbkhIX3hLQdIB0wFBVV95cUxQQUc5Wk1wZHdtWDVDV3VzMXIwbU40cDBFdWMtLTEzQTllYldQbDlCRVpTU2JEY3Z1SUFqaDQyQ2VpY3R3T3RLODRpS09fSDRtRjR6OFpob01fTDk0YTRJUE1jM0Y0aEpWMk1SeTdmcnJPZGJrQ2JYTnFZQkpKeERQQWJfaUlOdWpUcXlNYTFCY1BVbGZWTGRkTVFqdlJhdTNVRWdfSDMwZjNiTElXbkhTYTdzODFrTmtkdi0zQTg5NzNEclJjSlZILVV4SUh4ckJfTkdR?oc=5"
     },
     {
-     "outlet": "Indian Sports Home",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM01ORFp2cHZremRnWkZFZl9uR2FMQVZfRDNCU0Y2RlpmLVNpaWlUbkt4djVBWVhrTlVZNnRoaTV6bmROZzJvTktnaE91NXNCNVdLQy1kSnVWN2ZDUEdTcnNMam5UdDVqbjR1c1lRMDh5OWpRX3NRbExiMDMyR0hrb2x3OXBVVkRmNm9GZ3haZWJFQzlkSVpzYXc5eTNNa1BS0gGmAUFVX3lxTE53cVF0Q0s4SVk0T0VHby1RVWRYd3dRVkdaY19xRzZiYVpBcnZrdVlUVHAtVXhnenpreEV2SUhOV3V5Z0RUUGNkNERPR2k0NHdzRl9Sc2l4Q3Y3ZGFUUXBfTG10alZNWkhZZmtncDV1U3MzMXNQVXhCRXllMWRHU3lwVEh3U29iUWNyR0s0U0NfTGw2ZGh5N2NNclF1SldRVm12T3BlYUE?oc=5"
+     "outlet": "Dailyhunt",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQVDBfYkJKUll5aS15VzVDSG5SME5hZFBjVHZ3V0MxNXRZbEhzRGk2bHZSRDM0MHN5Wll0OXVCc2FOVGRNZTA3T2o1M01oMEZJZW1FUGd0UWR4ZkprZnRacVRNM2RyQ2pvaUpiNHQ2aU1zT2JRbnd2NDhNMFptUXJaeEo0YnBxclNnRk9iMlBPenlhWUdmM3QyeVRNd3lxNU9ISEt6MTFHbmVHNjFFZTRrT2k2UmhmazBRMW80TVZ4ZGsxUW44X0FKM1AtUmtBd3BDTEpiSUp0QU91S1BySmtsRWw1Q1VVbDExNkdfRnJ4ZUdJTmpwS0Vodm1KZE9iX0hmZlE?oc=5"
     }
    ],
    "published": "2026-11-13T10:35:41+00:00",
    "sensitive": false,
-   "score": 15.76
+   "score": 15.63
   },
   {
    "id": "9f0c559c84",
@@ -2229,7 +2231,7 @@
    ],
    "published": "2026-11-13T20:13:52+00:00",
    "sensitive": false,
-   "score": 14.56
+   "score": 14.43
   },
   {
    "id": "d218374fee",
@@ -2262,7 +2264,7 @@
    ],
    "published": "2026-11-13T05:29:00+00:00",
    "sensitive": false,
-   "score": 11.33
+   "score": 11.2
   },
   {
    "id": "8304547eab",
@@ -2295,7 +2297,7 @@
    ],
    "published": "2026-11-13T12:32:41+00:00",
    "sensitive": false,
-   "score": 9.92
+   "score": 9.79
   },
   {
    "id": "536f5039e9",
@@ -2324,7 +2326,7 @@
    ],
    "published": "2026-11-13T15:26:28+00:00",
    "sensitive": false,
-   "score": 8.16
+   "score": 8.03
   },
   {
    "id": "3bdf999758",
@@ -2349,7 +2351,32 @@
    ],
    "published": "2026-11-13T20:00:00+00:00",
    "sensitive": false,
-   "score": 6.54
+   "score": 6.41
+  },
+  {
+   "id": "beb2fdaf26",
+   "topic": "ipos",
+   "kicker": "IPOs",
+   "headline": "Crystal Crop Protection to Launch Rs 455 Crore IPO on November 18",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Global Agriculture, The Economic Times (13 Nov, 9:24 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Global Agriculture",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM2dIWDFsc0tUb0FSUUsxaWNfZTNQdno3UjgtREdzcnR0Z3JKRGJDV0NKRkhGT0trcGUtNW1XWDg4MUZKYWtBOWsyUnhyclFnaDdoWjhlZXkwM2RFTXl4dWlmZm00eWg0YndoU3l4SU43djl1VV81QjVtQmlXcndaWHJQMkVCanpGZzdtRUFvcDktRF9RaDJQWmtqUHU2aE45YXplVWJtenZXRnQ1M1RjcWowdEFlX0xEV2NoSlhiQ3pQUzJUWXZObDZPcTBCMW9jS3RXYg?oc=5"
+    },
+    {
+     "outlet": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbE01bFZpNVV2MndhUTV5Q3p4elJNTTlWTktHOUdQZDR4bVZFWlJza3pqZjBGc3BZNUQ4OThKN3FnZnBnQkRSV1Z1N1ptWTl5ZjZJTHNIYnJOV051b2JQd3YtR19xSHNMVG1PT2t3ZlJiZzEyVGF3U19QNjlabllRVTd4bEh4dDlyX0x0RjRxTEpUTzQ5amE2N2ZyOWVheXFrQUcycGU4dmZFbW5uU3dNMmpuY3VzaWIzR05HU1liRmxPaXB2elFIcWJfYmtjbmRtSkNsaXlJWW9iR0VmTldiR2ZfcGtOTnJLLTFDbzdtSTQwYV9U0gH6AUFVX3lxTE91YmFIVWw1NXZmQjQtTVFPZ3ZDTkJuOVcwZ2V5eDZIOXZIa2JqWHJnYzZYNHBMdU9Cd0VYUW01RzAtc2dTZURkS3ZGRGZOSkt5TXlpRmJNVktnZS12Q3N4cFB3RjF6ZzQtTG5QdUFsbC1QOUNBMUtSOWZnYTNvSFBiM2J3TjFOTFlMSmRXbVMzVnBkbjhxU2hwci1HRll5R2hXdWU0eHVSR2lVamFiZDZFOFdzTng0UFJqX0NVUGY2VUdSODQ5MVpsU2tXTFBnTzVGU2tEU3dLbmJMMnFzOHJIUVptdUlScW9BeDlwTkZyR3IwX1ZKR1NvSEE?oc=5"
+    }
+   ],
+   "published": "2026-11-13T15:54:43+00:00",
+   "sensitive": false,
+   "score": 6.07
   },
   {
    "id": "61e3ae45b3",
@@ -2374,7 +2401,7 @@
    ],
    "published": "2026-11-13T12:01:02+00:00",
    "sensitive": false,
-   "score": 5.87
+   "score": 5.75
   },
   {
    "id": "48022c5e88",
@@ -2399,49 +2426,28 @@
    ],
    "published": "2026-11-13T06:50:07+00:00",
    "sensitive": false,
-   "score": 5.44
+   "score": 5.32
   },
   {
-   "id": "dd69b9abc8",
+   "id": "2450787946",
    "topic": "ipos",
    "kicker": "IPOs",
-   "headline": "Coca-Cola CEO to visit India ahead of HCCH $1-billion listing",
+   "headline": "UPI: Transforming India's Payment Landscape",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "The Economic Times (14 Nov, 1:15 AM IST)",
+   "source": "pib.gov.in (14 Nov, 7:37 AM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0QyaS1NT1dzZ3VPVHFURFFtTVhybHNzUzd3eWdmcVpvN2NJZ1FqcHFIX25OdWhSb2ZfWnM3blpNekhiN0lSRi02Y2ZzWG1OdS1URDlndmxkamw1ejRRa1JjekRWM2o1MnV2SEh4OVVReDRPaVdWeVllUnNIV2tMRGp5R3FNcmdMTXhFQTFENW80bUs4OC1WbXZMT1h4Tm9jS0ZSa3RvZmVwZURWd0RhVzR1YUgzMjFWeExyRk9NampIMFY3ZVV0X280Z3I2R0ZtbkxXLWY0Q0JrUdIB3wFBVV95cUxObW1ibHVYam90cHhmY2JOclVMdFhIYzBfdTNqc2JBazhjMFIwVFUwejRxUWlYTVo0QW8tWUNTRERkUF9GaWJyaC1WUTMzdFduVnUwSVhuLWxkdDJlX3lRY3lvbmtMb0R3MUxQZ2dsYzFLTDJRbkFYTDd1VjdLYjZEdU9Rd0VPWENOT04wZlFWRFhSRlFXcGlYQUdaa0hzTVR2QURlVFJQZ0FpdU9oV2lmMWVEQnhLX19YTnVzR0hzMHZRUlpvSnEtUV9vVFF1WVg0ZG5kS0J4N0J4ZFRiRlU4?oc=5"
+     "outlet": "pib.gov.in",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBReC1CZ2NIVGNWN3J1MGNmTEE0dzc3UFVJRGdWM196a053MTc0S1g5eS1WTllBNFVOa1lVbUtMMk85Y0RCa2lCdDBtQ29wRHF6VTVfVnhmb2NGREFVbGhfV21xWUk4YkJuNWctb2tER19NUjlaVl93?oc=5"
     }
    ],
-   "published": "2026-11-13T19:45:42+00:00",
+   "published": "2026-11-14T02:07:18+00:00",
    "sensitive": false,
-   "score": 4.52
-  },
-  {
-   "id": "bc3b210b12",
-   "topic": "ipos",
-   "kicker": "IPOs",
-   "headline": "Paytm shares breach listing price barrier after five years",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "IndiaIPO (14 Nov, 12:04 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "IndiaIPO",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ1hMUUZVTGJGOG5uR0JCWFVXQTJhMmtHUkJMVWNlNU50SDRhNDBmNjNMaW9wNnRxZ2JSaHl5TDE1VzQzdERUMWNQdFZ5VjRHWFdtQjU1ZVNmdUkyYTIxOG1MTlNRLTVKRnRESnhsekR3SFphZGI2eXEwaFVjWkNSeU9vTC1DT1NOSEQ3Y21LMkdGNkVfd0RKcGN3?oc=5"
-    }
-   ],
-   "published": "2026-11-13T18:34:42+00:00",
-   "sensitive": false,
-   "score": 4.42
+   "score": 4.92
   },
   {
    "id": "a2163d12aa",
@@ -2462,7 +2468,7 @@
    ],
    "published": "2026-11-13T12:43:30+00:00",
    "sensitive": false,
-   "score": 3.93
+   "score": 3.81
   },
   {
    "id": "5d41f06c82",
@@ -2483,7 +2489,7 @@
    ],
    "published": "2026-11-13T12:42:09+00:00",
    "sensitive": false,
-   "score": 3.93
+   "score": 3.8
   },
   {
    "id": "ef580d7e8d",
@@ -2504,7 +2510,7 @@
    ],
    "published": "2026-11-13T12:33:19+00:00",
    "sensitive": false,
-   "score": 3.92
+   "score": 3.79
   },
   {
    "id": "8db8b63610",
@@ -2525,7 +2531,7 @@
    ],
    "published": "2026-11-13T11:43:16+00:00",
    "sensitive": false,
-   "score": 3.85
+   "score": 3.72
   },
   {
    "id": "1e25f96ea9",
@@ -2546,7 +2552,7 @@
    ],
    "published": "2026-11-13T11:31:25+00:00",
    "sensitive": false,
-   "score": 3.83
+   "score": 3.71
   },
   {
    "id": "f78e2e6d0c",
@@ -2557,7 +2563,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "theopenpress.in, The Times of India, Sacnilk, Bollymoviereviewz (14 Nov, 7:00 AM IST)",
+   "source": "theopenpress.in, Times Now, Sacnilk, The Times of India (14 Nov, 8:02 AM IST)",
    "label": "multi",
    "sources": [
     {
@@ -2565,21 +2571,54 @@
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wS3BiMm11NE81dXRlS01kbFhBM1ZsT0FqeWFqRjhEVEdiTE5zQjIxMFdWdFpadzhOUlBMOHF1N1k5X1dYeE5QZmExbTRoX1htMVVrS2NqdVd6SGFlQThORUdmZzJ4WE9rNnpDNkkzR0VuT0NXRXl4YjVOQWpwdw?oc=5"
     },
     {
-     "outlet": "The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNanlFQ3J2LXJBNDZCNXhxLXBDWnBYRG1hTlY3MWhUTTl0ZUxzYjdDV2lRT1BMcDI5X3dPTWpNZkZnRDIxc0VWYy1WaDZDbEE4QmdtbTQ2NjJoVzhDcEJqd1NVM0NHd3FldXNJUDh0ZVc3VGpJdmJZZzBrMWdCYXJseVJLSlRORUF6TXd1QmlkZTdPbWotZVJKd184NV83YklLNFZ2bU4zTHZiNmpJc3VxY0R6RkhWcG1SbjBjaTNIQ1Y2N1YyS0hQRHNjOGUteU9SZktfS1NfcmF1cXFvUzVHWmZXOVVrYUh1bXdUWGlpYVJMSDNDdFRyWkVLYXZmZFlDeTRZcmNJbHV3SUNqYmw1NlJhN0xkLTVkOXBMRWxDUTdLR3llTmZzcEF1VGdkQVc4UVYtWkxTYWxCUDdob3RldmFfUHhaSEtGNjczZFRERWpXU0JRZWYtVzFhQTVDdURjYmhBQXQ4VENJQzllMXdN0gH0AkFVX3lxTFBMdXd0SnBJcnNmdzZxUkNEX3pLYkhMSHFDRklBbnhuLWZseUV5S0t4VUEza2liUC1fek5vVjRpaGhuZy1hZEZBSXJGUXZTeVdrVWZZZ0t4UU1tMlQ4SU05amQzNmF0Um1QMlAxNk16cmctaFRYckxtbUlidENMNUdqQkpVc2JiOG9lZ2lXRmtEcU1CVThaRmptYzYtT3YyUEJmSGUtRkNFN2dpcWNqdlRPa3kzZXdtRVRORF95cEJNT0VhRkpkWEtCTXc4VzFLOGczaW5aVEtrZ2lfMkpDd0EtNzV0eGZDYW5qN3plVlFaazYwTEhOS0JhNWV4YU5vNEgySHJyNWlybUY0b091SHhNaHlRQkpVUHpnY1BBNkJGVTM2MzE1WkJ1N2FScko4RUJ6RS1uclhBYXNPcUtKNm5HRlNqN1UtY3h2QjBWSlFRenRYX2FSX0wyZGNmNWpDWmlFWFFDTWpDZ19HUXNJWUdVV0ZhUQ?oc=5"
+     "outlet": "Times Now",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPVEhXZW9jSDFDeG90LURJWDJ3WlVkbnllS01CVVlQYjhMc3pfMlR2S0pwbHAwNTF5NUFmUDFqX0ZpZGtlU25FTlZfSDdiVUUyVVRTWmxoMFBGMDJYZFlQRkpZMFQ2RWREMXVqSlF1WHFmYkV0Y3F6dVp1QmRmS2tIWEI4V0hndE1FQm85VGRmaHJENXRJQXVkbm9ZWGdLbW9MdHRlVDBiSWtzR1I2Z0EwOTIzWm5aeC05YXNNcm9kU0FhMnhuTWdHOVEtS1pCMWVrWU5OcnNpRUtWM1VmbHJjZVEtejNjV2hNdGJwMlVqdWZhTDdBd0p6YnlsTUdVM0h3bXZfTnhOVnV5ZHFQOVHSAZMCQVVfeXFMT2dvVkQ4eEc2MEJPQTVUcGZBUjQ0X2R1UnVHZUNFSkZLel9uU1AzSXRjdWV1c0VBUWJoMmVpSW5VSmppNlV6amF6RGRraVk5aVJJZS1qZTBHTjZRVGNFTm54emN3QlJxNnlKMnNEVy1YUzU0dllKY1JNcjd3TXEtZGFOY3dHTno5aEpNVjVEMFBDRFg4SzJYcjZBYmhnV2ZzeHNjNmU5bW5mUG5OeW1aWjZscFkwUnNILVVOMWRzUGFGSmp3dGN5eHdvNGJ6LTVqYkF6dVROaGVuT3ZHcHhubERuaXFJZ1FvX1RFNmFtQVFuQ2I0SlhMMG80VzMwM0MzUlhrMElVeGNlbGFZdHVzZEdxM2c?oc=5"
     },
     {
      "outlet": "Sacnilk",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTNkdEpaeXBaemdtMFhxNUZqbXJ0OU0wZlRyNzV4VmdENFI4VVZnNEdSbU5JUUVQbkRwN3MzUTZINHVjemh3UmllSm42SjlVWmxLeWxmc1RJdDlUdTd4RnJsQkRPSjNGUWZvNnZNYkJCRExDVHJ4bzdlTWZZNWh1ZEl5WVJVS1ZwUnNF?oc=5"
     },
     {
-     "outlet": "Bollymoviereviewz",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOGk0MGxxZ1RKSGtyT0dFN2FraGN1M2JIYmFBYzdBSGFORVZPdERtd1BRUUdTTW1lY2JsbEl3am9ZeExMbGhpbi1jT1BUc3Bxcl85a2lkV1dGdG4zM0Q2OE1DSXQxT3l0UE9Nai1NVjhFdTh3Smh4VkNNd0I2ZFRTeEd4Q181V0FFbGxINzNmaThwbjBRZWFrNkdBRmY4empBV1RPb3IxUFNyZEJ5bEFzSG40ZXJyT3pMTUhnQ29CTTlHSzU4amhTVjVn?oc=5"
+     "outlet": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNanlFQ3J2LXJBNDZCNXhxLXBDWnBYRG1hTlY3MWhUTTl0ZUxzYjdDV2lRT1BMcDI5X3dPTWpNZkZnRDIxc0VWYy1WaDZDbEE4QmdtbTQ2NjJoVzhDcEJqd1NVM0NHd3FldXNJUDh0ZVc3VGpJdmJZZzBrMWdCYXJseVJLSlRORUF6TXd1QmlkZTdPbWotZVJKd184NV83YklLNFZ2bU4zTHZiNmpJc3VxY0R6RkhWcG1SbjBjaTNIQ1Y2N1YyS0hQRHNjOGUteU9SZktfS1NfcmF1cXFvUzVHWmZXOVVrYUh1bXdUWGlpYVJMSDNDdFRyWkVLYXZmZFlDeTRZcmNJbHV3SUNqYmw1NlJhN0xkLTVkOXBMRWxDUTdLR3llTmZzcEF1VGdkQVc4UVYtWkxTYWxCUDdob3RldmFfUHhaSEtGNjczZFRERWpXU0JRZWYtVzFhQTVDdURjYmhBQXQ4VENJQzllMXdN0gH0AkFVX3lxTFBMdXd0SnBJcnNmdzZxUkNEX3pLYkhMSHFDRklBbnhuLWZseUV5S0t4VUEza2liUC1fek5vVjRpaGhuZy1hZEZBSXJGUXZTeVdrVWZZZ0t4UU1tMlQ4SU05amQzNmF0Um1QMlAxNk16cmctaFRYckxtbUlidENMNUdqQkpVc2JiOG9lZ2lXRmtEcU1CVThaRmptYzYtT3YyUEJmSGUtRkNFN2dpcWNqdlRPa3kzZXdtRVRORF95cEJNT0VhRkpkWEtCTXc4VzFLOGczaW5aVEtrZ2lfMkpDd0EtNzV0eGZDYW5qN3plVlFaazYwTEhOS0JhNWV4YU5vNEgySHJyNWlybUY0b091SHhNaHlRQkpVUHpnY1BBNkJGVTM2MzE1WkJ1N2FScko4RUJ6RS1uclhBYXNPcUtKNm5HRlNqN1UtY3h2QjBWSlFRenRYX2FSX0wyZGNmNWpDWmlFWFFDTWpDZ19HUXNJWUdVV0ZhUQ?oc=5"
     }
    ],
-   "published": "2026-11-14T01:30:08+00:00",
+   "published": "2026-11-14T02:32:34+00:00",
    "sensitive": false,
-   "score": 17.0
+   "score": 18.96
+  },
+  {
+   "id": "e593fd3393",
+   "topic": "movies",
+   "kicker": "Movies",
+   "headline": "Ramayana box office: Rs 1000 crore in 8 days for Ranbir Kapoor and Yash's film - Mid-Day",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Mid-Day, iDiva, Bollywood Bubble, Bollywood Hungama (13 Nov, 4:45 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Mid-Day",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVlQwUkUza2xFT09sTGJwRXItbzJJMnVWcUR5OFljOS1xOWZWX3FyVHB6Rjd2QWFvZ3cyVTJaQXpmR2F3ZVRMMVlaS1AwcVRnY0dSakpEc1hGX3NwR18wZk9HbGlqZ0F6WVp2QWRXbUlRQVRxZzhOdkJNOHdVQl9pVUVwSnUwUmV2Q1FMc204YURLRE1VaDVEcmFtOWgzRnoyMUhyYnVFRUJxM3Y5QXFOLTRlUEJJaXZyZ0llOTJWd1VTbnVaUDh4dDVLb3dlc3pXM05xUnZWUkdpM2RHWFE?oc=5"
+    },
+    {
+     "outlet": "iDiva",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLXV5WXYzM1RaWXUzY0pqSGw1N2VWalJZZWFFMFpRTXZhTl83ZFpQSk1SeC1DcmN4aVZfLUtTTXRQcWQweTJTVHVFMk1renNhTGRncVA1WlZjWU1jbUJ1QTY2RVhrcy1pelBnVUxYV0FISlFja3hyTjZJUTFsMXpJUUZXTFpRVjI0T3hfUU52amZUanRsR0d0M2ptMTFIM0FqNVJuU1JBQ2tFcUtNY282UzBoVXJ6dUNId3BOVU01cmtyejJKTjNIc2hRbVBIRnJOVGdBYXhLLXk2TU1aX252b2d2YWfSAeoBQVVfeXFMTlk3STB4T3FUVi0yVWVSR21MSVNOQjgxWjNoaXJYRjhTMGtoWVJQT0tyeXEtY0pIRktWNF9XUTRKQnhQZ3RaOGVDQUxMSS1Wd293anBHQzk5ZERGX01BeVBMczRVODhWYUh0MXdkUjdNOFdJTkV5Wlp1VkpVc19Zd2s3WHdReEtDbTBRQ01MRjlWVjJUTEdQZy0zRkJ4ZkR4dE1icnRfWEtfODE2M0ZKOVptaFFDMS1vOXZwako2QWdERjJZOWNHNjRFWXdMUXEtMENaakFNajY1cTRmOUtqdVZWaVdwTEFfaDJR?oc=5"
+    },
+    {
+     "outlet": "Bollywood Bubble",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRFFhdGlPckQ0UGE2N1FKbk5VdW5aeEdqa1ZtRkxIUHRscFB3OElsN1FWa2JUazhhdGl6aV94Q3Z0TWNXdWVkeWZyUUxvZjdkcXpJSlJzMzA0TjY4b01uNjFKa0dSZVQ0cU5odnZlZnhWTHdFbkh4M1AtMzhwb0JlX240N0lUWDhYd3VhRm1rUi1ZOGYyRFA0em5xSlpKSnZkUXA1VnBxQ01UVV94OGRicTNLVFluSkxYd3dLM1FVbDVqb1dadVowUXg1WWpCM3VMSDR4MC1tNUxleUNTNktyRFl0OC1naUM5cm9JY3luRQ?oc=5"
+    },
+    {
+     "outlet": "Bollywood Hungama",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXcTJqSDV0SUZTbXV0U1FfdXRERnJLQjNOaVZJMUxCMnRMZlBaNEMtVVpFSFJTaTdsX0ZLVzFlTTJxRFdweFFLREZGajNJaFFkMDd2N0RB0gHsAkFVX3lxTE42anlVRVU0T3pUcXhqRGVDMjdwTVA1bGVXMmxLYURlaEVxbmVqQU4tMnp2bGM0bkVKWC1fZndOV25MbElfVlNVYkdpeDVCbWwtcjdhUEczYjZ6cVowN19IUlU5LXNOZFRSTTRmYWpsQXVDbHNSbVJwM3RRMzJCZlYwTjZkaDNnZHFIbmNNWjAyaHdBMTA5aUlPb3J0ODlWeTVmZzFVbVlOUjdDQzU1VE5nUm1rT3dGWnI2WHVwMHNfZmhrdXU3ODlacmljRHZLUklqVW1XX2JVWGh1c0dibF9IeDFaMk1jUl9IWlM4NzdLejJXXzhpTXNETXZmc0duSFNpbUozUE1BZkt4MHV0NzVndTQ2OUJjQmNDd0VyWTlLVW9aOGlXQmR6X1daUkhLc3R0Rm9TRXNDaDFod1NSTmhpWVJQenpYRVhlZFBXaERMZlpmWk1HUEZYaUxpUGdINFAzNTZPbVdXcUppT0Q?oc=5"
+    }
+   ],
+   "published": "2026-11-13T11:15:00+00:00",
+   "sensitive": false,
+   "score": 9.68
   },
   {
    "id": "43e3402be0",
@@ -2590,7 +2629,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Business Standard, NDTV, India Today, The Financial Express (13 Nov, 5:21 PM IST)",
+   "source": "Business Standard, NDTV, India Today (13 Nov, 5:21 PM IST)",
    "label": "multi",
    "sources": [
     {
@@ -2604,15 +2643,36 @@
     {
      "outlet": "India Today",
      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQN3hrdFJNWG9XalhoR1JGUllWbXFUWjlXUUZfS0lrYXpfXzhUWFhEekl4ZnBvRTNNajl0WjEyVzB5UnotdUEzaEpUZ2hLTU1vNHdSc2NuZHJWWTFaZS1GcXdKY1VxeENDMHQyWkM3WWh5QTdCbFQ0QzhTb2padXR1X19VLVBtVW9xYnV1bEc0eDM2SmxQQTVNOVFXdGZZSHNla0RuSG9LZkl6LUxpZmVHV0NMTVdMNW9WbWdKeVRqYzVFbGlWRnZQcGFuT0JDWWJ3aTF4TFR3RS0zeWhzUVFQVUdzR2dKdHBoNk9RNGY4QU5ZRmdheDllLXZVc9IBgAJBVV95cUxNTzFhcE0tRktFdnVvZUs2S3VFc1A2bUVESWFJQUI5b1RjbC1kNk9CUzNHejBmVlVDdGxnMFUxcWVxU0NSdHpoaEVqRk96OVRBVUZOSU5DSUJCUklZWFBncU5sSnM5SndMVklleDVxYTdsZi1oaVAwdXhqOWR4d3VOQS1MSXVMZWNMdXVhc2ttU1E0NTdCRFMtcW53cThWWGRrX1V0V0ZsaS1sSy1tWHk1Mmp5RjdCWVBjdndTR3c2Yk9DdTVxTTVWaUlTaE9PVkk1M2FSOXRZRDhxS3AtaFkydll6eGZVc2ZiSlQ0Ri1aOTBLYzR4S3BOVUZmZ2ZpMVJk?oc=5"
-    },
-    {
-     "outlet": "The Financial Express",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMnEydEJmVUY0UUtsV3RMNFdNU3ZMUVdZemZVZmN6OGlOWFBoMFlHcWRDZ3BKVW92M3Nic1pBZ2NkVFpZZjR5alg0T1M2OHpvR1NBalJiTVpJSjM4T1B3SmdvWXF2VXZJejdFTGhtNTVfWUgyYmtpMnhLenI4a1VHSWl6d1d6eTZia0hOUEk5SU9kd05PSjBNYnJzajJLRWFLSGFFYUFCd2NYWVNPQVVwSFIzVEVSU0RCdzc0YWZ4LWwzX0lFN3A4ZTdReUlpVHlEdmhQOENB0gHcAUFVX3lxTFAtN3g1djJyanZsU0U5SFJtSE9xd0M5U3ZSd0JBZUJVVC04NVgyYnhzMWdMam5tMUMyOGJCeTFueWtiWF9jVm44bmZDZDc2M3BKeXBMdXIySlVKLUVOS2x5YzVfdm1LRE4tNUJ5bk5GNFA5b1BKcURXSFdGdUI3aUxMMklKTHRVOXhpc3gxSDN0S3RpdWZLZ3l1dmkxUk00QTh1cEY2X08xQkh1Zk5YQ0FJLThYTE91WXFMc1RVUHV4WEprblhyeTl0ZzJxdGFhRTFPMTdtSUhBWFJQVjI?oc=5"
     }
    ],
    "published": "2026-11-13T11:51:27+00:00",
    "sensitive": false,
-   "score": 9.86
+   "score": 7.73
+  },
+  {
+   "id": "395ccdb1a8",
+   "topic": "movies",
+   "kicker": "Movies",
+   "headline": "Ramayana box office collection: Ranbir Kapoor's epic DEFEATS Ranveer Singh's Dhurandhar 2, BEATS Pathaan's lifetime business in 9 days",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "DNA India, The Week (14 Nov, 7:30 AM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "DNA India",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPN190MDJZQ3hWcGdCSUlxOUpGWEQ1R1lpU0F0VHpUd3dMTGtGQlUtY2dQeHJMdzRBLVJRMXRtWGE2WU80ZER5dmJxSHZWR0x5ZTMzNThORnV2Z012MkEwTVExSkJTUzZrdkNVVGdhLVFYdFF3enpTRXBTNkE1STF6U0pOR0RqSWZmaHRNU21ld2NzTmJKbXh2X05IeHRVX3gyXzZwTVlUbmZ1QlFBbGIweDBmbzdqdUdsWlBFa2J0SC1YQ1dvemx4elpWbnV0dmlRVzlpODFzYmhrWndwMXJkTG1zVkg0U25ZQTNfNGNOOVZTTUp4Zjc3ZmJyY2JUb2tZMmJMYlZmNFYyV1Y5UTY00gGUAkFVX3lxTFB2ZmE5NE1EbFlHVk1tWDNQZjhwaVNwOVUwSEQtVHh4ZTY4VXlscGc1YnhLMzRKZVQxRU9ab0pPMnpzUWp1eWxDT25RR2FlUVd0T201cWlGbi1MeVNsWnFIdUpyYk9JTWZ3dUJmTDdNZFZIR253V2NDZlk2cHdESzBmY2llcUl1REhuZWlzdVQ4X3FaQWZqcFN0SmxoZFhaYkI5ajFIRFloTXJqSWZXc1lUNWp4ZmJwMFVPb0RQM3RQZDZHSFNXU1YzdEEzVFRsT3VKdmZ6TVJuYV9ZV0F2ZzBzS2xGTzZJODl3WHI2YVE3anJZbDZzTllsaHVLbjJNUW54MDVtX1ZVOEgyQmdYUDE2Z0dzQg?oc=5"
+    },
+    {
+     "outlet": "The Week",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQVA4TDFoa2p2NE5OQjFTQ3k1cnQtMmhlNkFNdnI1WlVURDg1Y20xZ05rbHUxWlU0aG5qcFVaeUVkaXZXSFJ5M1Z5MS1fYlpxOFpZcmRZMzlPenJpamxSQlVPbGU0aUkzWFV2SDFPd0wwajhqX1NESXJfYzRZQzBxc2UzSi0xVk5JbUZjT3dhUWxLTVlUdFQ3NXBPWjM1V0NaRWlvNExORDhXc09JUmRJbS1n0gG3AUFVX3lxTE9ZLXdKZmM0RU42c20wNWlWdDNzQkF0aElOWkd2M0k3RU50Sk5WZ2wwcnN5Y3VxYjd2RVJzaHJ5RFFoTTY5dmJ2djRpZkJLOGh2MGZBN2lWS0xLQVZTR0RiZExqVFp0TlBtNzcwdnJUQXVhQTQxLXJ4S1JabHh4aFVHUjZiMnR0N1NoZFI2VHFLT2NXMnV5aUMwQTNMcG12VzNMMXIyWjNKY1hfZDRFVlczWXlWZTlBSQ?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:00:47+00:00",
+   "sensitive": false,
+   "score": 6.91
   },
   {
    "id": "522bca8fde",
@@ -2637,57 +2697,7 @@
    ],
    "published": "2026-11-13T15:20:13+00:00",
    "sensitive": false,
-   "score": 6.15
-  },
-  {
-   "id": "6170848e33",
-   "topic": "movies",
-   "kicker": "Movies",
-   "headline": "Ramayana: Part 1 Box Office: 10+ Records Ranbir Kapoor, Yash And Sai Pallavi's Film Broke In 8 Days",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "iDiva, NDTV (13 Nov, 4:06 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "iDiva",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLXV5WXYzM1RaWXUzY0pqSGw1N2VWalJZZWFFMFpRTXZhTl83ZFpQSk1SeC1DcmN4aVZfLUtTTXRQcWQweTJTVHVFMk1renNhTGRncVA1WlZjWU1jbUJ1QTY2RVhrcy1pelBnVUxYV0FISlFja3hyTjZJUTFsMXpJUUZXTFpRVjI0T3hfUU52amZUanRsR0d0M2ptMTFIM0FqNVJuU1JBQ2tFcUtNY282UzBoVXJ6dUNId3BOVU01cmtyejJKTjNIc2hRbVBIRnJOVGdBYXhLLXk2TU1aX252b2d2YWfSAeoBQVVfeXFMTlk3STB4T3FUVi0yVWVSR21MSVNOQjgxWjNoaXJYRjhTMGtoWVJQT0tyeXEtY0pIRktWNF9XUTRKQnhQZ3RaOGVDQUxMSS1Wd293anBHQzk5ZERGX01BeVBMczRVODhWYUh0MXdkUjdNOFdJTkV5Wlp1VkpVc19Zd2s3WHdReEtDbTBRQ01MRjlWVjJUTEdQZy0zRkJ4ZkR4dE1icnRfWEtfODE2M0ZKOVptaFFDMS1vOXZwako2QWdERjJZOWNHNjRFWXdMUXEtMENaakFNajY1cTRmOUtqdVZWaVdwTEFfaDJR?oc=5"
-    },
-    {
-     "outlet": "NDTV",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTXVoaXIxR2dCb05qWXdSekMzbTEyRmNSaXJTNHZGb084NU5TWjFTdDA5SEN5S0U1RlBPakFpMHl6dG1FOXZDNm1Lek96SEFZRGNJRlVnYV9CYXp5alNwWG40elFyZWpOT3BpNlVZanpobkJQb2YzM2Jta0RmQjBBTzQzRTFfWmVQdm5WNEptdHFMdFpqQzVWaWFpLVpLOHRrSXotbkhKNTRvNG8zMzVzcDV2akQ5d9IBvgFBVV95cUxOd1VPeXBURmV3eUZtUWQzTjE3RHlHWWZIcC1LUndaaXY0MUlsQ3BOTS1QQVNxbTc2eGc2QmhSWW1qWDJIanlOclV0SWFnVFlka2Y1ZFk0T2JWQzFVa0E2cTVQM2VLV24tZzR3dXJDX0JzWXE4Vk9EZWYzamFGVGdtekplVHRLcFliUF9vc2Rza0o2Sy1lSnhTVFVxSDdTamd4YU52Q19XSHR1end5NlFDSkdKbEVhd1B4VFdka0d3?oc=5"
-    }
-   ],
-   "published": "2026-11-13T10:36:11+00:00",
-   "sensitive": false,
-   "score": 5.76
-  },
-  {
-   "id": "e33bffd67f",
-   "topic": "movies",
-   "kicker": "Movies",
-   "headline": "Ramayana Box Office Collection Day 8: Registers 3rd Biggest Opening Week In India, Becomes Bollywood’s 6th Highest-Grosser",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "IMDb, Koimoi (13 Nov, 2:51 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "IMDb",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iaGRIeW9oZjAycWpjbGlUaHdhMk93YVFSclVlVEhDZHJOaVp6d3lwdzltWVRSeHowdVF1ZVlhX3ZUNTN0eXRuc01tNWgyVVAtQ0JGVExjbFlBeVMtbmlrV0d2elVDWG8?oc=5"
-    },
-    {
-     "outlet": "Koimoi",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPLTlIUkJHTUx4LUlkUWxySXFHeVdPeTlmOEMyNWN2YndhWmN4cTB0bG4zTHNMdlNrdTFwM21SZHRoS0tDa1ZPbzhQY2JPUndkSndPeURqNTc4WnpwYVNmWXZMVjR3RDBMSGRDcjllQjYwSkdwVWVqS2pOM25CUlpRUFVXaXRsMzlGcTh0ei1Jbk5KMXFvSzMyRmRKWFFIazAxUXBidXRjcGNYU2w3d0l1T241dlg0eVpVa015OTVKTGhjcXZtR1IwS0haQ3Z3cFE5VmU2ZFBEb1VDM2R0U21wejc3NVROV0RUR2c?oc=5"
-    }
-   ],
-   "published": "2026-11-13T09:21:31+00:00",
-   "sensitive": false,
-   "score": 5.65
+   "score": 6.02
   },
   {
    "id": "3ac44b9e40",
@@ -2708,7 +2718,28 @@
    ],
    "published": "2026-11-14T00:30:00+00:00",
    "sensitive": false,
-   "score": 4.92
+   "score": 4.79
+  },
+  {
+   "id": "bf92c84c3d",
+   "topic": "music",
+   "kicker": "Music",
+   "headline": "Exploring conflict through music collaboration: Karnatik meets western classical in Bengaluru's indie scene",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Deccan Herald (14 Nov, 5:00 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Deccan Herald",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUXdnZUNONVJGR18yUGRhaGNwNDIxaHVZaGVZQVRaOUFJWDdwYnQ0NnAwYXpwMTZULW5XcFlTOHd0QXZZYjFaQzNpTmhhT0owR2Q2Q0V1SUJ4TVB2dWQ1ZHc5RHNvMkNVd3YtWFlRVGpxRFZCMWxiVUducEFkSDUxb3FXVmhLWkE4MFVrNjA5cGE0MW40LU5CbmwydEgxaXJYNGNta2M2dm4yZ0hRRjFXU29qTnVHTVotTE1tZl9Qd3RRMUpIaXpHY25MTkU2VEd1N0RUMUtGZ0p1dE5kdzdrUm1QMld3MFdvUzF2SFZyZ1hhWXZEWWc3ZVd5NA?oc=5"
+    }
+   ],
+   "published": "2026-11-13T23:30:00+00:00",
+   "sensitive": false,
+   "score": 4.7
   },
   {
    "id": "2215c950b7",
@@ -2729,7 +2760,7 @@
    ],
    "published": "2026-11-13T12:00:27+00:00",
    "sensitive": false,
-   "score": 3.87
+   "score": 3.75
   },
   {
    "id": "7a31c169fa",
@@ -2750,7 +2781,7 @@
    ],
    "published": "2026-11-13T11:54:48+00:00",
    "sensitive": false,
-   "score": 3.87
+   "score": 3.74
   },
   {
    "id": "4c6deb7485",
@@ -2771,28 +2802,7 @@
    ],
    "published": "2026-11-13T07:59:59+00:00",
    "sensitive": false,
-   "score": 3.54
-  },
-  {
-   "id": "029e35d1e3",
-   "topic": "music",
-   "kicker": "Music",
-   "headline": "Diljit Dosanjh Brings Punjabi Music to Latin Grammys 2026, Shares Electrifying Stage Moment With Daddy Yankee",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Punjabi Mania (13 Nov, 1:26 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Punjabi Mania",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMDk4Z29aU0ZWNjRiV1JfWFdiN1puR1Yxd09UQjdaR1Brcy1JeGxWMkRfOWowU3BFa0tlVENfTzNWOFgtYkxVZmNSMm8yRHo4V21CbTV4ZktSbWZ4cGVZTWx4YUMzOXFja1NXR3E5ckQwLVZGSnB2cVhfc0w3NXVEOFlsZjNPSmVPMjJUS3ptUGlDYVg2bzJENVcybVBDck5sNXpDQTR0c1lJMjNUdmcyX3Mybk5fS1NJdzc1YmRwQzVsTndycTRLNU95UVUxQlpQTUN4dw?oc=5"
-    }
-   ],
-   "published": "2026-11-13T07:56:28+00:00",
-   "sensitive": false,
-   "score": 3.54
+   "score": 3.41
   },
   {
    "id": "eb65bfb946",
@@ -2803,7 +2813,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "NBA.com (14 Nov, 4:04 AM IST)",
+   "source": "NBA.com (14 Nov, 6:31 AM IST)",
    "label": "single",
    "sources": [
     {
@@ -2811,55 +2821,9 @@
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnXzA1dElweV94M1BDX2lsa01nV3F1aC14cUh0WGluTU5IamJ5U2wycjVBc3IyeVBGbWNEZnVGdS1xRWtMdkNZRi1MeDV6Y3R0N2U4Qmxjc3BQdw?oc=5"
     }
    ],
-   "published": "2026-11-13T22:34:09+00:00",
+   "published": "2026-11-14T01:01:23+00:00",
    "sensitive": false,
-   "score": 4.75
-  },
-  {
-   "id": "7c5f5b794e",
-   "topic": "nba",
-   "kicker": "NBA",
-   "headline": "Milwaukee Bucks vs Orlando Magic Nov 13, 2026 Game Summary",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "NBA.com (14 Nov, 3:39 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "NBA.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxcmlPaGRIZHctaHlPOWhZYlI1TGhhOWg2eVdMTGU1YUZLdTgzZF81cDViRnlzZDhWdTlsVTFRZTRvcmYtUHo0R01fdkhmYmJBaWdqUnE1TjJ5dw?oc=5"
-    }
-   ],
-   "published": "2026-11-13T22:09:15+00:00",
-   "sensitive": false,
-   "score": 4.72
-  },
-  {
-   "id": "884aec3e80",
-   "topic": "nba",
-   "kicker": "NBA",
-   "headline": "Stephen Curry injury update: Warriors announce MRI results",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Yahoo Sports, NBA.com (12 Nov, 10:39 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Yahoo Sports",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaDNEdmRaZEttZktjQWZUaXFGOEZ4X3o5TlI2b2QxcmQxNTFVa0hrWDY1SFlKaU5QUlAxd3JaTTc2WkJvdWo2RmFtLWtvUVZZUS01eDdsSkcxLXp3ajExcnFHajVpcXBJU0hiQ2wwaHJDOVczOW1oLWNjc29NZVZ0V3h0VGVXU3BIVW5WOXRoWS0?oc=5"
-    },
-    {
-     "outlet": "NBA.com",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzTW5YRGdFNTEwZVBpLWJrMkZhMWR2VXN1S2NyUHc0LTlKNWN2MnhDU1pEN000V3NWcFN3OXY5bDR5d0RZcU1BZ3B1aEtDNGFLOEFPMWxJbWkyaUxlSWdKTWM5X2UzbUxjTWt2b2RzSQ?oc=5"
-    }
-   ],
-   "published": "2026-11-12T17:09:52+00:00",
-   "sensitive": false,
-   "score": 4.3
+   "score": 4.83
   },
   {
    "id": "c5eddd974a",
@@ -2880,7 +2844,7 @@
    ],
    "published": "2026-11-13T16:42:19+00:00",
    "sensitive": false,
-   "score": 4.27
+   "score": 4.14
   },
   {
    "id": "d63b7e1bb6",
@@ -2901,7 +2865,82 @@
    ],
    "published": "2026-11-13T15:08:32+00:00",
    "sensitive": false,
-   "score": 4.14
+   "score": 4.01
+  },
+  {
+   "id": "c663eec3e1",
+   "topic": "nba",
+   "kicker": "NBA",
+   "headline": "Clippers' Bradley Beal still sidelined, getting 'not good results' in ramp-up",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Yahoo Sports (13 Nov, 12:45 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Yahoo Sports",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOak5GMFB2ZTZHTnNyT0xVYlBpaFNNV3YzVWdKeWpTNmJvZjJzWUdOTWJOSFJtdG5fR1dCaDNRQV9WRG1BR2Q0cWVXdnJ1Wi1kQUFPV2ltQ2Jhd2l2bkVmeDJYNjUyQkxEamtEYXViZ1NlblRla3BqaEhqUmVLS1BvTnI0OTZJWU1xbUVRWDhBWQ?oc=5"
+    }
+   ],
+   "published": "2026-11-13T07:15:00+00:00",
+   "sensitive": false,
+   "score": 3.35
+  },
+  {
+   "id": "7ca5058079",
+   "topic": "nba",
+   "kicker": "NBA",
+   "headline": "Pistons vs. Wizards final score: Cade makes history in double OT win",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Yahoo Sports (13 Nov, 9:13 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Yahoo Sports",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVWNqbmRTbS02bU1Ca0U3aEZSZzV6aDlmNXlrd1lwU09Ib2NMdTBQYTZtR0t5MVBPUnYtMUFobWpsZVJ1WUU0MUhGdU52NkpQMk96YWlBT21zYkVHbkE1YzExVzlHWlJVYTlDN3ZycnVZcTRaUl9LYWtwOG5SSFdGS0k5di1Rdw?oc=5"
+    }
+   ],
+   "published": "2026-11-13T03:43:00+00:00",
+   "sensitive": false,
+   "score": 3.06
+  },
+  {
+   "id": "69dadf05a6",
+   "topic": "olympics",
+   "kicker": "Olympics",
+   "headline": "India wins 10 medals at Youth Olympics, boxing scripts historic double gold",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "The Kashmir Horizon, Hindusthan Samachar English, The Assam Tribune, Lokmat Times (14 Nov, 7:59 AM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "The Kashmir Horizon",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWRGR2FuUWFkV1JlQ0xxaTJMNGp2MTQwUFNxUDZOUlA5WHp5YjdXczAzVDU0LUItQmVYQWtaVFhkVTBYSGJWUE56SzFaRjhSYlNGVVZUTVJ2YmsxWXMzZnI1dlRmazFnR1RIQjBWUXI4T28yc1JJWEtaTWdyZlktNlRMUlc0bHRjZjVSLWJTajV0U1R2dzhzSEkxZWF3WFlQMWtPdHYyeTFWUXJiUWthemp5QmhzeU0?oc=5"
+    },
+    {
+     "outlet": "Hindusthan Samachar English",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2dRRTJ5MmJoOEY1blNiczh1aVlGdGZ5YXlSWGtPTlRnd3ppM2pWdFEwRVFFOWRtVzc1cFVpWHRyT2gzNVpra3Y3QmZYTWF0czVhZlpMOGw3VFZfeHhaa3pYQ09MVWxRMDBLR0lvWW9hazNzR3RGU1JiS3M2QUV1YWMwWkxpakxRMWw0bjdXbVUxYmM?oc=5"
+    },
+    {
+     "outlet": "The Assam Tribune",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLXdWcndMMlRzRFFRSGVmc3NXbUVCbzFtSnlQZVZ6YnRCQUxkdl9hYTdCUHNNdURtMWVpU2JPY2hJeVlHV29iRG1QYWd3ZktpVm53SklwTF8tSlNJNUF0LUpsdm1XOE1IbmRLdkJ0YWY4MDJvX0xuOWpCeUJCVjFlcHNkd1VhYXhuMHRDRlhTRGhLTjlBRm40X3V4bU1HYlM3RHNGOFdn0gGrAUFVX3lxTE1qZlIzb0dDWHN0ZmVPbk1Ea2t4NWZxajZKcTNzX3FYaFZLTWhyd0U4YzctbVZ4YnYyNXFZaDFiWUhpVG1ISlkxR0N4dXRuZXlTZjRJcXlBV0c5ZHJra3ZrZVgwZVJsSzZZYWtZeWdzZDdiQUlaeThIWXJQbTNHUVFhYmV2MGRzRTZsUjkzN1N1WVVTUzJucWFRbERuWG92bF9VZTBCOXQteUJlTQ?oc=5"
+    },
+    {
+     "outlet": "Lokmat Times",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNVZ0S2RhUjJiRGQ3MERINllURWNKQkNvRG9adThjNHdxZUxuWWlkRDYyWkpVM0Z4LU1kWGFJUTNEZzVLUnZIVzVZMmR4YkJra0k1czljVE9DUlNPcVh0dkdSMldGRVhSUWpfRHpXbnVJQ1FSS3ZGWVFPRFNhSm5SREVNdmFMNlA2aW1EQ19CNU00ZjZISnJWVE1GeHZVWVVaR3J6dV80V2RjdzlOV3B5VTlGSDJvZVVMVWlsVnkxRWw2UFdYTUNmU2ZlNTJIMXJLX1RsV0VkLW9rUDjSAeABQVVfeXFMT1hGeDlFYzE4M3YzcnBzZ0N4elNhYWNjNEcxUXZoZnd4MXI4WUhPZ3RHclNtYVFnVjNrSTZQeEZFMldremtkdTV0YkVMeTVBZldodUdxU051OFdOQWxrenRYcHJQM0o1ODZDNGNLSFluak1jTFJxcHRFMVF6aGkwVmVZN0xrVUxZNnFDYjJtcXFvVmNkTXRCUkJGdFRiX3o1NXRPRXZZcGtOd0VjNWNPREJLYzNIOUN5R0VnSXFqaU9uajJXOHhUbmVvN0JEUTg5Z0syZy1XZUlEaURzRUw5X0M?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:29:51+00:00",
+   "sensitive": false,
+   "score": 18.95
   },
   {
    "id": "9687f0283d",
@@ -2912,7 +2951,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Imphal Times, India Today NE, Khel Now, WION (13 Nov, 4:51 PM IST)",
+   "source": "Imphal Times, India Today NE, Khel Now, NDTV Sports (13 Nov, 4:51 PM IST)",
    "label": "multi",
    "sources": [
     {
@@ -2928,79 +2967,13 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UNlZfVDB6UDJ1UTUwNk5NQ0hWYmplMFVhVjJMTTdoNlNJY2pkbWt1ZmYwMHFNZmoxWXQ3VVVKaFJOV016Q0JiQmF0a0pWTVNIY2cwV3VfX1QzbkVvNlQ3VTN2TFAtdVVCOWtZQjBKMGc5c2J2aDRhMA?oc=5"
     },
     {
-     "outlet": "WION",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc05Fak4zZkM5UWxPNTFKMmd5a05mOHowR2xxd3d2dTRMMFJ3RXpfcGlrSVVYY2JjajJDNE9wRUpRYmo1cXBJTTY2blcySHIwZnYwb0ZoSGZpYTRNaEdPbDBoNk1wdDEtQWlJaGl0UkhuNnZ3WEYyRlBucGU1QkxIMms5bkgtX2wxUW5rWDd4MlZuVENpNkpmbEdFY1BhQjY4cnU2dWFCQmcyZHltcWI3UnZyUGJ2MEpWcGRqMVNTVmJSZDRxUDZjdzBMVdIB0AFBVV95cUxONTZBa2t3U1JrejlBeFJSM1RMY2F2cVhLbzc4YlIwRVUtTkMtMUxWcF9MNGVXY2RQcjhtamZULUlSSzlueExLb2Q4dTN6TnpEVkhmQUFMUFFiV1dVLXFNUEJwaVlFWU9DV3BBRmFiV05mVzVKT0Nhdk1qMi1CY2h1cmxCaE1YRFFDTVJObzVaeGF1a2Npakpfdkp0QmdFYTRaeHd0em15YXZGU25USEl1Z0JfaVJOZWpNNFRSM1NxREJISlBzQ3N0VWNTaFFwMGp2?oc=5"
+     "outlet": "NDTV Sports",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlN5UzhlTVJOMHRjZ3E3YXl1RDdZUzRkMWV0VGVXRXlRaEoyd3JaeTVoZ2JOMWpURkJTUm1zNG03OWhIQ1J4cGVBaDM5R0QtUVU0SFJQZFNUQ0Y5ZThaUW9fNS1hcUg3blVCdXpnN1doUWxuQ1U0QU9mU1hpV3hZNktnM3h1TVctQ0k5RE4tQ08xR3NZTXBfRkZaWlBpWHk1N3J6MGxtOF93cmtlZmM5aHp4Tzk1TThRaWR6NE56Q2pRbGRwTUlqalVWb29NZw?oc=5"
     }
    ],
    "published": "2026-11-13T11:21:03+00:00",
    "sensitive": false,
-   "score": 11.82
-  },
-  {
-   "id": "3e71936f3d",
-   "topic": "olympics",
-   "kicker": "Olympics",
-   "headline": "India Sign Off from Dakar Youth Olympics with 10 Medals; Boxing Makes Historic Golden Double",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Hindusthan Samachar English, Ommcom News, The News Mill, IndiaSportsHub (13 Nov, 3:52 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Hindusthan Samachar English",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2dRRTJ5MmJoOEY1blNiczh1aVlGdGZ5YXlSWGtPTlRnd3ppM2pWdFEwRVFFOWRtVzc1cFVpWHRyT2gzNVpra3Y3QmZYTWF0czVhZlpMOGw3VFZfeHhaa3pYQ09MVWxRMDBLR0lvWW9hazNzR3RGU1JiS3M2QUV1YWMwWkxpakxRMWw0bjdXbVUxYmM?oc=5"
-    },
-    {
-     "outlet": "Ommcom News",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdHJNOGlzOHFSdngxUHBsYlBfTm9UaWg1Ym1EYzlRZkdmSFBURWR4VnBuQmtmVDRReGtYOXh3SXVTYS04SWpVN3A2XzY5Mi1yck5lbFJ2UGQzQnVmXzMyaVFTU0dTUkRnSGdOVm81SVZyWFpHbGdVNW9JdjdZRTV3Njc3ZzVNZ2ZRYXN3aXpOSFdzTnRpcmpjOGZERi1RSmN1bE5Gb0RnTU5uMElnUXN4dEtEOEsweGJEd1QydFp0SkQ?oc=5"
-    },
-    {
-     "outlet": "The News Mill",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQVhMZEIwUzk2STBOclVXSG1lVzBTNmJfeGoyd1EtaVdFY0NsUXJ5SGl3cS1GVUlsQXFSdmlrZDV4TmgzazVwUklXcWFNUmhycmloWTRQa0hCVVQ4N3kta0RuMVBYMWg4YlM1V2JIYkZ3Q1hMWDR6VzRINnFicWNOQ2pVSUZfTnE3NkdhcFZmb0YwNnZ2a3RNNjhUOFR1aW4teUdDMDZETU11TWlO?oc=5"
-    },
-    {
-     "outlet": "IndiaSportsHub",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOEpldkF0c1l0V296S3pOby0weVFFTlVDaWJQT29fcDR0RTlWTXZBSjVzMmd0dWlYRUFjREZUdEVtV3JkcG5MMmVnemZyMVI2RWRRVW1hRC1Sckx6aTFXdy1JZWNvZjlaNE4tX0hCYnhRVklHVkRPb2VhU1ItejhoWWMxS0xJYy1uVHZaSE5tYVJQendNM2k1V3hqR1l3OXowQ0lSQ2E5NXg4Mks5V1otWXdHX3JRSFdtV3VQcjAwZnRGazN3VXFvR3JhZ01HX0djR3dMclhjQUR1UQ?oc=5"
-    }
-   ],
-   "published": "2026-11-13T10:22:53+00:00",
-   "sensitive": false,
-   "score": 9.74
-  },
-  {
-   "id": "3ddf157b83",
-   "topic": "olympics",
-   "kicker": "Olympics",
-   "headline": "2026 Summer Youth Olympic Games: India Wins Total: 10 Medals",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Utkarsh Classes, News On AIR, Lokmat Times, ANI News (13 Nov, 3:45 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Utkarsh Classes",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNDQ3S0lWM3VoUjVfMHdqYVB0bVg5TmRSdmJlMHFkV1lBSXkyOVgydjF5ZGhqdncxT1M5Nm1nc2JKR2lTMDhqSGY1UnI2U19uREMtVTRIbHd3b3NIOHB1MDFCYW5sdlluYzN6eV9XZG1XdzE0QXl5MzBRQzVRZkFvbDYzdHo3Zi0tV2loMWUybGlsZW9QVHgtaDNrOWwwNmxDMGZnSkVrNHNYX3FVYnVibU0wRDcwS1FKQkJiSXJfVFJDUVF1RGFOaGJiOGt4OTlFTHEwZ0ZQTFNYTXlMVEd1QjNucXVJQW52VTRIM2I5cUw?oc=5"
-    },
-    {
-     "outlet": "News On AIR",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3I3QW5KY0xyMktyeDlHZnJPUEdGYXZ5WGttdTFWbzVuSHRadjNpcHFtUW9DQy1vSDBqTm9aenZ5YWNjcjI5M2laNU5pSVV1ci1mLVJudXhld3VPcHk5LWFEdHV5YUtSSDFMUFFQZ2ZpSVJDbExhWFZ1Wk9jNGJiV3FmeWFCZ0NMWWhmV0hIdlk3U294VUtMenI0ZjhrcUJ5SHFnRTM3czRUUkVKZ3d2NzRR?oc=5"
-    },
-    {
-     "outlet": "Lokmat Times",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNVZ0S2RhUjJiRGQ3MERINllURWNKQkNvRG9adThjNHdxZUxuWWlkRDYyWkpVM0Z4LU1kWGFJUTNEZzVLUnZIVzVZMmR4YkJra0k1czljVE9DUlNPcVh0dkdSMldGRVhSUWpfRHpXbnVJQ1FSS3ZGWVFPRFNhSm5SREVNdmFMNlA2aW1EQ19CNU00ZjZISnJWVE1GeHZVWVVaR3J6dV80V2RjdzlOV3B5VTlGSDJvZVVMVWlsVnkxRWw2UFdYTUNmU2ZlNTJIMXJLX1RsV0VkLW9rUDjSAeABQVVfeXFMT1hGeDlFYzE4M3YzcnBzZ0N4elNhYWNjNEcxUXZoZnd4MXI4WUhPZ3RHclNtYVFnVjNrSTZQeEZFMldremtkdTV0YkVMeTVBZldodUdxU051OFdOQWxrenRYcHJQM0o1ODZDNGNLSFluak1jTFJxcHRFMVF6aGkwVmVZN0xrVUxZNnFDYjJtcXFvVmNkTXRCUkJGdFRiX3o1NXRPRXZZcGtOd0VjNWNPREJLYzNIOUN5R0VnSXFqaU9uajJXOHhUbmVvN0JEUTg5Z0syZy1XZUlEaURzRUw5X0M?oc=5"
-    },
-    {
-     "outlet": "ANI News",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTkFwUnBTc18yZFdRLWt4clQ3NlFtc1lsMmxPVnlhWHc2bmw3S0NPX0RSOElSWUJkUUNJc09VRVZTZ1NJRlN1S3pzcFUyTWt5WWR0Mk9CRDUwNU1zTXNBaUkzUnZwUDlWbk42dFpKQUI3TFlQbWtkVnVkLU1JbzlaR1lfYmtOdVpRRk51dUprdHEwSVVPblBNeklrNlZsaGZfVnE1d1J0R3VRUU9MYzdmOUNHd0dDSnZKem5jU1RUXzl4WkZXaS0tXzlIV2dHT0FpY25qY0RvdHZmWVcyRzJfc3REOVVRNGtPN3BuNkZNWF84N1Z0dUdsSnE3VEI?oc=5"
-    }
-   ],
-   "published": "2026-11-13T10:15:28+00:00",
-   "sensitive": false,
-   "score": 9.73
+   "score": 9.69
   },
   {
    "id": "1b01aebae6",
@@ -3029,7 +3002,32 @@
    ],
    "published": "2026-11-13T05:50:11+00:00",
    "sensitive": false,
-   "score": 7.36
+   "score": 7.23
+  },
+  {
+   "id": "3ddf157b83",
+   "topic": "olympics",
+   "kicker": "Olympics",
+   "headline": "2026 Summer Youth Olympic Games: India Wins Total: 10 Medals",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Utkarsh Classes, News On AIR (13 Nov, 3:45 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Utkarsh Classes",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNDQ3S0lWM3VoUjVfMHdqYVB0bVg5TmRSdmJlMHFkV1lBSXkyOVgydjF5ZGhqdncxT1M5Nm1nc2JKR2lTMDhqSGY1UnI2U19uREMtVTRIbHd3b3NIOHB1MDFCYW5sdlluYzN6eV9XZG1XdzE0QXl5MzBRQzVRZkFvbDYzdHo3Zi0tV2loMWUybGlsZW9QVHgtaDNrOWwwNmxDMGZnSkVrNHNYX3FVYnVibU0wRDcwS1FKQkJiSXJfVFJDUVF1RGFOaGJiOGt4OTlFTHEwZ0ZQTFNYTXlMVEd1QjNucXVJQW52VTRIM2I5cUw?oc=5"
+    },
+    {
+     "outlet": "News On AIR",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3I3QW5KY0xyMktyeDlHZnJPUEdGYXZ5WGttdTFWbzVuSHRadjNpcHFtUW9DQy1vSDBqTm9aenZ5YWNjcjI5M2laNU5pSVV1ci1mLVJudXhld3VPcHk5LWFEdHV5YUtSSDFMUFFQZ2ZpSVJDbExhWFZ1Wk9jNGJiV3FmeWFCZ0NMWWhmV0hIdlk3U294VUtMenI0ZjhrcUJ5SHFnRTM3czRUUkVKZ3d2NzRR?oc=5"
+    }
+   ],
+   "published": "2026-11-13T10:15:28+00:00",
+   "sensitive": false,
+   "score": 5.6
   },
   {
    "id": "4bd2b2ba82",
@@ -3050,7 +3048,7 @@
    ],
    "published": "2026-11-13T18:39:00+00:00",
    "sensitive": false,
-   "score": 4.43
+   "score": 4.3
   },
   {
    "id": "3c91160b06",
@@ -3075,7 +3073,7 @@
    ],
    "published": "2026-11-13T11:39:38+00:00",
    "sensitive": false,
-   "score": 5.85
+   "score": 5.72
   },
   {
    "id": "fea857115a",
@@ -3086,7 +3084,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Filmibeat (14 Nov, 3:19 AM IST)",
+   "source": "Filmibeat (14 Nov, 6:12 AM IST)",
    "label": "single",
    "sources": [
     {
@@ -3094,9 +3092,9 @@
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYk9FMTJwTjdPaE9FSF9iWkY3eHBBWVh5aW5sbUo3aExqRElQMGhwSzNJNXJJdjRjZzNBMEp6bUloMDE4RFJwdzhYc2Y4bUVPQ04wN0I1UWFMRkltdXFHd1VLeFJZVUZnSVZyMkRGUDhJYVNxaWUxY2hkanJVOEJNR0pCbkszb1R4NzZXLUNHLWtfMFItTzl5aHlqUQ?oc=5"
     }
    ],
-   "published": "2026-11-13T21:49:51+00:00",
+   "published": "2026-11-14T00:42:20+00:00",
    "sensitive": false,
-   "score": 4.69
+   "score": 4.8
   },
   {
    "id": "94b872b3e2",
@@ -3117,7 +3115,7 @@
    ],
    "published": "2026-11-13T21:27:47+00:00",
    "sensitive": false,
-   "score": 4.66
+   "score": 4.53
   },
   {
    "id": "53a71af98d",
@@ -3138,7 +3136,7 @@
    ],
    "published": "2026-11-13T18:52:17+00:00",
    "sensitive": false,
-   "score": 4.45
+   "score": 4.32
   },
   {
    "id": "49e568c59a",
@@ -3159,7 +3157,7 @@
    ],
    "published": "2026-11-13T18:32:53+00:00",
    "sensitive": false,
-   "score": 4.42
+   "score": 4.29
   },
   {
    "id": "188af0c8ca",
@@ -3184,91 +3182,91 @@
    ],
    "published": "2026-11-13T19:09:04+00:00",
    "sensitive": false,
-   "score": 6.47
+   "score": 6.34
   },
   {
-   "id": "89c57e32b9",
+   "id": "5db4a6f0dc",
    "topic": "policy",
    "kicker": "Policy",
-   "headline": "After CBI, ED arrests Mahadev betting app scam accused",
+   "headline": "Microsoft outage hits businesses worldwide; India feels impact",
    "sub": "",
-   "card": "“In ED custody, Saurabh Chandrakar will be confronted with the statements of his associates, digital data and documents concerning his foreign entities and…",
+   "card": "Disruption to Microsoft’s cloud-based email service affects business operations and airline customer support in India; public services in several countries…",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 11:34 AM IST)",
+   "source": "The Hindu (14 Nov, 12:51 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/after-cbi-ed-arrests-mahadev-betting-app-scam-accused/article71699161.ece"
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-hits-businesses-worldwide-india-feels-impact/article71698919.ece"
     }
    ],
-   "published": "2026-11-14T06:04:01+05:30",
-   "sensitive": true,
-   "score": 4.92
-  },
-  {
-   "id": "60f8e9f248",
-   "topic": "policy",
-   "kicker": "Policy",
-   "headline": "Two-year-old dies after firecracker explodes inside his mouth",
-   "sub": "",
-   "card": "The victim parents said that the boy put a pop-pop firecracker in his mouth while playing, which exploded, injuring his gums and causing bleeding",
-   "full": [],
-   "why": "",
-   "source": "The Hindu (14 Nov, 10:08 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/chhattisgarh/two-year-old-dies-after-firecracker-explodes-inside-his-mouth/article71699299.ece"
-    }
-   ],
-   "published": "2026-11-14T04:38:21+05:30",
+   "published": "2026-11-14T07:21:27+05:30",
    "sensitive": false,
-   "score": 4.8
+   "score": 4.9
   },
   {
-   "id": "544c51d640",
+   "id": "6ec301eda8",
    "topic": "policy",
    "kicker": "Policy",
-   "headline": "File FIR against those who tarnish party’s image says Bengal BJP chief",
+   "headline": "Himachal approves ₹1,500 monthly financial assistance for women",
    "sub": "",
-   "card": "“BJP has reached here (came to power) by keeping them out. BJP has no need to touch them,” West Bengal BJP president Samik Bhattacharya said, adding that doors…",
+   "card": "Under the scheme, eligible beneficiary families will also receive 300 units of free electricity",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 9:30 AM IST)",
+   "source": "The Hindu (14 Nov, 12:47 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/west-bengal/file-fir-against-those-who-tarnish-partys-image-says-bengal-bjp-chief/article71699315.ece"
+     "url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-approves-1500-monthly-financial-assistance-for-women/article71698523.ece"
     }
    ],
-   "published": "2026-11-14T04:00:32+05:30",
+   "published": "2026-11-14T07:17:55+05:30",
    "sensitive": false,
-   "score": 4.75
+   "score": 4.9
   },
   {
-   "id": "7a74bba1d9",
+   "id": "03b1e415ac",
    "topic": "policy",
    "kicker": "Policy",
-   "headline": "NHRC seeks Education Ministry’s response over alleged neglect of Veer Baal Diwas in schools",
+   "headline": "Over 7,000 books removed from District Central Libraries in Vellore, nearby districts",
    "sub": "",
-   "card": "The NHRC acted on a complaint submitted by Sanjeev Newar of the Seva Nyay Utthan Foundation, which raised concerns about the limited awareness among school…",
+   "card": "Ranipet and Tirupattur have the highest number (2,401) of books each from these publications",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 9:22 AM IST)",
+   "source": "The Hindu (14 Nov, 12:43 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/national/nhrc-seeks-education-ministrys-response-over-alleged-neglect-of-veer-baal-diwas-in-schools/article71699456.ece"
+     "url": "https://www.thehindu.com/news/national/tamil-nadu/over-7000-books-removed-from-district-central-libraries-in-vellore-nearby-districts/article71698167.ece"
     }
    ],
-   "published": "2026-11-14T03:52:39+05:30",
+   "published": "2026-11-14T07:13:03+05:30",
    "sensitive": false,
-   "score": 4.74
+   "score": 4.89
+  },
+  {
+   "id": "5dde9b0e08",
+   "topic": "policy",
+   "kicker": "Policy",
+   "headline": "Congress launches website to help voters check SIR deletions, seek restoration",
+   "sub": "",
+   "card": "Announcing the initiative, Congress general secretary (organisation) K.C. Venugopal said the website, Iamvoterakshak.in, would allow citizens to verify their…",
+   "full": [],
+   "why": "",
+   "source": "The Hindu (14 Nov, 12:42 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "The Hindu",
+     "url": "https://www.thehindu.com/news/national/congress-launches-website-to-help-voters-check-sir-deletions-seek-restoration/article71699249.ece"
+    }
+   ],
+   "published": "2026-11-14T07:12:21+05:30",
+   "sensitive": false,
+   "score": 4.89
   },
   {
    "id": "b765b17f11",
@@ -3293,7 +3291,28 @@
    ],
    "published": "2026-11-13T21:42:15+00:00",
    "sensitive": false,
-   "score": 6.68
+   "score": 6.55
+  },
+  {
+   "id": "84926507d4",
+   "topic": "science",
+   "kicker": "Science",
+   "headline": "The Science One University Sacrificed to Avoid Trump’s Wrath",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "The New York Times (14 Nov, 7:30 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckNxZ2pzdE9ia1gtWE9NQlR5TndodUZJY2NaTk02d2FiN2cwUENZY1JXRmdBV0cxQ0VwVk51allHUGdsUFVaSDVMS0hEYjBVZjBydWluaG9XemNsRFcydHp6SjB2MG90OE1oT0RNcXlvdGtGaC0taEZmNE5kaHJ3UlRxOWFFeGp4aXRGZGRxb1gwM3YtYXRQYzI5aWo?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:00:18+00:00",
+   "sensitive": false,
+   "score": 4.91
   },
   {
    "id": "4ee454d3f5",
@@ -3314,7 +3333,7 @@
    ],
    "published": "2026-11-14T01:15:46+00:00",
    "sensitive": false,
-   "score": 4.98
+   "score": 4.85
   },
   {
    "id": "939f306c86",
@@ -3335,7 +3354,7 @@
    ],
    "published": "2026-11-14T00:17:45+00:00",
    "sensitive": false,
-   "score": 4.9
+   "score": 4.77
   },
   {
    "id": "db8dc89674",
@@ -3356,28 +3375,7 @@
    ],
    "published": "2026-11-14T00:03:56+00:00",
    "sensitive": false,
-   "score": 4.88
-  },
-  {
-   "id": "34c6240e1b",
-   "topic": "science",
-   "kicker": "Science",
-   "headline": "Setback for SpaceX Starship rocket's double-catch test",
-   "sub": "",
-   "card": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
-   "full": [],
-   "why": "",
-   "source": "BBC News (14 Nov, 5:31 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "BBC News",
-     "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
-    }
-   ],
-   "published": "2026-11-14T00:01:01+00:00",
-   "sensitive": false,
-   "score": 4.87
+   "score": 4.75
   },
   {
    "id": "99f11ecbfb",
@@ -3398,7 +3396,7 @@
    ],
    "published": "2026-11-13T16:03:00+00:00",
    "sensitive": false,
-   "score": 4.21
+   "score": 4.08
   },
   {
    "id": "cafe41e81f",
@@ -3419,7 +3417,7 @@
    ],
    "published": "2026-11-13T11:30:17+00:00",
    "sensitive": false,
-   "score": 3.83
+   "score": 3.7
   },
   {
    "id": "819dff5a9d",
@@ -3440,7 +3438,7 @@
    ],
    "published": "2026-11-13T10:20:15+00:00",
    "sensitive": false,
-   "score": 3.73
+   "score": 3.61
   },
   {
    "id": "09dc810706",
@@ -3461,7 +3459,7 @@
    ],
    "published": "2026-11-13T08:09:46+00:00",
    "sensitive": false,
-   "score": 3.55
+   "score": 3.43
   },
   {
    "id": "a746dbf9cf",
@@ -3482,36 +3480,7 @@
    ],
    "published": "2026-11-13T06:13:24+00:00",
    "sensitive": false,
-   "score": 3.39
-  },
-  {
-   "id": "2f524c2220",
-   "topic": "startups",
-   "kicker": "Startups",
-   "headline": "Hundo Pizza Raises ₹7.5 Crore Maiden Institutional Round Led by Titan Capital to Fuel Mumbai Expansion",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Indian Startup Times, Siliconindia, Bharat Fast (12 Nov, 11:01 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Indian Startup Times",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOExqMWhKaEEzSWlxa1h3QnNzUUFxTEtYd1M3RGVfTWxoUE9BOGFfZWVHNndMNTlNRkcxamNYTVpnUldNaEFiWDlIUEI0N0xpUnhfWFpKZjllb2NsTklZekwxRWI3dUlQQUVBODM5ZXVSQlBxd1d6WjNkWnVMYVlFSTAyc2J5dDdFX1VzeTkwand4cmgzV0ZkWV91ZzlVeDZmT1ppaGZsdVNZSnJUVXFiX3R2RmV6ektfVUNlMkdqbWwwbFpwZG1LTER5OGU0RVhSOGdPdjNheUJHS1dOT1lUVl96Nm1EUQ?oc=5"
-    },
-    {
-     "outlet": "Siliconindia",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVm1JVWdhMGpweXI3YVNCekYtdUQwZlpld2NIdkJjZ2ZLNXFWdDY5M1dwQ1V4Zmk1YXJTMjN2cEtqSmZJdmdseUhndWpBOVJrcmNIbW9hZkNmUnVxck80azVDUk9LVGdfMnVHUlRGUGhNY0poZ1lIZVhlTVJjYi01VGY1LWFvUTNfSXZUZFVJQkJvekt2NVF3RERHMzhPVnBmOWpnQmJfbjNwRTd4VTFmZ0hvMkhQd25sSEIzaTBsRkNkcWE2OEVtUGtfcTJNU1ZWWS1mTUZ4MnVMdGdmMmNxYjJ5TjFnMFU?oc=5"
-    },
-    {
-     "outlet": "Bharat Fast",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU0pqZzVqU3hPMDd5Ym4zRm04SE04a21uVWZITWIwSnR2NHBTZ1JndnN2Sk5DTWdIQlg5ckRjZEVxb055enZBeTMxeHdoeVhUSU44aHB4elR1U3lrNW96cHo3bzhYZmRJOEEwZ0hTRjk5S2xUTlBQaVJpMkctcm41bGo5bEpwRkJJTG9SZG9zcUtJaFE?oc=5"
-    }
-   ],
-   "published": "2026-11-12T17:31:44+00:00",
-   "sensitive": false,
-   "score": 6.33
+   "score": 3.26
   },
   {
    "id": "5651c7e8af",
@@ -3536,7 +3505,32 @@
    ],
    "published": "2026-11-12T19:22:25+00:00",
    "sensitive": false,
-   "score": 4.49
+   "score": 4.36
+  },
+  {
+   "id": "2f524c2220",
+   "topic": "startups",
+   "kicker": "Startups",
+   "headline": "Hundo Pizza Raises ₹7.5 Crore Maiden Institutional Round Led by Titan Capital to Fuel Mumbai Expansion",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Indian Startup Times, Siliconindia (12 Nov, 11:01 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Indian Startup Times",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOExqMWhKaEEzSWlxa1h3QnNzUUFxTEtYd1M3RGVfTWxoUE9BOGFfZWVHNndMNTlNRkcxamNYTVpnUldNaEFiWDlIUEI0N0xpUnhfWFpKZjllb2NsTklZekwxRWI3dUlQQUVBODM5ZXVSQlBxd1d6WjNkWnVMYVlFSTAyc2J5dDdFX1VzeTkwand4cmgzV0ZkWV91ZzlVeDZmT1ppaGZsdVNZSnJUVXFiX3R2RmV6ektfVUNlMkdqbWwwbFpwZG1LTER5OGU0RVhSOGdPdjNheUJHS1dOT1lUVl96Nm1EUQ?oc=5"
+    },
+    {
+     "outlet": "Siliconindia",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVm1JVWdhMGpweXI3YVNCekYtdUQwZlpld2NIdkJjZ2ZLNXFWdDY5M1dwQ1V4Zmk1YXJTMjN2cEtqSmZJdmdseUhndWpBOVJrcmNIbW9hZkNmUnVxck80azVDUk9LVGdfMnVHUlRGUGhNY0poZ1lIZVhlTVJjYi01VGY1LWFvUTNfSXZUZFVJQkJvekt2NVF3RERHMzhPVnBmOWpnQmJfbjNwRTd4VTFmZ0hvMkhQd25sSEIzaTBsRkNkcWE2OEVtUGtfcTJNU1ZWWS1mTUZ4MnVMdGdmMmNxYjJ5TjFnMFU?oc=5"
+    }
+   ],
+   "published": "2026-11-12T17:31:44+00:00",
+   "sensitive": false,
+   "score": 4.21
   },
   {
    "id": "337fd477a6",
@@ -3557,7 +3551,7 @@
    ],
    "published": "2026-11-13T14:28:43+00:00",
    "sensitive": false,
-   "score": 4.08
+   "score": 3.95
   },
   {
    "id": "f145a8ddf1",
@@ -3578,7 +3572,7 @@
    ],
    "published": "2026-11-13T13:11:40+00:00",
    "sensitive": false,
-   "score": 3.97
+   "score": 3.85
   },
   {
    "id": "ceb66def69",
@@ -3599,7 +3593,7 @@
    ],
    "published": "2026-11-13T13:02:46+00:00",
    "sensitive": false,
-   "score": 3.96
+   "score": 3.83
   },
   {
    "id": "3ffb31a5a9",
@@ -3632,7 +3626,32 @@
    ],
    "published": "2026-11-13T10:54:34+00:00",
    "sensitive": false,
-   "score": 23.78
+   "score": 23.65
+  },
+  {
+   "id": "017241f9ea",
+   "topic": "stocks",
+   "kicker": "Stocks · Markets",
+   "headline": "Sensex, Nifty snap 3-day rally as oil, inflation worries weigh",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "The Economic Times, IBTimes India (14 Nov, 8:00 AM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdU1iZ1ZBQ2VuRzQ0dVN3VnVCMkdmb3RhSUlMUUxnbDVPRFpOWWFmM040NjM3S3RzNDV6RnVpYnd6WGVmajdpUV9RcmFYXzV1ZUV1WWg1Z3hWVlMzRVlRWU1MVHNOYUFPd0RxNWZEd0xidUdZSHdid0R1eVVIbTZPNDdEeGZ2bmpLNi0tRnRuMWJjcndhd1E1MzFjQl8yZVktTnBFR0NId2lQSkQwaFRER1hpa1pXSV9fQm9aXzFETzlGQ3VUT0xEcENFemJtNUnSAdQBQVVfeXFMTUVXXzgxZTQtc0d2NjhIYUNXaUNvSmxKZ1NhekZQTnd4MlRNNGJPbXJwcmFjTTg2ek5vbHVac2Fnd2lqVF9XUzRDa2x1bmF0OTdjbGhkaEdNMGQ4SURTaE9mOGZJdU9UTGoya1RYeE1ES1ZSTFd6UFAwaEptamhFaThBbGhiTkFrRUVISzNjd1dyRDdRQzIwWnhXV3ByX0VnV1ZLZ3JBcFpLYU82aUczNFlUQmp1UjZfV1doMVVjb1oxUVFqR1BfcFE1bWhrSTJpRVAyODE?oc=5"
+    },
+    {
+     "outlet": "IBTimes India",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORVlxamJISjNfNkIxSl9KRWJjbXZrSlo3c3Fyb05oTllqREdKbU45NjUtTlNkc3ZvRFE1aWJDMFhHOF9pTTBRcUcwLVhkd3hITmZDeV9OV0h1bk9hTWtWZFJDbWczNW9mTlFfMEw0SV9LMkZFaDA2LVZ6Vk5kS2V6ZzBrUUFRY3NtR3dlaHQ1dllCWVkxVExiSWd3LUV4bHpiSEdtOUp3?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:30:42+00:00",
+   "sensitive": false,
+   "score": 6.96
   },
   {
    "id": "b3827c2da7",
@@ -3657,7 +3676,7 @@
    ],
    "published": "2026-11-13T22:58:12+00:00",
    "sensitive": false,
-   "score": 6.79
+   "score": 6.66
   },
   {
    "id": "172ad4ec6d",
@@ -3682,32 +3701,7 @@
    ],
    "published": "2026-11-13T07:28:07+00:00",
    "sensitive": false,
-   "score": 5.5
-  },
-  {
-   "id": "a19c920684",
-   "topic": "stocks",
-   "kicker": "Stocks · Markets",
-   "headline": "Carlsberg said set to start road show for $600 million India IPO",
-   "sub": "",
-   "card": "The proposed Carlsberg India IPO is a pure offer of sale of 86.42 million shares by the Danish parent, for a valuation of $4 billion.",
-   "full": [],
-   "why": "",
-   "source": "Mint, Economic Times (13 Nov, 5:20 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Mint",
-     "url": "https://www.livemint.com/market/ipo/carlsberg-said-set-to-start-road-show-for-600-million-india-ipo-11794550406892.html"
-    },
-    {
-     "outlet": "Economic Times",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms"
-    }
-   ],
-   "published": "2026-11-13T11:50:32+05:30",
-   "sensitive": false,
-   "score": 5.4
+   "score": 5.37
   },
   {
    "id": "b435b75f7d",
@@ -3732,7 +3726,7 @@
    ],
    "published": "2026-11-13T05:21:58+00:00",
    "sensitive": false,
-   "score": 5.32
+   "score": 5.19
   },
   {
    "id": "ba6b4f4a29",
@@ -3757,7 +3751,49 @@
    ],
    "published": "2026-11-14T00:16:50+00:00",
    "sensitive": false,
-   "score": 6.9
+   "score": 6.77
+  },
+  {
+   "id": "db997904f7",
+   "topic": "tennis",
+   "kicker": "Tennis",
+   "headline": "Azuma Visaya Yua Taka live score and H2H results",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Sofascore (14 Nov, 8:12 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Sofascore",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QRFhxakhnM0FDMFEwUHEzWlp0dGg1eDI2Yk8yZjRFRS1TSWE4VW9kMkp1M3NVNzZXek1LczdCNXdyeEdweW5BWVE5SVJRb2lWQ21kOUdpSUtjQWVQQmg4UGU5ZDBlVm5mSWxkTzVDS1N2MVJEY0hUbnl3?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:42:15+00:00",
+   "sensitive": false,
+   "score": 4.97
+  },
+  {
+   "id": "aee8d417cf",
+   "topic": "tennis",
+   "kicker": "Tennis",
+   "headline": "WTA Finals 2026 Results: Sabalenka eliminated",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Laodong.vn (14 Nov, 7:43 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Laodong.vn",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzFMWERhaTVkZHhZR1lXVlRJVEtEWUZuUUh2cXl1bTVJajFRcGtTVjJaOUlOYklEcUlDUU5jQWJWWXRYdk9DT2szOTlhM290QTZqR2lPRmYtVGJJeG56MGFhbmZPWGR0dVNKOU14MjB6NzdYQTdvMUY4U2lBcGhHZGhTQnRQTTBSTVVQMg?oc=5"
+    }
+   ],
+   "published": "2026-11-14T02:13:53+00:00",
+   "sensitive": false,
+   "score": 4.93
   },
   {
    "id": "2534e7ef63",
@@ -3778,7 +3814,7 @@
    ],
    "published": "2026-11-14T00:51:25+00:00",
    "sensitive": false,
-   "score": 4.94
+   "score": 4.82
   },
   {
    "id": "c4a2bed43e",
@@ -3799,49 +3835,7 @@
    ],
    "published": "2026-11-13T20:36:11+00:00",
    "sensitive": false,
-   "score": 4.59
-  },
-  {
-   "id": "c5019829b1",
-   "topic": "tennis",
-   "kicker": "Tennis",
-   "headline": "USA Hungary live score and H2H results",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Sofascore (14 Nov, 12:35 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Sofascore",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6V1FPQjRna1hCRTA3cy0zUm9ZbFRPMmNUTkEwb0pMbGUySUNaZGJiRGhHX3F1VVNUbTJUampxRTBYTVVJOVg2ZDIxRmJ0UU9kc1VxSjVEbEhzYmpQMlRxV2p2SGxTZVRqMzhHXw?oc=5"
-    }
-   ],
-   "published": "2026-11-13T19:05:27+00:00",
-   "sensitive": false,
    "score": 4.46
-  },
-  {
-   "id": "1fc87c7347",
-   "topic": "tennis",
-   "kicker": "Tennis",
-   "headline": "ATP Finals 2026: Draw, format and schedule as Carlos Alcaraz sets Alexander Zverev in his sights",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "The New York Times (13 Nov, 9:22 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVW1VcEJwelNqVV9PUHNHTnlPOEZtUzJ3ZjJ0RnNfVW1RbWI1NEVOUHhjUjl1cXV5MUVESzZURWZuM1FXS1I4R3ZPVlJESmE3MTBCa2JsVnY2R2NIYjZPWUo3Nk00dWc1MkUzbVB6N09WTXNOMWlnS2ptRHA2N1JHaURlb1I4RUZLYlhSc0VtWURfWDZpb2tkN2dhTy13LXpGdHZ4TQ?oc=5"
-    }
-   ],
-   "published": "2026-11-13T15:52:34+00:00",
-   "sensitive": false,
-   "score": 4.2
   },
   {
    "id": "12f43ca5a5",
@@ -3862,7 +3856,7 @@
    ],
    "published": "2026-11-13T17:31:19+00:00",
    "sensitive": false,
-   "score": 4.33
+   "score": 4.21
   },
   {
    "id": "de17189eaf",
@@ -3887,7 +3881,7 @@
    ],
    "published": "2026-11-12T16:18:37+00:00",
    "sensitive": false,
-   "score": 4.23
+   "score": 4.11
   },
   {
    "id": "cc8b08d482",
@@ -3908,7 +3902,7 @@
    ],
    "published": "2026-11-13T14:57:44+00:00",
    "sensitive": false,
-   "score": 4.12
+   "score": 3.99
   },
   {
    "id": "cf2b2039ed",
@@ -3929,7 +3923,7 @@
    ],
    "published": "2026-11-13T13:41:14+00:00",
    "sensitive": false,
-   "score": 4.01
+   "score": 3.89
   },
   {
    "id": "af5fa82923",
@@ -3950,36 +3944,7 @@
    ],
    "published": "2026-11-13T12:30:05+00:00",
    "sensitive": false,
-   "score": 3.92
-  },
-  {
-   "id": "7ce25c7685",
-   "topic": "tv",
-   "kicker": "Television",
-   "headline": "Shilpa Shetty to host relationship reality show Pyaar Ka Pressure Cooker; to replace Bigg Boss time slot on Colors",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Bollywood Hungama, Variety, Adgully (13 Nov, 1:53 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Bollywood Hungama",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUWFOMG93VlA4MktnV3VpV2N0eVczWjNSbGMyTHNSSU1pcmhZcjQxSDl2bkpOUEhzWW9PM0duRVB5RVNQb2hDXzJxckNlU0JZeWtOaUJtV0lkcVl2TUc1R0thaDhrWkctX0M3SzllRWtQLWtQSXlHbHYxTEJIRVFjQlg1YWlsZ1F4aVg2RVRwRXFqMGNTMnNFU3Z6QWhiNFdBbmRlODBwVFBtUEloUmJCWlBFU3JneU1lVnRnVERKVmNybTVlV2JXb0FlaWthajNxS1d1Ym9GdGpuSHBFS0x6SWlUeE9CUlJHZ212VjVwX3huUkdi0gH6AUFVX3lxTE8tTVlMcnlVdnF4dGJSU3dvY201V1Z3Tk9DMjJoM1pYdkh3SW4ydHdOTTVjYTRJbEE2TmNKbmRTWlk0OFpHWm1zN3EyVERYcHY4WEMyVEZMRncxdXFLZVNNVC1VaXRqdW41eG41Q19YMklRVjZYVjJ5RVFMaURfUmxXLVFxa3dpeDhMZHFVT0Ffemx4ZldfX0xNRzZSdzAtSXl2YWdHRUw5T3V1YzJ6V1pjN1B5UGpiUnhuZF9ld1h2SFdNYUgzVnI1Qk9lSEVWWjlrMFY2U2NraGp4cENQLVZjSzQ5aVMwY2J0eFpIekRabUxGWGwzVnJ0VUE?oc=5"
-    },
-    {
-     "outlet": "Variety",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdkpuclk2amtEUlJxdXVjQW1taGZKSTBHaExWMUw5Qm8wYmp6eElQbXpLRWpoa1p4ZnJQdnB3bnJsZVB4dlJnLXZvOG5EcmtpcEp5M0pndlJ0U2lOdTdRMXpiN0dqajZSNjg3cEN2aGpfU0tTdGRXUWtTcUdtR1ZqeGFTNU50Y3IyNkkwYXN4SzlvcWI1R0NUd3FwTlBBQUM1bjZv?oc=5"
-    },
-    {
-     "outlet": "Adgully",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcW5INUxqV1lNTzJNQ09jZHVEVjlJS25vVG1Za3daMVdWZEliWDhkNkcwblZjUjhhWjRUQUhnNWdvOVYxRTRiZDE5Tm5MVDhJMlg3Mnk1UmxSaklEYWpEcFdOTG9ldzNxZFZZczhBbjZmOXhvaWdZdTVhWHJfbzYzZlFpV1R5Y1FnaWdMa3ExaW1wcWRUc1V3OHlBd0p0SHpPUmZHQWJsQXhuNXFCV1N5NTFHVTAxc2xyZENuMU5NZy1yWWVtdUV4MVUtblBodFAwcWtleA?oc=5"
-    }
-   ],
-   "published": "2026-11-13T08:23:39+00:00",
-   "sensitive": false,
-   "score": 7.57
+   "score": 3.79
   },
   {
    "id": "2a4f7701aa",
@@ -4004,7 +3969,57 @@
    ],
    "published": "2026-11-13T08:57:35+00:00",
    "sensitive": false,
-   "score": 5.62
+   "score": 5.49
+  },
+  {
+   "id": "7ce25c7685",
+   "topic": "tv",
+   "kicker": "Television",
+   "headline": "Shilpa Shetty to host relationship reality show Pyaar Ka Pressure Cooker; to replace Bigg Boss time slot on Colors",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Bollywood Hungama, Adgully (13 Nov, 1:53 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Bollywood Hungama",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUWFOMG93VlA4MktnV3VpV2N0eVczWjNSbGMyTHNSSU1pcmhZcjQxSDl2bkpOUEhzWW9PM0duRVB5RVNQb2hDXzJxckNlU0JZeWtOaUJtV0lkcVl2TUc1R0thaDhrWkctX0M3SzllRWtQLWtQSXlHbHYxTEJIRVFjQlg1YWlsZ1F4aVg2RVRwRXFqMGNTMnNFU3Z6QWhiNFdBbmRlODBwVFBtUEloUmJCWlBFU3JneU1lVnRnVERKVmNybTVlV2JXb0FlaWthajNxS1d1Ym9GdGpuSHBFS0x6SWlUeE9CUlJHZ212VjVwX3huUkdi0gH6AUFVX3lxTE8tTVlMcnlVdnF4dGJSU3dvY201V1Z3Tk9DMjJoM1pYdkh3SW4ydHdOTTVjYTRJbEE2TmNKbmRTWlk0OFpHWm1zN3EyVERYcHY4WEMyVEZMRncxdXFLZVNNVC1VaXRqdW41eG41Q19YMklRVjZYVjJ5RVFMaURfUmxXLVFxa3dpeDhMZHFVT0Ffemx4ZldfX0xNRzZSdzAtSXl2YWdHRUw5T3V1YzJ6V1pjN1B5UGpiUnhuZF9ld1h2SFdNYUgzVnI1Qk9lSEVWWjlrMFY2U2NraGp4cENQLVZjSzQ5aVMwY2J0eFpIekRabUxGWGwzVnJ0VUE?oc=5"
+    },
+    {
+     "outlet": "Adgully",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcW5INUxqV1lNTzJNQ09jZHVEVjlJS25vVG1Za3daMVdWZEliWDhkNkcwblZjUjhhWjRUQUhnNWdvOVYxRTRiZDE5Tm5MVDhJMlg3Mnk1UmxSaklEYWpEcFdOTG9ldzNxZFZZczhBbjZmOXhvaWdZdTVhWHJfbzYzZlFpV1R5Y1FnaWdMa3ExaW1wcWRUc1V3OHlBd0p0SHpPUmZHQWJsQXhuNXFCV1N5NTFHVTAxc2xyZENuMU5NZy1yWWVtdUV4MVUtblBodFAwcWtleA?oc=5"
+    }
+   ],
+   "published": "2026-11-13T08:23:39+00:00",
+   "sensitive": false,
+   "score": 5.45
+  },
+  {
+   "id": "f3bd3c5900",
+   "topic": "tv",
+   "kicker": "Television",
+   "headline": "Dish TV’s hardware sales prop up revenue as Q2 loss more than doubles to Rs 295.7 crore",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Indian Television Dot Com, Storyboard18 (13 Nov, 12:40 PM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "Indian Television Dot Com",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ0UzOEQzWkI0YkNKVmJsczdVclVVbGYxTmNyR0FDb3FveVlVZEhYczNOdHFNcnphWXJTMS1zb01QUmhtLUJsSE5iaG9sUHNBTDZLd1BoMHRGR2RlSVdlRGJjV1J6aDFQNVpTUE5mZHFoNnY3WklvbWQ4NW54aGRVTzJyNkNPUmNTYUJkSUZTTXptOWQyRXJPWGJTRXdYaGE1TlRXRGt0c0M0ck5QckNfOTFHSFF4YWpxUTdraVBySWxTODBIVl9nYlZ1Y1VOQQ?oc=5"
+    },
+    {
+     "outlet": "Storyboard18",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGIzMDNnZHRBYXZJcTZmakFiR2R2bEV1UWVDY0JSaFV3Sktkb2drYlJ4R19ncGxDNi0wREhpM3dvcHV1V3EzdkdfdzVGaFc2RzZUMlg3WEpRaEhVRUxRMmdjZGl3bmFpTzBvU0o4Z2N0N0NJRjRVeUlnQ2thbFljY3lqM2dGTTFvcVI1RU9BYV8wOEVPbFJRRVpBc212aVRHamfSAacBQVVfeXFMUGhSbW12di1lRGw4WEhDVktmQTk0eUNfTVNhQm5rU1I5REpRdUc3dFc1SGpUUUJEbU5qX1lBSm5lVURxUkFYalNMYkdXMC1YU25yTEMtM1VuaktZSHVYcDluUmstY0REdnpXRkpfa1lBRGp1S3RZSHJueHd2M2RrTzNoY3NITzVBWnFtS0dlUDJLRkMwbG5HWS0walprUFNqVldmMDBWZU0?oc=5"
+    }
+   ],
+   "published": "2026-11-13T07:10:47+00:00",
+   "sensitive": false,
+   "score": 5.34
   },
   {
    "id": "a0f050b64a",
@@ -4025,7 +4040,7 @@
    ],
    "published": "2026-11-13T11:58:00+00:00",
    "sensitive": false,
-   "score": 3.87
+   "score": 3.74
   },
   {
    "id": "c6f836a387",
@@ -4046,39 +4061,18 @@
    ],
    "published": "2026-11-13T10:05:22+00:00",
    "sensitive": false,
-   "score": 3.71
+   "score": 3.59
   },
   {
-   "id": "674279a7db",
-   "topic": "tv",
-   "kicker": "Television",
-   "headline": "This Actor Started His Career With BR Chopra's Mahabharat, Now He Is Part Of Ramayana",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "News18 (13 Nov, 3:30 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "News18",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNjVIYmJjTEd4X0UtMTFxYktrV2JPNm1QcGJxTFJhbTA5WUkyUUxpMjZ6c3l2YVNBdlNIaUtPSjRONlBEbnloR3Q5czhGMDFYUkpkb3JVTEdNVWtjTkJUNEhkdDNUZjhmSEZkMWhXd1N6YXV0eWdfajhKVmNiOHJLZEV6SXlCWUNacFhEdjd5aElxNXhEQ3pLNDA0Z1VSSGJ0NF9wYTVkLWY4NjhIdU5JVDdoOUdoUmVLVE4yZG1qY1c1WWRBdHFrcUFIaEg0dEN6Wl9seUF5QzZYVUpoV2hUSnZhaWs1aW9nTG4wcXBTaXVRQdIB8gFBVV95cUxNNjVIYmJjTEd4X0UtMTFxYktrV2JPNm1QcGJxTFJhbTA5WUkyUUxpMjZ6c3l2YVNBdlNIaUtPSjRONlBEbnloR3Q5czhGMDFYUkpkb3JVTEdNVWtjTkJUNEhkdDNUZjhmSEZkMWhXd1N6YXV0eWdfajhKVmNiOHJLZEV6SXlCWUNacFhEdjd5aElxNXhEQ3pLNDA0Z1VSSGJ0NF9wYTVkLWY4NjhIdU5JVDdoOUdoUmVLVE4yZG1qY1c1WWRBdHFrcUFIaEg0dEN6Wl9seUF5QzZYVUpoV2hUSnZhaWs1aW9nTG4wcXBTaXVRQQ?oc=5"
-    }
-   ],
-   "published": "2026-11-13T10:00:29+00:00",
-   "sensitive": false,
-   "score": 3.71
-  },
-  {
-   "id": "d15207274a",
+   "id": "78235766cf",
    "topic": "world",
    "kicker": "World Affairs",
-   "headline": "U.S. FAA ground stop LIVE updates: All flights grounded; no indication country under threat, says Homeland Security chief",
+   "headline": "U.S. FAA ground stop LIVE updates: Nationwide ​halt ⁠to ‌flight ‌take-offs cancelled, FAA says",
    "sub": "",
    "card": "The incident marks only the second time such an alert was given in U.S. airspace since the 9/11 attacks.",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 12:26 PM IST)",
+   "source": "The Hindu (14 Nov, 12:52 PM IST)",
    "label": "single",
    "sources": [
     {
@@ -4086,51 +4080,30 @@
      "url": "https://www.thehindu.com/news/international/us-flights-grounded-faa-nationwide-stop-usa-flights-live-updates-november-14-2026/article71700693.ece"
     }
    ],
-   "published": "2026-11-14T06:56:52+05:30",
+   "published": "2026-11-14T07:22:07+05:30",
    "sensitive": false,
-   "score": 4.99
+   "score": 4.9
   },
   {
-   "id": "3af051cac0",
+   "id": "98e8519e8d",
    "topic": "world",
    "kicker": "World Affairs",
-   "headline": "Microsoft Outage LIVE: Microsoft apologises as global service outage eases",
+   "headline": "Trump, Xi and Putin plan unprecedented joint meeting on sidelines of APEC in China: officials",
    "sub": "",
-   "card": "Microsoft is testing fixes, rerouting traffic and boosting server capacity as it works to stabilise its systems and restore services",
+   "card": "For the Kremlin, the planned trilateral meeting is a coveted chance to posture as a superpower on par with Washington and Beijing",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 12:23 PM IST)",
+   "source": "The Hindu (14 Nov, 12:47 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outlook-outage-status-microsoft-365-services-live-updates-november-14-2026/article71700692.ece"
+     "url": "https://www.thehindu.com/news/international/trump-xi-and-putin-plan-an-unprecedented-joint-meeting-apec-summit-china/article71700699.ece"
     }
    ],
-   "published": "2026-11-14T06:53:31+05:30",
+   "published": "2026-11-14T07:17:32+05:30",
    "sensitive": false,
-   "score": 4.99
-  },
-  {
-   "id": "45f943abae",
-   "topic": "world",
-   "kicker": "World Affairs",
-   "headline": "Microsoft Outage updates: No ETA yet on full recovery, company says",
-   "sub": "",
-   "card": "Microsoft services are beginning to come back online after a massive global outage left millions of users without access for nearly 18 hours",
-   "full": [],
-   "why": "",
-   "source": "The Hindu (14 Nov, 12:18 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece"
-    }
-   ],
-   "published": "2026-11-14T06:48:21+05:30",
-   "sensitive": false,
-   "score": 4.98
+   "score": 4.9
   },
   {
    "id": "3474de4eca",
@@ -4141,7 +4114,7 @@
    "card": "The incident marked only the second time such an alert was given in U.S. airspace since the 9/11 attacks; Homeland Security Secretary Markwayne Mullin said…",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 11:40 AM IST)",
+   "source": "The Hindu (14 Nov, 12:47 PM IST)",
    "label": "single",
    "sources": [
     {
@@ -4149,30 +4122,51 @@
      "url": "https://www.thehindu.com/news/international/all-departing-us-flights-grounded-due-to-communication-outage/article71700667.ece"
     }
    ],
-   "published": "2026-11-14T06:10:42+05:30",
+   "published": "2026-11-14T07:17:16+05:30",
    "sensitive": false,
-   "score": 4.93
+   "score": 4.89
   },
   {
-   "id": "f1d298eccc",
+   "id": "5c2412e927",
    "topic": "world",
    "kicker": "World Affairs",
-   "headline": "Tanker hits a river cruise boat on Mississippi River in New Orleans; rescue operations under way",
+   "headline": "Megaspeed: Gaming company to chips linchpin",
    "sub": "",
-   "card": "All aboard survived after the crash prompted a massive rescue operation for passengers and crew who plunged into the Mississippi River as the ship took on…",
+   "card": "How Megaspeed, a little-known firm started by Alice Huang, became a linchpin in the chips trade",
    "full": [],
    "why": "",
-   "source": "The Hindu (14 Nov, 10:43 AM IST)",
+   "source": "The Hindu (14 Nov, 12:34 PM IST)",
    "label": "single",
    "sources": [
     {
      "outlet": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece"
+     "url": "https://www.thehindu.com/news/international/megaspeed-gaming-company-to-chips-linchpin/article71697385.ece"
     }
    ],
-   "published": "2026-11-14T05:13:42+05:30",
+   "published": "2026-11-14T07:04:07+05:30",
    "sensitive": false,
-   "score": 4.85
+   "score": 4.88
+  },
+  {
+   "id": "3af051cac0",
+   "topic": "world",
+   "kicker": "World Affairs",
+   "headline": "Microsoft Outage LIVE: Microsoft apologises as global service outage eases",
+   "sub": "",
+   "card": "Microsoft is testing fixes, rerouting traffic and boosting server capacity as it works to stabilise its systems and restore services",
+   "full": [],
+   "why": "",
+   "source": "The Hindu (14 Nov, 12:31 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "The Hindu",
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outlook-outage-status-microsoft-365-services-live-updates-november-14-2026/article71700692.ece"
+    }
+   ],
+   "published": "2026-11-14T07:01:36+05:30",
+   "sensitive": false,
+   "score": 4.87
   }
  ]
 }
