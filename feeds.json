@@ -2,7 +2,6 @@
   "_note": "Each entry is a news source. 'topics' are the app sub-head ids it feeds. 'search' entries use Google News RSS with a query, so one query returns many outlets (good for the two-sources check). Run check_feeds.py first and delete any feed that fails.",
   "feeds": [
     {"outlet": "Mint", "url": "https://www.livemint.com/rss/markets", "topics": ["stocks"]},
-    {"outlet": "Business Standard", "url": "https://www.business-standard.com/rss/markets-106.rss", "topics": ["stocks"]},
     {"outlet": "Economic Times", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", "topics": ["stocks"]},
     {"outlet": "The Hindu", "url": "https://www.thehindu.com/business/Economy/feeder/default.rss", "topics": ["economy"]},
     {"outlet": "ESPNcricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml", "topics": ["cricket"]},
