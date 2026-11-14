@@ -18,4 +18,5 @@ assert len(cr) == 1 and cr[0]["label"] == "multi", cr     # two outlets merged
 assert not any("last week" in s["headline"] for s in out)   # stale dropped
 assert any(s["sensitive"] for s in out)                     # flagged for under-18 filter
 assert all(s["label"] in ("multi", "single") for s in out)
+assert news.outlet_key("BBC News")==news.outlet_key("BBC Sport")==news.outlet_key("BBC")
 print("all tests passed:", len(out), "stories")
