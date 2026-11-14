@@ -10,7 +10,7 @@ FEEDS = json.load(open("feeds.json"))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; TSTimesBot/0.1)"}
 STOP = set("a an the of in on at to for and or as is are was were be by with from after over into this that its it his her their new says say said us vs amid".split())
 # Stories matching this are flagged so the app can hide them from readers under 18.
-SENSITIVE = re.compile(r"\b(murder|rape|suicide|killed|killing|shot dead|terror\w*|attack|bomb|gambl\w*|betting|casino|drugs?|porn\w*|abuse|crime|arrested)\b", re.I)
+SENSITIVE = re.compile(r"\b(murder|rape|suicide|killed|killing|shot dead|terror\w*|attack|bomb|sex\w*|scandal|assault|harass\w*|gambl\w*|betting|casino|drugs?|porn\w*|abuse|crime|arrested)\b", re.I)
 KICKER = {"stocks":"Stocks · Markets","ipos":"IPOs","economy":"Economy","finance":"Personal Finance","startups":"Startups","gold":"Gold","cricket":"Cricket","football":"Football","nba":"NBA","tennis":"Tennis","f1":"Formula 1","hockey":"Hockey","badminton":"Badminton","olympics":"Olympics","kabaddi":"Kabaddi","movies":"Movies","ott":"OTT & Series","music":"Music","tv":"Television","gaming":"Gaming","ai":"AI","gadgets":"Gadgets & Apps","cyber":"Cybersecurity","space":"Space","fashion":"Fashion","food":"Food","travel":"Travel","fitness":"Fitness","exams":"Exams","careers":"Careers","science":"Science","climate":"Climate","policy":"Policy","elections":"Elections","world":"World Affairs","courts":"Courts & Law"}
 
 def fetch(url, timeout=15):
@@ -55,6 +55,12 @@ def parse_feed(xml_bytes, default_outlet):
             out.append({"title": title, "link": link.strip(), "desc": desc, "when": when, "outlet": outlet})
     return out
 
+def outlet_key(name):
+    """Same publisher under different names (BBC / BBC News / BBC Sport) counts once."""
+    k = re.sub(r"[^a-z0-9 ]", "", name.lower())
+    k = re.sub(r"\b(news|sport|sports|india|the|online|live)\b", "", k)
+    return re.sub(r"\s+", " ", k).strip() or name.lower()
+
 def tokens(title):
     w = re.findall(r"[a-z0-9₹%.]+", title.lower())
     return {x.strip(".") for x in w if x.strip(".") and x not in STOP}
@@ -97,7 +103,7 @@ def build(items, now):
             its = g["items"]; lead = its[0]
             outlets = []
             for i in its:
-                if i["outlet"] not in [o["outlet"] for o in outlets]: outlets.append({"outlet": i["outlet"], "url": i["link"]})
+                if outlet_key(i["outlet"]) not in [outlet_key(o["outlet"]) for o in outlets]: outlets.append({"outlet": i["outlet"], "url": i["link"]})
             n = len(outlets)
             age_h = (now - lead["when"]).total_seconds() / 3600
             score = n * 2 + max(0, 1 - age_h / CFG["max_age_hours"]) * 3
