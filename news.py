@@ -27,7 +27,7 @@ RELEVANT = {
  "startups": r"startup|funding|raises|unicorn|founder|series [a-d]|seed round", "economy": r"economy|gdp|inflation|trade|export|import|rbi|fiscal|rupee|growth",
 }
 # Low-value or risky items we never want as news cards.
-JUNK = re.compile(r"live stream\w*|where to watch|match prediction|pitch report|playing ?(11|xi)|dream ?11|fantasy|h2h|live score|betting|odds|telecast|how to watch|promo code|coupon", re.I)
+JUNK = re.compile(r"live stream\w*|where to watch|predict\w*|schedule of play|date, time,? (and )?venue|commentary|live blog|pitch report|playing ?(11|xi)|dream ?11|fantasy|h2h|live score|betting|odds|telecast|how to watch|promo code|coupon", re.I)
 def is_english(t):
     letters = [c for c in t if c.isalpha()]
     return not letters or sum(ord(c) > 0x24F or 0xC0 <= ord(c) <= 0x24F for c in letters) / len(letters) < 0.06
