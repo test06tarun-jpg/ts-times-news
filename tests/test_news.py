@@ -23,4 +23,7 @@ assert not news.keep({"title":"PAK vs IND match prediction","desc":"","topic":"c
 assert not news.keep({"title":"Matt Henry leaves ODI squad","desc":"","topic":"kabaddi"})
 assert news.keep({"title":"Pro Kabaddi League opener","desc":"","topic":"kabaddi"})
 assert not news.keep({"title":"Sabalenka eliminated Laodộng Việt Nam tin tức","desc":"","topic":"tennis"})
+assert not news.keep({"title":"Juventus vs Venezia Serie A football prediction","desc":"","topic":"football"})
+assert not news.keep({"title":"ATP Finals: Schedule of Play for Sunday","desc":"","topic":"tennis"})
+assert news.keep({"title":"Alcaraz to face Zverev in ATP Finals title decider","desc":"","topic":"tennis"})
 print("all tests passed:", len(out), "stories")
