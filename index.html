@@ -1,0 +1,637 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>T.S Times</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap">
+<style>
+/* Layout: phone-first shell. Sign-up is a one-question-per-screen wizard; after it, a bottom-tab app. Cards are full-height snap cards with illustrated artwork, ending on a "caught up" card. */
+:root{
+  --bg:#F5F4F0; --surface:#FFFFFF; --ink:#15171B; --muted:#5B606A; --line:#DEDCD5; --soft:#ECEAE4;
+  --biz:#1E7F5C; --sport:#1F5FA8; --ent:#B5365F; --tech:#5B4BB5; --life:#97660F; --pol:#3B4A5A; --edu:#0F7C8A; --sci:#5A7D1F; --red:#C8372D;
+  --ok:#17663F; --warn:#8A5A00; --bad:#A22A2A; --okbg:#DDF0E5; --warnbg:#F8EBCB; --badbg:#F6DCDC; --focus:#1F5FA8;
+  --f-head:'Playfair Display',Georgia,serif; --f-body:'Source Serif 4',Georgia,serif; --f-ui:'Inter',system-ui,sans-serif; --f-logo:'Space Grotesk',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1013; --surface:#181B20; --ink:#F1F0EC; --muted:#A3A8B1; --line:#2B2F36; --soft:#20242A;
+  --ok:#7FD6A5; --warn:#F0C569; --bad:#F29B9B; --okbg:#173525; --warnbg:#3A2E10; --badbg:#3E1B1B; --focus:#7DB1F0; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1013; --surface:#181B20; --ink:#F1F0EC; --muted:#A3A8B1; --line:#2B2F36; --soft:#20242A;
+  --ok:#7FD6A5; --warn:#F0C569; --bad:#F29B9B; --okbg:#173525; --warnbg:#3A2E10; --badbg:#3E1B1B; --focus:#7DB1F0; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.45}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+#app{height:100%;max-width:520px;margin:0 auto;display:flex;flex-direction:column;background:var(--bg)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:9px;font-family:var(--f-logo);font-weight:700;font-size:22px;line-height:1;letter-spacing:-.6px}
+.tile{width:30px;height:30px;border-radius:8px;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:center;font-size:16px;letter-spacing:-.8px}
+.tile i{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--red);margin-left:.08em}
+.soon{font-size:11px;font-weight:600;color:var(--warn);background:var(--warnbg);border-radius:99px;padding:2px 7px}
+.ch[aria-pressed="true"] .soon{background:transparent;color:inherit;opacity:.8}
+.pos{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+main{flex:1;min-height:0;position:relative}
+.view{position:absolute;inset:0;overflow-y:auto}
+.pad{padding-block:18px 28px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);background:var(--surface);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav[hidden]{display:none}
+nav button{background:none;border:0;padding:10px 4px 9px;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:12px;color:var(--muted);cursor:pointer;font-weight:500}
+nav button svg{width:22px;height:22px}
+nav button[aria-selected="true"]{color:var(--ink)}
+nav button[aria-selected="true"] span{border-bottom:2px solid var(--ink)}
+/* cards */
+.deck{scroll-snap-type:y proximity}
+.card{min-height:100%;scroll-snap-align:start;padding-block:14px 18px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex}
+.cardin{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;width:100%}
+.art{height:200px;position:relative;flex:none;color:#fff;background:linear-gradient(150deg,var(--c),color-mix(in srgb,var(--c) 55%,#000))}
+.art svg.bg{position:absolute;inset:0;width:100%;height:100%}
+.art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.art::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.62),rgba(0,0,0,0) 62%)}
+.tagrow{position:absolute;z-index:1;left:14px;bottom:12px;right:14px;display:flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:.9px;text-transform:uppercase}
+.tagrow svg{width:18px;height:18px;flex:none}
+.credit{position:absolute;z-index:1;right:10px;top:8px;font-size:10px;opacity:.8}
+.cbody{padding:16px 16px 18px;display:flex;flex-direction:column;gap:12px;flex:1}
+.cbody h2{font-family:var(--f-head);font-weight:900;font-size:25px;line-height:1.12;margin:0;text-wrap:balance}
+.cbody .sub{font-style:italic;color:var(--muted);font-family:var(--f-body);margin:-4px 0 0}
+.cbody p{font-family:var(--f-body);font-size:17px;line-height:1.5;margin:0}
+.full p{margin:0 0 10px}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:99px;font-weight:600;font-size:11.5px}
+.chip.multi{background:var(--okbg);color:var(--ok)}.chip.single{background:var(--warnbg);color:var(--warn)}.chip.data{background:var(--soft);color:var(--muted)}
+.why{border-left:3px solid var(--c);background:var(--soft);padding:9px 12px;border-radius:0 8px 8px 0;font-family:var(--f-body);font-style:italic;font-size:15.5px}
+.why b{display:block;font-family:var(--f-ui);font-style:normal;font-size:10.5px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.more{margin-top:auto;background:none;border:1px solid var(--line);border-radius:10px;padding:11px 14px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.more:hover{background:var(--soft)}
+.edu{font-size:12px;color:var(--muted)}
+.end{align-items:center;text-align:center}
+.end .cardin{padding:36px 24px;align-items:center;gap:14px}
+.end h2{font-family:var(--f-head);font-size:28px;margin:0}
+.end p{color:var(--muted);margin:0;max-width:34ch}
+.tick{width:54px;height:54px;border-radius:50%;background:var(--okbg);color:var(--ok);display:grid;place-items:center}
+.meta a{color:inherit;text-decoration:underline}
+.sug{margin-left:auto;font-size:11px;font-weight:600;background:rgba(255,255,255,.22);border-radius:99px;padding:2px 8px}
+.quiet{font-size:13px;background:var(--soft);padding:10px 12px;border-radius:10px;width:100%;text-align:left}
+/* wizard + forms */
+h1{font-family:var(--f-head);font-size:30px;line-height:1.1;margin:0 0 6px;text-wrap:balance}
+.lede{color:var(--muted);margin:0 0 20px;max-width:46ch}
+.prog{display:flex;gap:6px;margin-bottom:22px}
+.prog i{flex:1;height:4px;border-radius:4px;background:var(--line)}
+.prog i.on{background:var(--ink)}
+.stepno{font-size:12px;color:var(--muted);margin-bottom:6px;font-weight:600;letter-spacing:.6px;text-transform:uppercase}
+.fld{display:flex;flex-direction:column;gap:6px;margin-bottom:18px}
+label,.lab{font-weight:600;font-size:13px}
+.hint{font-size:12.5px;color:var(--muted);font-weight:400}
+input[type=text],input[type=number],input[type=email],textarea{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;width:100%;font-size:16px}
+textarea{min-height:64px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.ch{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:8px 14px;cursor:pointer;font-weight:500;display:inline-flex;align-items:center;gap:7px}
+.ch[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg .ch{justify-content:center;border-radius:10px}
+.btn{background:var(--ink);color:var(--bg);border:0;border-radius:12px;padding:14px 18px;font-weight:600;width:100%;cursor:pointer}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line)}
+.btn.danger{background:none;color:var(--bad);border:1px solid var(--line)}
+.nav2{display:grid;grid-template-columns:1fr 2fr;gap:10px;margin-top:8px}
+.nav2.one{grid-template-columns:1fr}
+.note{font-size:13px;padding:10px 12px;border-radius:10px;background:var(--warnbg);color:var(--warn);margin-bottom:16px}
+.note.good{background:var(--okbg);color:var(--ok)}.note.bad{background:var(--badbg);color:var(--bad)}
+.chk{display:flex;gap:10px;align-items:flex-start;margin-bottom:14px;font-size:14px;font-weight:400}
+.chk input{width:20px;height:20px;margin-top:1px;flex:none;accent-color:var(--ink)}
+.head{border:1px solid var(--line);border-radius:14px;background:var(--surface);margin-bottom:10px;overflow:hidden}
+.head summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:13px 14px;font-weight:600}
+.head summary::-webkit-details-marker{display:none}
+.head .dot{width:12px;height:12px;border-radius:4px;background:var(--c);flex:none}
+.head .cnt{margin-left:auto;font-size:12px;color:var(--muted);font-weight:500}
+.head .chev{transition:transform .15s}
+.head[open] .chev{transform:rotate(180deg)}
+.head .chips{padding:0 14px 14px}
+.head .civ{padding:0 14px 12px;font-size:12px;color:var(--muted)}
+.sum{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:14px;font-size:14px}
+.sum div+div{margin-top:6px}
+.pg{display:grid;grid-template-columns:44px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.pg i{font-style:normal;font-family:var(--f-head);font-weight:900;font-size:22px;color:var(--muted)}
+.pg b{display:block}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style></head><body>
+
+<div id="app">
+  <header class="top"><div class="logo"><span class="tile" aria-hidden="true">TS<i></i></span><span>T.S Times</span></div><div class="pos" id="pos" aria-live="polite"></div></header>
+  <main>
+    <section class="view deck" id="v-cards" aria-label="Cards" hidden></section>
+    <section class="view" id="v-paper" aria-label="Paper" hidden></section>
+    <section class="view" id="v-profile" aria-label="Profile"></section>
+  </main>
+  <nav role="tablist" aria-label="Sections" id="nav" hidden>
+    <button role="tab" id="t-cards" aria-selected="true" data-v="cards"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M9 8h6M9 12h6"/></svg><span>Cards</span></button>
+    <button role="tab" id="t-paper" aria-selected="false" data-v="paper"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg><span>Paper</span></button>
+    <button role="tab" id="t-profile" aria-selected="false" data-v="profile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg><span>Profile</span></button>
+  </nav>
+</div>
+
+<script>
+let STORIES=[
+ {
+  "id": "s1",
+  "topic": "stocks",
+  "kicker": "Stocks · Markets",
+  "headline": "Sensex jumps about 1,100 points, Nifty tops 25,300 as markets reopen",
+  "sub": "All 30 Sensex stocks opened higher after the Diwali break; Monday’s close was 81,106.65",
+  "card": "Business Standard’s live blog reported the Sensex up about 1,100 points and the Nifty above 25,300 in morning trade on Wednesday, with market capitalisation higher by ₹4.01 trillion. Zeebiz said all 30 Sensex stocks opened in the green. These are intraday figures, not the close. GIFT Nifty had pointed to a strong start.",
+  "full": [
+   "Business Standard’s live blog reported the Sensex up about 1,100 points and the Nifty above 25,300 in morning trade on Wednesday, with market capitalisation higher by ₹4.01 trillion. Zeebiz said all 30 Sensex stocks opened in the green. These are intraday figures, not the close.",
+   "GIFT Nifty had pointed to a strong start. On Tuesday it was up about 1.2% as Brent crude slipped below $100 a barrel on hopes of US–Iran talks, the Assam Tribune reported (single source for the cause).",
+   "On Monday the Sensex had risen 107.25 points (0.13%) to 81,106.65 and the Nifty 50 by 58.25 points to 25,044.65, both the highest closes since 27 February, HDFC Sky reported. Religare’s Ajit Mishra had flagged 25,200–25,600 as the next zone."
+  ],
+  "source": "Business Standard and Zeebiz (11 Nov 2026, live); Assam Tribune (10 Nov); HDFC Sky (9 Nov)",
+  "label": "multi",
+  "why": "A gap-up of about 1.4% after a holiday shows how quickly crude and geopolitics move Indian shares."
+ },
+ {
+  "id": "s2",
+  "topic": "stocks",
+  "kicker": "Stocks · Flows",
+  "headline": "Foreign investors return, buying ₹38,971 crore in November",
+  "sub": "Ends a two-month selling streak",
+  "card": "Foreign institutional investors bought ₹13,749.82 crore of Indian shares on 6 November (provisional) and have put in ₹38,971 crore so far this month, according to NSDL data cited by Upstox. HDFC Sky says foreign buying of over $4.1 billion is the strongest monthly inflow since September 2024.",
+  "full": [
+   "Foreign institutional investors bought ₹13,749.82 crore of Indian shares on 6 November (provisional) and have put in ₹38,971 crore so far this month, according to NSDL data cited by Upstox. HDFC Sky says foreign buying of over $4.1 billion is the strongest monthly inflow since September 2024.",
+   "Brent crude eased as fears of a wider Iran conflict receded, which also helps India’s import bill."
+  ],
+  "source": "Upstox (8 Nov 2026); HDFC Sky (9 Nov 2026)",
+  "label": "multi",
+  "why": "Foreign money has driven the rally, so any reversal would show up quickly in prices."
+ },
+ {
+  "id": "s3",
+  "topic": "stocks",
+  "kicker": "Stocks · Sectors",
+  "headline": "PSU banks jump 3.7% while IT slips 1.2%",
+  "sub": "SBI, Trent and NTPC lead; Tata Steel and HCLTech lag",
+  "card": "Nifty PSU Bank rose 3.7%, Nifty Pharma 1.6% and Bank Nifty 1.51%. SBI gained 2.56%, Trent 2.02% and NTPC 1.87% among Nifty 50 stocks. Tata Steel fell 2.81%, HCLTech 2.43%, UltraTech Cement 1.79% and Infosys 1.49%. More shares fell than rose on the NSE (2,316 to 1,922).",
+  "full": [
+   "Nifty PSU Bank rose 3.7%, Nifty Pharma 1.6% and Bank Nifty 1.51%. SBI gained 2.56%, Trent 2.02% and NTPC 1.87% among Nifty 50 stocks. Tata Steel fell 2.81%, HCLTech 2.43%, UltraTech Cement 1.79% and Infosys 1.49%. More shares fell than rose on the NSE (2,316 to 1,922)."
+  ],
+  "source": "HDFC Sky and Business Standard (9 Nov 2026)",
+  "label": "multi",
+  "why": "A rising index can hide a weak majority of stocks, as it did on Monday."
+ },
+ {
+  "id": "s4",
+  "topic": "ipos",
+  "kicker": "IPOs · This week",
+  "headline": "No mainboard IPO is open; Antala Industries lists today",
+  "sub": "SME issue priced at ₹66, subscribed 12.2 times",
+  "card": "Investorgain’s IPO dashboard shows no mainboard issue currently open; its latest entries closed on 2 November. Antala Industries, a Gujarat-based manufacturer, lists on the BSE SME platform on 11 November. Grey-market signals point to a flat listing at ₹66 (single source).",
+  "full": [
+   "Investorgain’s IPO dashboard shows no mainboard issue currently open; its latest entries closed on 2 November. Antala Industries, a Gujarat-based manufacturer, lists on the BSE SME platform on 11 November. Grey-market signals point to a flat listing at ₹66 (single source)."
+  ],
+  "source": "Investorgain (10 Nov 2026); Whalesbook (single source, not independently confirmed)",
+  "label": "single",
+  "why": "SME listings are riskier and less liquid than mainboard ones."
+ },
+ {
+  "id": "s5",
+  "topic": "ipos",
+  "kicker": "IPOs · Listings",
+  "headline": "Jio Platforms lists at ₹1,358, a 21% premium",
+  "sub": "Against a ₹1,119 issue price on 28 October",
+  "card": "Jio Platforms debuted on the NSE and BSE at ₹1,358, 21.36% above its issue price, according to HDFC Sky, 5paisa and Kotak Neo.",
+  "full": [
+   "Jio Platforms debuted on the NSE and BSE at ₹1,358, 21.36% above its issue price, according to HDFC Sky, 5paisa and Kotak Neo."
+  ],
+  "source": "HDFC Sky; 5paisa; Kotak Neo (28 Oct 2026)",
+  "label": "multi",
+  "why": "A listing gain is a one-day result, not a forecast of future returns."
+ },
+ {
+  "id": "s6",
+  "topic": "ipos",
+  "kicker": "IPOs · Listings",
+  "headline": "Tonbo Imaging and BLS Polymers list about 65% higher",
+  "sub": "Both beat their issue prices",
+  "card": "Tonbo Imaging listed at ₹1,160 on the NSE against a ₹700 issue price, a 65.71% premium, according to Groww and 5paisa. BLS Polymers listed at ₹248 against ₹150, a 65.33% premium, after being subscribed 241 times.",
+  "full": [
+   "Tonbo Imaging listed at ₹1,160 on the NSE against a ₹700 issue price, a 65.71% premium, according to Groww and 5paisa. BLS Polymers listed at ₹248 against ₹150, a 65.33% premium, after being subscribed 241 times."
+  ],
+  "source": "Groww; 5paisa; Angel One; Inc42",
+  "label": "multi",
+  "why": "The strongest debuts came from heavily subscribed issues."
+ },
+ {
+  "id": "s7",
+  "topic": "movies",
+  "kicker": "Box office · Hindi",
+  "headline": "Ramayana earns ₹94.10 crore on Tuesday; India net passes ₹440 crore",
+  "sub": "Down 12.5% from Monday’s record ₹107.50 crore",
+  "card": "Sacnilk figures reported by the Free Press Journal put Ramayana: Part One at ₹94.10 crore net on Tuesday, of which Hindi was ₹76 crore. India net is now ₹440.45 crore, which matches Monday’s ₹346.35 crore plus Tuesday. The paper puts worldwide gross at ₹823.50 crore but does not attribute the overseas and worldwide numbers.",
+  "full": [
+   "Sacnilk figures reported by the Free Press Journal put Ramayana: Part One at ₹94.10 crore net on Tuesday, of which Hindi was ₹76 crore. India net is now ₹440.45 crore, which matches Monday’s ₹346.35 crore plus Tuesday. The paper puts worldwide gross at ₹823.50 crore but does not attribute the overseas and worldwide numbers."
+  ],
+  "source": "Free Press Journal (11 Nov 2026), citing Sacnilk; Tuesday figures are single-source",
+  "label": "single",
+  "why": "A 12.5% dip on a working Tuesday after a record Monday is a healthy hold."
+ },
+ {
+  "id": "s8",
+  "topic": "ott",
+  "kicker": "OTT · Hindi",
+  "headline": "Kareena Kapoor’s Daayra and a Student of the Year spin-off stream this week",
+  "sub": "Netflix and JioHotstar, 13 November",
+  "card": "Daayra, a crime drama starring Kareena Kapoor and Prithviraj Sukumaran, arrives on Netflix on Friday. Student of the Year: After Dark, a thriller series with Shanaya Kapoor in her OTT debut, streams on JioHotstar the same day.",
+  "full": [
+   "Daayra, a crime drama starring Kareena Kapoor and Prithviraj Sukumaran, arrives on Netflix on Friday. Student of the Year: After Dark, a thriller series with Shanaya Kapoor in her OTT debut, streams on JioHotstar the same day."
+  ],
+  "source": "The Daily Jagran (9 Nov 2026)",
+  "label": "single",
+  "why": "Both are Friday releases, so plan your weekend watching."
+ },
+ {
+  "id": "s9",
+  "topic": "movies",
+  "kicker": "Box office · South",
+  "headline": "Ramayana’s Tuesday: Kannada ₹7.75 crore, Telugu ₹4 crore, Tamil ₹3.60 crore",
+  "sub": "Malayalam adds ₹2.75 crore; Hindi leads with ₹76 crore",
+  "card": "The four southern versions together earned about ₹18 crore net on Tuesday, down from about ₹20 crore on Monday. Kannada held up best of the four. The film releases in Hong Kong on 12 November.",
+  "full": [
+   "The four southern versions together earned about ₹18 crore net on Tuesday, down from about ₹20 crore on Monday. Kannada held up best of the four. The film releases in Hong Kong on 12 November."
+  ],
+  "source": "Free Press Journal (11 Nov 2026), citing Sacnilk (single source)",
+  "label": "single",
+  "why": "Kannada is the strongest southern version, ahead of Telugu."
+ },
+ {
+  "id": "s10",
+  "topic": "ott",
+  "kicker": "OTT · South",
+  "headline": "Jailer 2 reaches Prime Video on 12 November",
+  "sub": "Rajinikanth returns; Dileep’s Bandra on ZEE5 the next day",
+  "card": "Jailer 2, directed by Nelson Dilipkumar, has Rajinikanth back as Tiger Muthuvel Pandian and is due on Prime Video on Thursday. Bandra, a Malayalam action drama with Dileep and Tamannaah Bhatia, streams on ZEE5 on 13 November.",
+  "full": [
+   "Jailer 2, directed by Nelson Dilipkumar, has Rajinikanth back as Tiger Muthuvel Pandian and is due on Prime Video on Thursday. Bandra, a Malayalam action drama with Dileep and Tamannaah Bhatia, streams on ZEE5 on 13 November."
+  ],
+  "source": "The Daily Jagran (9 Nov 2026); Andhravilas.net",
+  "label": "multi",
+  "why": "Rajinikanth’s sequel is the biggest southern streaming release this week."
+ },
+ {
+  "id": "s11",
+  "topic": "movies",
+  "kicker": "Box office · US",
+  "headline": "Godzilla Minus Zero opens at number one with $31.6 million",
+  "sub": "The Cat in the Hat second at $20.5 million",
+  "card": "The Numbers’ weekend chart shows Godzilla Minus Zero earning $31.61 million from 3,254 theatres, ahead of The Cat in the Hat ($20.5 million) and Drummer Boy ($9.31 million). Ramayana, listed as Ramayana: Rise of a Legend, was fifth with $8.65 million from 1,433 theatres.",
+  "full": [
+   "The Numbers’ weekend chart shows Godzilla Minus Zero earning $31.61 million from 3,254 theatres, ahead of The Cat in the Hat ($20.5 million) and Drummer Boy ($9.31 million). Ramayana, listed as Ramayana: Rise of a Legend, was fifth with $8.65 million from 1,433 theatres."
+  ],
+  "source": "The Numbers (9 Nov 2026), single source, not independently confirmed",
+  "label": "single",
+  "why": "Ramayana’s US opening put an Indian film in the top five."
+ },
+ {
+  "id": "s12",
+  "topic": "ott",
+  "kicker": "OTT · International",
+  "headline": "The Rings of Power returns for season 3 on 11 November",
+  "sub": "Netflix adds Alicia’s Law and Christmas Switch",
+  "card": "The Lord of the Rings: The Rings of Power, season 3, arrives on Prime Video on Wednesday, with the rise of Sauron in the Second Age. On Netflix, the Mexican drama Alicia’s Law streams on 11 November and the festive comedy-drama Christmas Switch on 12 November.",
+  "full": [
+   "The Lord of the Rings: The Rings of Power, season 3, arrives on Prime Video on Wednesday, with the rise of Sauron in the Second Age. On Netflix, the Mexican drama Alicia’s Law streams on 11 November and the festive comedy-drama Christmas Switch on 12 November."
+  ],
+  "source": "The Daily Jagran (9 Nov 2026)",
+  "label": "single",
+  "why": "Dates can differ by region, so check your app."
+ },
+ {
+  "id": "s13",
+  "topic": "cricket",
+  "kicker": "Cricket · India in New Zealand",
+  "headline": "3rd ODI washed out; India lead 2–0",
+  "sub": "The 4th ODI is on Friday at Tauranga",
+  "card": "Rain at Hamilton stopped the third ODI from starting, and it was called off at 11:15 am IST, Outlook India reported. India lead the five-match series 2–0 and cannot lose it. The fourth ODI is scheduled for Friday 13 November at Bay Oval, Tauranga, at 7:30 am IST (schedule on one site).",
+  "full": [
+   "Rain at Hamilton stopped the third ODI from starting, and it was called off at 11:15 am IST, Outlook India reported. India lead the five-match series 2–0 and cannot lose it. The fourth ODI is scheduled for Friday 13 November at Bay Oval, Tauranga, at 7:30 am IST (schedule on one site)."
+  ],
+  "source": "Outlook India, Cricinfo (10 Nov 2026)",
+  "label": "multi",
+  "why": "One more win seals the series."
+ },
+ {
+  "id": "s14",
+  "topic": "football",
+  "kicker": "Football · Premier League",
+  "headline": "Man United fight back to draw 4–4 with Villa",
+  "sub": "Arsenal stay top on 27 points",
+  "card": "Villa led 4–2 before Joshua Zirkzee scored in stoppage time and Patrick Dorgu headed a late equaliser. United are 18th on 8 points. Brighton beat Brentford 2–0 to go second, and Liverpool won 3–1 at Palace.",
+  "full": [
+   "Villa led 4–2 before Joshua Zirkzee scored in stoppage time and Patrick Dorgu headed a late equaliser. United are 18th on 8 points. Brighton beat Brentford 2–0 to go second, and Liverpool won 3–1 at Palace."
+  ],
+  "source": "Reuters via The Star (9 Nov 2026)",
+  "label": "single",
+  "why": "Only 2 points separate 16th and 20th."
+ },
+ {
+  "id": "s15",
+  "topic": "football",
+  "kicker": "Football · La Liga",
+  "headline": "Barcelona win at Atlético; Real beat Valencia",
+  "sub": "Both leagues pause for the international break",
+  "card": "Barcelona won 2–1 at Atlético Madrid and Real Madrid won 3–0 at Valencia. La Liga returns on 20–22 November, the Premier League on 21–23 November.",
+  "full": [
+   "Barcelona won 2–1 at Atlético Madrid and Real Madrid won 3–0 at Valencia. La Liga returns on 20–22 November, the Premier League on 21–23 November."
+  ],
+  "source": "SportRadar (7–9 Nov 2026)",
+  "label": "single",
+  "why": "Liverpool v Manchester United is on 22 November."
+ },
+ {
+  "id": "s16",
+  "topic": "nba",
+  "kicker": "NBA · Results",
+  "headline": "Knicks rout Bucks 117–85; Celtics win at 76ers",
+  "sub": "Suns beat Clippers 133–110 this morning",
+  "card": "New York beat Milwaukee 117–85, Boston won 123–101 at Philadelphia and Phoenix beat the Clippers 133–110, all in Wednesday’s early games. On Tuesday Golden State beat New Orleans 138–87 and San Antonio beat Phoenix 122–96.",
+  "full": [
+   "New York beat Milwaukee 117–85, Boston won 123–101 at Philadelphia and Phoenix beat the Clippers 133–110, all in Wednesday’s early games. On Tuesday Golden State beat New Orleans 138–87 and San Antonio beat Phoenix 122–96."
+  ],
+  "source": "SportRadar NBA data (10–11 Nov 2026, IST)",
+  "label": "single",
+  "why": "Three of this morning’s results were won by more than 20 points."
+ },
+ {
+  "id": "s17",
+  "topic": "nba",
+  "kicker": "NBA · Thursday",
+  "headline": "Knicks host Cavaliers; Lakers visit Bucks",
+  "sub": "Tip-off times in IST, Thursday 12 November",
+  "card": "Knicks v Cavaliers and Raptors v Celtics tip off at 5:30 am, Lakers at Bucks and Spurs at Bulls at 6:30 am, and Rockets v Warriors at 8:00 am.",
+  "full": [
+   "Knicks v Cavaliers and Raptors v Celtics tip off at 5:30 am, Lakers at Bucks and Spurs at Bulls at 6:30 am, and Rockets v Warriors at 8:00 am."
+  ],
+  "source": "SportRadar NBA schedule",
+  "label": "single",
+  "why": "These are early-morning games in India."
+ }
+];
+
+let EDITION={date:'Wednesday, 11 November 2026',stamp:'Updated 5:45 pm IST',sample:true};
+/* Main heads, each with narrow sub-interests. Readers can ask for more under "Anything else". */
+const HEADS=[
+ {id:'biz',name:'Business & Markets',c:'var(--biz)',subs:[
+  {id:'stocks',name:'Stocks & Markets',kw:/stock|share|nifty|sensex|market|invest|mutual/i,edu:1},
+  {id:'ipos',name:'IPOs',kw:/ipo|listing|listings/i,edu:1},
+  {id:'economy',name:'Economy',kw:/economy|gdp|inflation|trade|export/i,wip:1},
+  {id:'finance',name:'Personal Finance & Banking',kw:/personal finance|bank|loan|tax|insurance|savings/i,wip:1},
+  {id:'startups',name:'Startups',kw:/startup|funding|founder|unicorn/i,wip:1},
+  {id:'gold',name:'Gold',kw:/gold|silver|bullion/i,wip:1}]},
+ {id:'sport',name:'Sports',c:'var(--sport)',subs:[
+  {id:'cricket',name:'Cricket',kw:/cricket|ipl|odi|t20|test match|bcci/i},
+  {id:'football',name:'Football',kw:/football|soccer|premier league|la liga|champions league|messi|ronaldo|isl/i},
+  {id:'nba',name:'NBA',kw:/nba|basketball/i},
+  {id:'tennis',name:'Tennis',kw:/tennis|wimbledon|grand slam|atp|wta/i,wip:1},
+  {id:'f1',name:'Formula 1',kw:/\bf1\b|formula ?1|grand prix/i,wip:1},
+  {id:'hockey',name:'Hockey',kw:/hockey/i,wip:1},
+  {id:'badminton',name:'Badminton',kw:/badminton|bwf/i,wip:1},
+  {id:'olympics',name:'Olympics',kw:/olympic|athletics|asian games/i,wip:1},
+  {id:'kabaddi',name:'Kabaddi',kw:/kabaddi|pkl/i,wip:1}]},
+ {id:'ent',name:'Entertainment',c:'var(--ent)',subs:[
+  {id:'movies',name:'Movies',kw:/movie|film|bollywood|tollywood|box office|cinema/i},
+  {id:'ott',name:'OTT & Series',kw:/ott|netflix|prime|series|hotstar|web ?series|stream/i},
+  {id:'music',name:'Music',kw:/music|album|concert|song/i,wip:1},
+  {id:'tv',name:'Television',kw:/\btv\b|television|reality show/i,wip:1},
+  {id:'gaming',name:'Gaming',kw:/gaming|game|esports|playstation|xbox/i,wip:1}]},
+ {id:'tech',name:'Tech & AI',c:'var(--tech)',subs:[
+  {id:'ai',name:'AI',kw:/\bai\b|artificial|chatbot|llm/i,wip:1},
+  {id:'gadgets',name:'Gadgets & Apps',kw:/gadget|smartphone|phone|app\b|apps|chip|software/i,wip:1},
+  {id:'cyber',name:'Cybersecurity',kw:/cyber|hack|privacy|data breach/i,wip:1},
+  {id:'space',name:'Space',kw:/space|isro|nasa|rocket|satellite/i,wip:1}]},
+ {id:'life',name:'Lifestyle',c:'var(--life)',subs:[
+  {id:'fashion',name:'Fashion & Brands',kw:/fashion|brand|style|sneaker|retail/i,wip:1},
+  {id:'food',name:'Food',kw:/food|recipe|restaurant|cafe/i,wip:1},
+  {id:'travel',name:'Travel',kw:/travel|trip|tourism|destination/i,wip:1},
+  {id:'fitness',name:'Fitness',kw:/fitness|gym|workout|running/i,wip:1}]},
+ {id:'edu',name:'Education & Careers',c:'var(--edu)',subs:[
+  {id:'exams',name:'Exams & Results',kw:/exam|result|ca |cuet|neet|jee|upsc/i,wip:1},
+  {id:'careers',name:'Jobs & Careers',kw:/job|career|intern|hiring|placement/i,wip:1}]},
+ {id:'sci',name:'Science & Environment',c:'var(--sci)',subs:[
+  {id:'science',name:'Science',kw:/science|research|discovery/i,wip:1},
+  {id:'climate',name:'Climate & Environment',kw:/climate|environment|pollution|weather/i,wip:1}]},
+ {id:'pol',name:'Politics & Policy',c:'var(--pol)',civ:1,subs:[
+  {id:'policy',name:'Policy & Government',kw:/policy|govt|government|budget|rbi|sebi|law/i,wip:1},
+  {id:'elections',name:'Elections',kw:/election|poll|parliament|vote/i,wip:1},
+  {id:'world',name:'World Affairs',kw:/world|foreign|international|diplomacy/i,wip:1},
+  {id:'courts',name:'Courts & Law',kw:/court|supreme court|judgment|verdict/i,wip:1}]}
+];
+const SUB={},HEAD={};HEADS.forEach(h=>h.subs.forEach(s=>{SUB[s.id]=s;HEAD[s.id]=h}));
+const BLOCK=/\b(bet|betting|gambl\w*|casino|fantasy|dream ?11|poker|lottery|satta|alcohol|liquor|beer|vodka|whisk\w*|wine|drugs?|weed|cannabis|vape|porn\w*|adult|nsfw|murder|rape|suicide|crime|gore|violence|weapons?|guns?|terror\w*|dating)\b/i;
+
+/* Original artwork: one illustrated motif per sub-interest, on the head's colour. */
+const W='fill="#fff" fill-opacity=".18"', S='fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"';
+const MOTIF={
+ stocks:'<g '+S+'><path d="M20 170 L90 120 L150 140 L230 70 L300 96 L400 20 L500 44"/></g><g '+W+'><rect x="52" y="110" width="18" height="70"/><rect x="112" y="96" width="18" height="84"/><rect x="172" y="120" width="18" height="60"/><rect x="232" y="70" width="18" height="110"/><rect x="292" y="84" width="18" height="96"/><rect x="352" y="48" width="18" height="132"/></g>',
+ ipos:'<g '+W+'><path d="M300 150a60 60 0 0 1 120 0z"/><rect x="350" y="150" width="20" height="26" rx="4"/></g><g '+S+'><path d="M300 150a60 60 0 0 1 120 0z"/><path d="M60 170 L120 130 L180 148 L250 90"/></g>',
+ startups:'<g '+W+'><path d="M360 24c40 20 56 70 32 118l-32 22-32-22c-24-48-8-98 32-118z"/></g><g '+S+'><circle cx="360" cy="78" r="16"/><path d="M328 142l-30 30M392 142l30 30M360 164v26"/></g>',
+ gold:'<g '+W+'><path d="M120 170l30-52h130l30 52z"/><path d="M230 118l24-42h100l24 42z"/></g><g '+S+'><path d="M120 170l30-52h130l30 52zM230 118l24-42h100l24 42z"/></g>',
+ cricket:'<g '+W+'><rect x="330" y="24" width="14" height="120" rx="3"/><rect x="354" y="24" width="14" height="120" rx="3"/><rect x="378" y="24" width="14" height="120" rx="3"/><circle cx="170" cy="86" r="26"/></g><g '+S+'><path d="M20 170 Q200 40 320 120M300 150h120"/><circle cx="170" cy="86" r="26"/></g>',
+ football:'<g '+S+'><path d="M0 100h520"/><circle cx="260" cy="100" r="52"/><rect x="-6" y="48" width="70" height="104"/><rect x="456" y="48" width="70" height="104"/></g><g '+W+'><circle cx="400" cy="60" r="30"/></g><path d="M400 44l16 12-6 18h-20l-6-18z" fill="#fff" fill-opacity=".3"/>',
+ nba:'<g '+S+'><circle cx="190" cy="104" r="62"/><path d="M128 104h124M190 42v124M146 62c28 26 28 62 0 84M234 62c-28 26-28 62 0 84"/><path d="M360 40h90v50h-90zM384 90v18h42V90M372 108l8 40M438 108l-8 40"/></g><g '+W+'><circle cx="190" cy="104" r="62"/></g>',
+ kabaddi:'<g '+S+'><path d="M40 170h440M260 20v150"/><circle cx="170" cy="96" r="26"/><circle cx="350" cy="96" r="26"/></g>',
+ movies:'<g '+W+'><rect x="40" y="30" width="440" height="22"/><rect x="40" y="148" width="440" height="22"/><circle cx="400" cy="100" r="46"/></g><g '+S+'><circle cx="400" cy="100" r="46"/><circle cx="400" cy="100" r="18"/><path d="M60 100h200"/></g>',
+ ott:'<g '+W+'><rect x="70" y="40" width="250" height="150" rx="14"/><path d="M360 80l70 40-70 40z"/></g><g '+S+'><rect x="70" y="40" width="250" height="150" rx="14"/><path d="M360 80l70 40-70 40z"/><path d="M130 200h130"/></g>',
+ ai:'<g '+S+'><circle cx="150" cy="100" r="14"/><circle cx="260" cy="50" r="14"/><circle cx="260" cy="150" r="14"/><circle cx="380" cy="100" r="14"/><path d="M162 94L248 56M162 106l86 38M274 56l94 38M274 146l94-38M260 64v72"/></g>',
+ gadgets:'<g '+W+'><rect x="300" y="24" width="90" height="160" rx="16"/></g><g '+S+'><rect x="300" y="24" width="90" height="160" rx="16"/><path d="M330 168h30"/><rect x="90" y="70" width="150" height="100" rx="10"/><path d="M120 190h90"/></g>',
+ fashion:'<g '+W+'><path d="M300 40l40-16 40 16 40-8 24 50-30 10v84H266V92l-30-10 24-50z"/></g><g '+S+'><path d="M300 40l40-16 40 16 40-8 24 50-30 10v84H266V92l-30-10 24-50z"/></g>',
+ policy:'<g '+W+'><path d="M260 30l110 40H150z"/><rect x="170" y="80" width="18" height="80"/><rect x="226" y="80" width="18" height="80"/><rect x="282" y="80" width="18" height="80"/><rect x="338" y="80" width="18" height="80"/><rect x="150" y="164" width="240" height="16"/></g>',
+ elections:'<g '+W+'><rect x="170" y="90" width="200" height="90" rx="8"/></g><g '+S+'><rect x="170" y="90" width="200" height="90" rx="8"/><path d="M230 90V60h80v30M250 130h40"/></g>'
+};
+const ICON={cricket:'<path d="M14 3l5 5-9 9-5-5z"/><circle cx="18" cy="18" r="2.4"/>',football:'<circle cx="12" cy="12" r="9"/><path d="M12 8l3.5 2.5-1.3 4h-4.4l-1.3-4z"/>',nba:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18"/>',
+ stocks:'<path d="M3 17l5-6 4 3 7-9"/>',ipos:'<path d="M5 17a7 7 0 0 1 14 0z"/><path d="M12 17v3"/>',movies:'<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/>',ott:'<rect x="3" y="5" width="18" height="12" rx="2"/><path d="M10 9l5 3-5 3z"/>'};
+function artSvg(sub){return '<svg class="bg" viewBox="0 0 520 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+(MOTIF[sub]||'<g fill="none" stroke="rgba(255,255,255,.28)" stroke-width="3"><circle cx="400" cy="70" r="60"/><circle cx="400" cy="70" r="34"/><path d="M40 170 L140 110 L230 150 L330 90"/></g>')+'</svg>'}
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let profile=null, tab='cards', signupMsg='';
+
+/* ---- storage: this browser always; shared store when the viewer is signed in ---- */
+function lsGet(){try{return JSON.parse(localStorage.getItem('tst-profile')||'null')}catch(e){return null}}
+function lsSet(p){try{if(p)localStorage.setItem('tst-profile',JSON.stringify(p));else localStorage.removeItem('tst-profile')}catch(e){}}
+let dbh=null, uid=null;
+async function initDb(){
+  try{
+    const [db,user]=await Promise.all([window.claude.use('db'),window.claude.use('user')]);
+    if(!db||!user)return;
+    uid=await user.id(); if(!uid)return;
+    dbh=db;
+    const snap=await Promise.race([db.collection('data/users/'+uid).doc('profile').get(),new Promise(r=>setTimeout(()=>r(null),8000))]);
+    if(snap&&snap.exists&&!profile){profile=snap.data();lsSet(profile);route()}
+  }catch(e){dbh=null}
+}
+async function saveEverywhere(p){
+  profile=p; lsSet(p); signupMsg='';
+  if(!dbh||!uid){return}
+  try{
+    await dbh.collection('data/users/'+uid).doc('profile').set(p);
+    await dbh.collection('signups').doc(uid).set({name:p.name,email:p.email,age:p.age,topics:p.topics,consent:true,guardian:!!p.guardian,pages:p.pages,style:p.style,other:p.other,avoid:p.avoid,ts:Date.now()});
+  }catch(e){signupMsg='Your profile is saved on this device, but the sign-up record could not be updated. Try again from the Profile tab.'}
+}
+async function wipe(){
+  try{if(dbh&&uid){await dbh.collection('signups').doc(uid).delete();await dbh.collection('data/users/'+uid).doc('profile').delete()}}catch(e){}
+  profile=null; lsSet(null); wiz=null; route();
+}
+
+const isMinor=a=>a!=null&&a!==''&&+a<18;
+function matchTopics(text){return Object.values(SUB).filter(s=>s.kw.test(text)).map(s=>s.id)}
+
+/* ---- cards ---- */
+const FEED_URL='https://raw.githubusercontent.com/test06tarun-jpg/ts-times-news/main/stories.json'; /* set to the stories.json address once the news pipeline is running */
+function okForReader(s){return !(s.sensitive&&isMinor(profile.age))}
+function visibleStories(){const sel=new Set(profile?.topics||[]);return STORIES.filter(s=>sel.has(s.topic)&&okForReader(s))}
+async function loadLive(){
+  if(!FEED_URL)return;
+  try{
+    const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),8000);
+    const r=await fetch(FEED_URL+'?t='+Date.now(),{signal:ctl.signal,cache:'no-store'});clearTimeout(t);
+    const d=await r.json(); if(!d.stories||!d.stories.length)return;
+    STORIES=d.stories.filter(x=>SUB[x.topic]); EDITION={date:d.date,stamp:d.stamp,sample:false};
+    if(profile&&tab==='cards')renderCards();
+  }catch(e){/* keep the sample edition if the live file cannot be loaded */}
+}
+function labelOf(s){return /SportRadar/i.test(s.source)?'data':s.label}
+function chip(s){const l=labelOf(s);
+  const t={multi:'Two or more sources',single:'Single source',data:'Live data feed'}[l];
+  const ic=l==='multi'?'<path d="M5 12l4 4 10-10" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>':l==='single'?'<circle cx="12" cy="12" r="4" fill="currentColor"/>':'<path d="M4 12h4l3-6 3 12 3-6h3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>';
+  return '<span class="chip '+l+'"><svg width="13" height="13" viewBox="0 0 24 24">'+ic+'</svg>'+t+'</span>'}
+function cardHtml(s,i,sug){
+  const extra=(s.full||[]).filter(p=>!s.card.includes(p.trim()));
+  const sub=SUB[s.topic]||SUB.stocks, h=HEAD[s.topic]||HEADS[0];
+  const edu=isMinor(profile.age)&&sub.edu?'<div class="edu">For learning only. This is not advice to buy or sell.</div>':'';
+  const img=s.img?'<img src="'+esc(s.img)+'" alt="" loading="lazy">'+(s.credit?'<span class="credit">'+esc(s.credit)+'</span>':''):'';
+  const ic='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+(ICON[s.topic]||'<circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/>')+'</svg>';
+  return '<article class="card" data-i="'+i+'"><div class="cardin" style="--c:'+h.c+'">'+
+   '<div class="art">'+artSvg(s.topic)+img+'<div class="tagrow">'+ic+'<span>'+esc(s.kicker)+'</span>'+(sug?'<span class="sug">Suggested</span>':'')+'</div></div>'+
+   '<div class="cbody"><h2>'+esc(s.headline)+'</h2>'+(s.sub?'<p class="sub">'+esc(s.sub)+'</p>':'')+
+   '<p>'+esc(s.card)+'</p><div class="meta">'+chip(s)+'<span>'+(s.sources&&s.sources.length?s.sources.map(o=>'<a href="'+esc(o.url)+'" target="_blank" rel="noopener noreferrer">'+esc(o.outlet)+'</a>').join(', ')+' · '+esc((s.source.match(/\(([^)]*)\)$/)||[,''])[1]):esc(s.source))+'</span></div>'+
+   (s.why?'<div class="why"><b>Why it matters</b>'+esc(s.why)+'</div>':'')+edu+
+   (extra.length?'<div class="full" hidden>'+extra.map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>'+
+   '<button class="more" aria-expanded="false"><span>More detail</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>':'')+'</div></div></article>';
+}
+function renderCards(){
+  const v=$('#v-cards'), list=visibleStories(), have=new Set(list.map(s=>s.topic));
+  const quiet=(profile.topics||[]).filter(t=>!have.has(t)).map(t=>SUB[t].name);
+  const pool=STORIES.filter(x=>!(profile.topics||[]).includes(x.topic)&&okForReader(x)&&(profile.age>=18||!BLOCK.test(x.headline+' '+x.card)));
+  const seen=new Set(), sug=[...pool.filter(x=>!seen.has(HEAD[x.topic].id)&&seen.add(HEAD[x.topic].id)),...pool].filter((x,i,a)=>a.indexOf(x)===i).slice(0,4);
+  let h=list.map((x,i)=>cardHtml(x,i)).join('');
+  h+='<article class="card end" data-i="'+list.length+'"><div class="cardin"><div class="tick"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M5 12l4 4 10-10"/></svg></div>'+
+   '<h2>You’re all caught up</h2><p>'+(list.length?'You have read every verified story we have for your topics today.':'We have no verified stories for your topics yet.')+'</p><p class="hint">'+(EDITION.sample?'Sample edition. ':'')+esc(EDITION.stamp)+', '+esc(EDITION.date)+'.</p>'+
+   (quiet.length?'<div class="quiet"><b>Still being researched:</b> '+esc(quiet.join(', '))+'. We are finding reliable sources for these and will show them once they pass our checks.</div>':'')+
+   (sug.length?'<div class="quiet"><b>Want a bit more?</b> Scroll down for '+sug.length+' stories from other topics.</div>':'')+'</div></article>';
+  h+=sug.map((x,i)=>cardHtml(x,list.length+1+i,true)).join('');
+  v.innerHTML=h; v.scrollTop=0;
+  v.querySelectorAll('.more').forEach(b=>b.onclick=()=>{const f=b.parentElement.querySelector('.full');const o=f.hidden;f.hidden=!o;b.setAttribute('aria-expanded',String(o));b.firstElementChild.textContent=o?'Show less':'More detail'});
+  watchPos(list.length,sug.length);
+}
+let io=null;
+function watchPos(n,m){
+  if(io)io.disconnect();
+  io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting&&e.intersectionRatio>.5){const i=+e.target.dataset.i;$('#pos').textContent=i<n?(i+1)+' of '+n:i===n?'All caught up':'Suggested '+(i-n)+' of '+m}})},{root:$('#v-cards'),threshold:[.5]});
+  $('#v-cards').querySelectorAll('.card').forEach(c=>io.observe(c));
+  $('#pos').textContent=n?'1 of '+n:'';
+}
+
+/* ---- paper ---- */
+function renderPaper(){
+  const n=+profile.pages||3, sel=profile.topics.map(t=>SUB[t].name);
+  const rows=[['1','Front page','Stocks, markets and IPOs'],['2','Entertainment','Movies and OTT'],['3','Sport','Scorecard, football and NBA']].slice(0,n);
+  $('#v-paper').innerHTML='<div class="pad"><h1>'+esc(profile.name)+'’s edition</h1><p class="lede">'+esc(EDITION.date)+'. '+n+' pages in '+(profile.style==='plain'?'plain black and white':'colour')+', for '+esc(profile.name)+'.</p>'+
+   '<div class="sum"><b>Topics</b>: '+esc(sel.join(', '))+'</div>'+rows.map(r=>'<div class="pg"><i>'+r[0]+'</i><div><b>'+esc(r[1])+'</b><span class="hint">'+esc(r[2])+'</span></div></div>').join('')+
+   '<p class="hint" style="margin-top:16px">The personal PDF edition is not connected yet in this test. Your cards are updated twice a day.</p></div>';
+}
+
+/* ---- sign-up wizard ---- */
+const STEPS=['Your name','Your age','Your privacy','Your interests','Final touches'];
+let wiz=null;
+function newWiz(){return Object.assign({step:0,name:'',age:'',email:'',consent:false,guardian:false,topics:[],other:'',avoid:'',pages:3,style:'colour',err:''},profile?{...profile,consent:true,guardian:!!profile.guardian,step:0,err:''}:{})}
+function renderWizard(){
+  if(!wiz)wiz=newWiz(); const w=wiz, minor=isMinor(w.age);
+  const prog='<div class="prog" aria-hidden="true">'+STEPS.map((_,i)=>'<i class="'+(i<=w.step?'on':'')+'"></i>').join('')+'</div><div class="stepno">Step '+(w.step+1)+' of '+STEPS.length+'</div>';
+  let b='';
+  if(w.step===0)b='<h1>Welcome. What should we call you?</h1><p class="lede">We build your edition around you.</p><div class="fld"><label for="name">Name</label><input type="text" id="name" autocomplete="given-name" maxlength="40" value="'+esc(w.name)+'"></div>';
+  if(w.step===1)b='<h1>How old are you?</h1><p class="lede">Readers under 18 get a safer set of topics and learning notes on money stories.</p><div class="fld"><label for="age">Age</label><input type="number" id="age" inputmode="numeric" min="8" max="100" value="'+esc(w.age)+'"></div>';
+  if(w.step===2)b='<h1>Your privacy</h1><p class="lede">This is a test version. Here is exactly what happens to your details.</p><div class="sum"><div><b>Stays on your phone</b>: your name, age and interests are saved only on this device.</div><div><b>Not collected</b>: we do not ask for your email, and your details are never sent anywhere.</div><div><b>Your control</b>: you can change or delete everything from the Profile tab at any time.</div></div><p class="hint">Stories come from public news feeds. We do not track what you read.</p>';
+  if(w.step===3)b='<h1>What do you like to read?</h1><p class="lede">Open a heading and tick what interests you. Pick at least one.</p>'+HEADS.map(h=>{const n=h.subs.filter(s=>w.topics.includes(s.id)).length;
+    return '<details class="head" style="--c:'+h.c+'"'+(n||h.id==='biz'?' open':'')+'><summary><span class="dot"></span>'+esc(h.name)+'<span class="cnt">'+(n?n+' selected':'')+'</span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></summary>'+
+    (h.civ&&minor?'<div class="civ">For readers under 18 this covers civics and policy only. No crime, violence or divisive stories.</div>':'')+
+    '<div class="chips" data-h="'+h.id+'">'+h.subs.map(s=>'<button type="button" class="ch" data-t="'+s.id+'" aria-pressed="'+w.topics.includes(s.id)+'">'+esc(s.name)+(s.wip?'<span class="soon">in progress</span>':'')+'</button>').join('')+(h.subs.some(s=>s.wip)?'<p class="hint">In progress: we are still finding reliable sources. Tick them anyway and we will add them as they go live.</p>':'')+'</div></details>'}).join('');
+  if(w.step===4)b='<h1>Anything else?</h1><p class="lede">All optional. We match what you type to a section we already cover, and add new ones once we find reliable sources.</p>'+
+    '<div class="fld"><label for="other">Something you want to read about</label><textarea id="other" maxlength="120" placeholder="Up to two topics, for example F1 or chess">'+esc(w.other)+'</textarea></div>'+
+    '<div class="fld"><label for="avoid">Anything you do not want to see?</label><input type="text" id="avoid" maxlength="80" value="'+esc(w.avoid)+'"></div>'+
+    '<div class="fld"><span class="lab">Paper length</span><div class="seg" id="len"><button type="button" class="ch" data-n="2" aria-pressed="'+(+w.pages===2)+'">2 pages</button><button type="button" class="ch" data-n="3" aria-pressed="'+(+w.pages===3)+'">3 pages</button></div></div>'+
+    '<div class="fld"><span class="lab">Style</span><div class="seg" id="sty"><button type="button" class="ch" data-s="colour" aria-pressed="'+(w.style!=='plain')+'">Colour</button><button type="button" class="ch" data-s="plain" aria-pressed="'+(w.style==='plain')+'">Plain</button></div></div>';
+  const last=w.step===STEPS.length-1;
+  $('#v-profile').innerHTML='<form class="pad" id="form" novalidate>'+prog+b+(w.err?'<div class="note bad" role="alert">'+esc(w.err)+'</div>':'')+
+   '<div class="nav2'+(w.step===0&&!profile?' one':'')+'">'+(w.step>0||profile?'<button type="button" class="btn ghost" id="back">'+(w.step>0?'Back':'Cancel')+'</button>':'')+'<button class="btn" type="submit">'+(last?(profile?'Save changes':'Build my edition'):'Continue')+'</button></div></form>';
+  bindWizard();
+}
+function bindWizard(){
+  const w=wiz, on=(id,ev,f)=>{const e=$(id);if(e)e[ev]=f};
+  on('#name','oninput',e=>w.name=e.target.value); on('#age','oninput',e=>w.age=e.target.value); on('#email','oninput',e=>w.email=e.target.value);
+  on('#consent','onchange',e=>w.consent=e.target.checked); on('#guardian','onchange',e=>w.guardian=e.target.checked);
+  on('#other','oninput',e=>w.other=e.target.value); on('#avoid','oninput',e=>w.avoid=e.target.value);
+  on('#len','onclick',e=>{const b=e.target.closest('button');if(!b)return;w.pages=+b.dataset.n;[...$('#len').children].forEach(x=>x.setAttribute('aria-pressed',String(x===b)))});
+  on('#sty','onclick',e=>{const b=e.target.closest('button');if(!b)return;w.style=b.dataset.s;[...$('#sty').children].forEach(x=>x.setAttribute('aria-pressed',String(x===b)))});
+  document.querySelectorAll('.head .chips').forEach(c=>c.onclick=e=>{const b=e.target.closest('button');if(!b)return;const id=b.dataset.t,i=w.topics.indexOf(id);if(i<0)w.topics.push(id);else w.topics.splice(i,1);b.setAttribute('aria-pressed',String(i<0));
+    const h=HEADS.find(x=>x.id===c.dataset.h),n=h.subs.filter(s=>w.topics.includes(s.id)).length;c.closest('.head').querySelector('.cnt').textContent=n?n+' selected':''});
+  on('#back','onclick',()=>{if(w.step>0){w.step--;w.err='';renderWizard()}else{wiz=null;route()}});
+  on('#form','onsubmit',next);
+  const f=$('#name,#age,#email'); if(f&&!f.value)f.focus();
+}
+async function next(e){
+  e.preventDefault(); const w=wiz; w.err='';
+  if(w.step===0&&!w.name.trim())w.err='Add your name so we can address your edition.';
+  else if(w.step===1&&!(+w.age>=8&&+w.age<=100))w.err='Enter an age between 8 and 100.';
+  else if(w.step===3&&!w.topics.length)w.err='Pick at least one interest to continue.';
+  if(w.err){renderWizard();return}
+  if(w.step<STEPS.length-1){w.step++;renderWizard();$('#v-profile').scrollTop=0;return}
+  await finish();
+}
+async function finish(){
+  const w=wiz, age=+w.age, minor=age<18; let topics=[...w.topics];
+  const items=w.other.split(/[,;\n]| and /i).map(s=>s.trim()).filter(Boolean).slice(0,2);
+  const blocked=[],pending=[],matched=[];
+  items.forEach(it=>{
+    if(minor&&BLOCK.test(it)){blocked.push(it);return}
+    const m=matchTopics(it); if(m.length){m.forEach(id=>{if(!topics.includes(id)){topics.push(id);matched.push(SUB[id].name)}})}else pending.push(it)});
+  const p={name:w.name.trim(),age,email:w.email.trim(),guardian:minor&&w.guardian,topics,other:items.join(', '),pending,avoid:w.avoid.trim(),pages:w.pages,style:w.style,savedAt:Date.now()};
+  await saveEverywhere(p); wiz=null;
+  const bits=[]; if(blocked.length)bits.push('We skipped "'+blocked.join('", "')+'" because it is not available for readers under 18.');
+  if(pending.length)bits.push('We noted "'+pending.join('", "')+'" and will add it once we find reliable sources.');
+  if(matched.length)bits.push('Matched your request to '+matched.join(', ')+'.');
+  if(signupMsg)bits.push(signupMsg);
+  tab='cards'; route();
+  if(bits.length){const d=document.createElement('div');d.className='pad';d.innerHTML='<div class="note good" style="margin:0">'+bits.map(esc).join(' ')+'</div>';$('#v-cards').prepend(d)}
+}
+
+/* ---- profile tab ---- */
+function renderProfile(){
+  const p=profile, names=p.topics.map(t=>SUB[t].name);
+  $('#v-profile').innerHTML='<div class="pad"><h1>Your profile</h1><p class="lede">Check or change your details any time.</p>'+
+   '<div class="sum"><div><b>Name</b>: '+esc(p.name)+'</div><div><b>Age</b>: '+esc(p.age)+'</div><div><b>Interests</b>: '+esc(names.join(', '))+'</div>'+
+   (p.pending&&p.pending.length?'<div><b>Requested</b>: '+esc(p.pending.join(', '))+' (waiting for reliable sources)</div>':'')+(p.avoid?'<div><b>Hidden</b>: '+esc(p.avoid)+'</div>':'')+
+   '<div><b>Paper</b>: '+p.pages+' pages, '+esc(p.style)+'</div></div>'+
+   (signupMsg?'<div class="note">'+esc(signupMsg)+'</div>':'')+
+   '<div class="nav2 one" style="gap:10px"><button class="btn" id="edit">Edit my details</button><button class="btn danger" id="del">Delete my data</button></div>'+
+   '<p class="hint" style="margin-top:12px">Deleting removes your profile from this device. Nothing is stored anywhere else.</p></div>';
+  $('#edit').onclick=()=>{wiz=newWiz();renderWizard()};
+  $('#del').onclick=function(){if(this.dataset.sure){wipe()}else{this.dataset.sure=1;this.textContent='Tap again to delete everything'}};
+}
+
+/* ---- shell ---- */
+function route(){
+  const onboarding=!profile||wiz;
+  $('#nav').hidden=!!onboarding;
+  ['cards','paper','profile'].forEach(k=>{$('#v-'+k).hidden=onboarding?k!=='profile':k!==tab;$('#t-'+k).setAttribute('aria-selected',String(k===tab))});
+  if(onboarding){$('#pos').textContent='';renderWizard();return}
+  if(tab==='cards')renderCards(); else{$('#pos').textContent='';tab==='paper'?renderPaper():renderProfile()}
+}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{tab=b.dataset.v;route()});
+profile=lsGet(); route(); initDb(); loadLive();
+</script>
+</body></html>
