@@ -13,6 +13,30 @@ STOP = set("a an the of in on at to for and or as is are was were be by with fro
 SENSITIVE = re.compile(r"\b(murder|rape|suicide|killed|killing|shot dead|terror\w*|attack|bomb|sex\w*|scandal|assault|harass\w*|gambl\w*|betting|casino|drugs?|porn\w*|abuse|crime|arrested)\b", re.I)
 KICKER = {"stocks":"Stocks · Markets","ipos":"IPOs","economy":"Economy","finance":"Personal Finance","startups":"Startups","gold":"Gold","cricket":"Cricket","football":"Football","nba":"NBA","tennis":"Tennis","f1":"Formula 1","hockey":"Hockey","badminton":"Badminton","olympics":"Olympics","kabaddi":"Kabaddi","movies":"Movies","ott":"OTT & Series","music":"Music","tv":"Television","gaming":"Gaming","ai":"AI","gadgets":"Gadgets & Apps","cyber":"Cybersecurity","space":"Space","fashion":"Fashion","food":"Food","travel":"Travel","fitness":"Fitness","exams":"Exams","careers":"Careers","science":"Science","climate":"Climate","policy":"Policy","elections":"Elections","world":"World Affairs","courts":"Courts & Law"}
 
+# A story must mention its topic to be filed there (stops search results drifting, e.g. cricket under kabaddi).
+RELEVANT = {
+ "kabaddi": r"kabaddi|pkl", "hockey": r"hockey", "badminton": r"badminton|bwf|shuttler|srikanth|lakshya|sindhu|satwik",
+ "tennis": r"tennis|wta|atp|grand slam|wimbledon|sinner|alcaraz|sabalenka|djokovic", "f1": r"formula ?(1|one)|\bf1\b|grand prix|verstappen|hamilton|norris",
+ "nba": r"\bnba\b|basketball", "football": r"football|soccer|premier league|la liga|champions league|\bfifa\b|uefa|\bisl\b|goal",
+ "cricket": r"cricket|\bodi\b|t20|test match|\bipl\b|bcci|wicket|innings|asia cup", "olympics": r"olympic|asian games|athletics|\bioa\b|\bioc\b",
+ "elections": r"election|poll|vote|ballot|campaign|assembly|lok sabha|parliament", "gold": r"gold|silver|bullion",
+ "ipos": r"\bipo\b|listing|subscription|grey market|\bgmp\b", "space": r"space|isro|nasa|rocket|satellite|moon|mars|astronaut|launch",
+ "gaming": r"gaming|esports|playstation|xbox|nintendo|\bgames?\b|steam", "music": r"music|album|concert|singer|song|band|tour",
+ "tv": r"\btv\b|television|reality show|serial|bigg boss", "ott": r"netflix|prime video|hotstar|jiocinema|zee5|series|ott|streaming|sonyliv",
+ "movies": r"film|movie|box office|bollywood|tollywood|cinema|trailer|actor|actress", "cyber": r"cyber|hack|breach|ransomware|phishing|malware|privacy|data leak",
+ "startups": r"startup|funding|raises|unicorn|founder|series [a-d]|seed round", "economy": r"economy|gdp|inflation|trade|export|import|rbi|fiscal|rupee|growth",
+}
+# Low-value or risky items we never want as news cards.
+JUNK = re.compile(r"live stream\w*|where to watch|match prediction|pitch report|playing ?(11|xi)|dream ?11|fantasy|h2h|live score|betting|odds|telecast|how to watch|promo code|coupon", re.I)
+def is_english(t):
+    letters = [c for c in t if c.isalpha()]
+    return not letters or sum(ord(c) > 0x24F or 0xC0 <= ord(c) <= 0x24F for c in letters) / len(letters) < 0.06
+def keep(i):
+    text = i["title"] + " " + i["desc"]
+    if JUNK.search(i["title"]) or not is_english(i["title"]): return False
+    r = RELEVANT.get(i["topic"])
+    return not r or re.search(r, text, re.I) is not None
+
 def fetch(url, timeout=15):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -89,7 +113,7 @@ def collect(fetcher=fetch):
 
 def build(items, now):
     cutoff = now - timedelta(hours=CFG["max_age_hours"])
-    items = [i for i in items if i["when"] >= cutoff and i["when"] <= now + timedelta(hours=1)]
+    items = [i for i in items if keep(i) and i["when"] >= cutoff and i["when"] <= now + timedelta(hours=1)]
     stories = []
     for topic in sorted({i["topic"] for i in items}):
         pool = sorted([i for i in items if i["topic"] == topic], key=lambda i: i["when"], reverse=True)
