@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T05:52:08.680072+00:00",
- "stamp": "Updated 11:22 AM IST",
+ "generated_at": "2026-11-22T05:57:40.570016+00:00",
+ "stamp": "Updated 11:27 AM IST",
  "date": "Sunday, 22 November 2026",
  "feed_errors": [],
  "stories": [
@@ -27,7 +27,7 @@
    ],
    "published": "2026-11-22T04:24:16+00:00",
    "sensitive": false,
-   "score": 6.88
+   "score": 6.87
   },
   {
    "id": "9404bc5623",
@@ -52,7 +52,7 @@
    ],
    "published": "2026-11-22T04:04:00+00:00",
    "sensitive": false,
-   "score": 6.85
+   "score": 6.84
   },
   {
    "id": "8f5ed244a4",
@@ -77,7 +77,7 @@
    ],
    "published": "2026-11-21T16:52:00+00:00",
    "sensitive": false,
-   "score": 5.92
+   "score": 5.91
   },
   {
    "id": "d691cb5c3f",
@@ -102,7 +102,7 @@
    ],
    "published": "2026-11-21T15:25:56+00:00",
    "sensitive": false,
-   "score": 5.8
+   "score": 5.79
   },
   {
    "id": "42b7054840",
@@ -127,7 +127,7 @@
    ],
    "published": "2026-11-21T08:49:00+00:00",
    "sensitive": false,
-   "score": 5.25
+   "score": 5.24
   },
   {
    "id": "ca07406bce",
@@ -181,7 +181,7 @@
    ],
    "published": "2026-11-21T15:27:38+00:00",
    "sensitive": false,
-   "score": 5.8
+   "score": 5.79
   },
   {
    "id": "0749bf312b",
@@ -227,7 +227,7 @@
    ],
    "published": "2026-11-21T20:00:34+00:00",
    "sensitive": false,
-   "score": 4.18
+   "score": 4.17
   },
   {
    "id": "b348e3d1cc",
@@ -248,7 +248,7 @@
    ],
    "published": "2026-11-21T12:36:00+00:00",
    "sensitive": false,
-   "score": 3.56
+   "score": 3.55
   },
   {
    "id": "ea86d4c650",
@@ -290,7 +290,7 @@
    ],
    "published": "2026-11-21T17:42:00+00:00",
    "sensitive": false,
-   "score": 3.99
+   "score": 3.98
   },
   {
    "id": "9b70b83c9e",
@@ -332,7 +332,7 @@
    ],
    "published": "2026-11-21T20:56:08+05:30",
    "sensitive": false,
-   "score": 3.8
+   "score": 3.79
   },
   {
    "id": "650deb4830",
@@ -353,7 +353,7 @@
    ],
    "published": "2026-11-21T20:54:58+05:30",
    "sensitive": false,
-   "score": 3.8
+   "score": 3.79
   },
   {
    "id": "7e12e1a6cd",
@@ -378,7 +378,7 @@
    ],
    "published": "2026-11-22T04:19:41+00:00",
    "sensitive": false,
-   "score": 6.87
+   "score": 6.86
   },
   {
    "id": "da59ab9df2",
@@ -420,7 +420,7 @@
    ],
    "published": "2026-11-22T04:55:32+00:00",
    "sensitive": false,
-   "score": 4.92
+   "score": 4.91
   },
   {
    "id": "71cdb8c2e1",
@@ -441,7 +441,7 @@
    ],
    "published": "2026-11-22T00:44:07+00:00",
    "sensitive": false,
-   "score": 4.57
+   "score": 4.56
   },
   {
    "id": "6859931ef0",
@@ -462,7 +462,7 @@
    ],
    "published": "2026-11-22T00:03:36+00:00",
    "sensitive": false,
-   "score": 4.52
+   "score": 4.51
   },
   {
    "id": "31d382534d",
@@ -483,7 +483,7 @@
    ],
    "published": "2026-11-22T11:15:02+05:30",
    "sensitive": false,
-   "score": 4.99
+   "score": 4.98
   },
   {
    "id": "2036c49c42",
@@ -504,7 +504,7 @@
    ],
    "published": "2026-11-22T11:07:39+05:30",
    "sensitive": false,
-   "score": 4.98
+   "score": 4.97
   },
   {
    "id": "d8c9674ccd",
@@ -525,7 +525,7 @@
    ],
    "published": "2026-11-22T11:05:59+05:30",
    "sensitive": false,
-   "score": 4.98
+   "score": 4.97
   },
   {
    "id": "d39be8b32c",
@@ -546,7 +546,7 @@
    ],
    "published": "2026-11-22T10:48:02+05:30",
    "sensitive": false,
-   "score": 4.95
+   "score": 4.94
   },
   {
    "id": "2e1a43182b",
@@ -567,32 +567,7 @@
    ],
    "published": "2026-11-22T10:45:52+05:30",
    "sensitive": false,
-   "score": 4.95
-  },
-  {
-   "id": "5c02f8d846",
-   "topic": "cricket",
-   "kicker": "Cricket",
-   "headline": "India A vs Pakistan Shaheens Asia Cup Rising Stars 8th Match 2026: Date, Time, Venue & Squads",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Jagran Josh, Cricketwebs (22 Nov, 10:44 AM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Jagran Josh",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV0gxVW02dzVBczRhc2Zsc2Z2aGtxdmZ1dnExRWNjaUVWeXNNUTdRWURKY21HNTlHVldJbWpmcUxsVXB4MkhfU3owWG1sNVRyakE2R0VlNC0yeDdrQkpxRXg4N0E5UllfRm11MTJ3aDBtU3kzclpwbjNxSlhValB0aTBLS01TY0tOT0QyRGhpUi14U3VUcksyX2lLZks3eGx3dVA1R3p0ZHgybkM4dmV6Qk1uZFhDM2oyY1FiQ3hRd0tHXzkwYVBVX3pCUWxlcnJQZWotN1IzYkQxYV9yY3Vv0gHmAUFVX3lxTE9wNDlCeWtYajV0U1RrbTBKN09OcS1jU3NOaUtkMjhBYWVlcGFBSzVXRld3ZzI2bVdNZ29ROWpRamV0QzdISDVXbGxHRG9GZ0QwOGdOUURrWGdzVGpIQlZsa2lvSk1zZWdGRDFwSlg5SEZGV05TY2xQZmE5MVZrZEJpTFZSRlY2ZVJnQ09oVXJPbGd3dGlsYWhPM041WV9VVDc1dEo0RnFxUGpGelJYNUNUNmFOLTY3c0JfLWRDY3cyem40NzJLdjRKRm41QS1YTGE0cHI4YTRvd0xqRDRSRjBQZzBNVjlR?oc=5"
-    },
-    {
-     "outlet": "Cricketwebs",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZVlTR3Q2WHdhc1ByLUhkOFk5LTFiTGVJYkpTaEdqVllqaWVrSVJzM19kcFFvQ25rRDhwNXg3X2tReEkyMWVhaW1oR1BpbUFxamRjNEhwb2YxUWpMMzlyeUJvTXozcldQOVNQc1BXTmJVeUVTeFBMaTJyUWVrWWFhbFZGaGU1bld2WkRhNHNUbE1aMDZ3VjBSQjhkMjJEd1hPVWVZWlZNUWhKY0wyMkxReA?oc=5"
-    }
-   ],
-   "published": "2026-11-22T05:14:05+00:00",
-   "sensitive": false,
-   "score": 6.95
+   "score": 4.94
   },
   {
    "id": "bc4b7af04c",
@@ -613,7 +588,7 @@
    ],
    "published": "2026-11-22T03:56:53+00:00",
    "sensitive": true,
-   "score": 4.84
+   "score": 4.83
   },
   {
    "id": "bb13378765",
@@ -634,7 +609,7 @@
    ],
    "published": "2026-11-22T01:20:00+00:00",
    "sensitive": false,
-   "score": 4.62
+   "score": 4.61
   },
   {
    "id": "c0d9c607e9",
@@ -655,28 +630,49 @@
    ],
    "published": "2026-11-21T23:32:00+00:00",
    "sensitive": false,
-   "score": 4.47
+   "score": 4.46
   },
   {
-   "id": "5387923efa",
+   "id": "929e985b7f",
    "topic": "cricket",
    "kicker": "Cricket",
-   "headline": "INDW vs ENGW, 11th Match, ICC Womens T20 World Cup Warm-up Matches 2026 - Commentary",
+   "headline": "'Bigger than Hansie Cronje's match-fixing': Legendary cricketer makes explosive Sandpaper Gate claim",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Cricbuzz (22 Nov, 12:15 AM IST)",
+   "source": "The Times of India (21 Nov, 10:32 PM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Cricbuzz",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFp4OEYtNHFLUkYtWExSSmJhclhXOW0wSzlYaG13TVhpaDloNjhpOXZtR01sVHFhdVdqRnYzRUNJcUg2NV9jMUp0eTVQTDdvZ2R2UkNHNDBwWnJ4VnZWNllJNHJqcUVDNGZMRmtBVXEwRVFKYzNmQ2hqbHhJU0FIUHRmZWFPU0lPQlRmWGRlcURKWGNwLXpKTFRIUTB6RjNBQVQxSmFLOVM4OG53dnFpaUtzY3JRbXk1dXhYa3NB?oc=5"
+     "outlet": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVG4zOGxONTA0ZmZCU1VXUGtKdElwV1hZSkJkRG5UU0lSS21IbUp4VkxNRmRXX283RERyaWI4WjE4Wm8wOHpxZU5iRi1iNVh5SGJaRjRHMTc4SEN3bWMxMzYxWDRXNFZnTmh2YTZVSGpzU0VsWkRQNEE3bEMxeEtPVGVzVHAtUWNXc1ZGRnVXN0FzRXg1YVhYSEo3LXVKandDUVBkYmt0NnphQXhHYm5scFVuQVQzMHUxM2pjQXRMQk9NbFhHYmhkUDA2Z0VpWVh2aVUxdTluVXZzUmV4LWJST0U5R3BEM3h5OTlHbVIza2JKZDhPVDQ1X1c5RU9tNFdrTGFpd1ZhazRRWXZNWlBJ0gGPAkFVX3lxTE1UbjM4bE41MDRmZkJTVVdQa0p0SXBXWFlKQmREblRTSVJLbUhtSnhWTE1GZFdfbzdERHJpYjhaMThabzA4enFlTmJGLWI1WHlIYlpGNEcxNzhIQ3dtYzEzNjFYNFc0VmdOaHZhNlVIanNTRWxaRFA0QTdsQzF4S09UZXNUcC1RY1dzVkZGdVc3QXNFeDVhWFhISjctdUpqd0NRUGRia3Q2emFBeEdibmxwVW5BVDMwdTEzamNBdExCT01sWEdiaGRQMDZnRWlZWHZpVTF1OW5VdnNSZXgtYlJPRTlHcEQzeHk5OUdtUjNrYkpkOE9UNDVfVzlFT200V2tMYWl3VmFrNFFZdk1aUEk?oc=5"
     }
    ],
-   "published": "2026-11-21T18:45:02+00:00",
+   "published": "2026-11-21T17:02:00+00:00",
    "sensitive": false,
-   "score": 4.07
+   "score": 3.92
+  },
+  {
+   "id": "9d8692382e",
+   "topic": "cricket",
+   "kicker": "Cricket",
+   "headline": "Bhavika Ahire to Lead India U19 in Five-Match T20 Series Against England Ahead of World Cup",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Female Cricket (21 Nov, 6:34 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Female Cricket",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWW90Z0Q3c3VXaDEtamFuQnlNNFg4MEUwb3I3a3JZSDAyTS1MNmlGSjJKR0JuQWxLbE5vbFpqYXJFMVVabnMyNmhFbEFWemNSTlhUX1llUDduX1JRRDFNMTAxNEIxWkxuOEo4dnNUdFl0aTEybjBqcG05bV9Dc2ktcmtXemZaZ3ljNHdfNV9TVTloLVREVGx5d01ETXQwVHpIV2pUQ0x2QXhKTUV6T1pYSzJaZGEta2ZiX0xMd1ppUDAzQlpCRTRsTXhfRU5PV21TOWhBa0h1MUk3WTVUb3ljZnhR?oc=5"
+    }
+   ],
+   "published": "2026-11-21T13:04:59+00:00",
+   "sensitive": false,
+   "score": 3.59
   },
   {
    "id": "ac0ae11ba1",
@@ -709,7 +705,7 @@
    ],
    "published": "2026-11-21T19:03:00+00:00",
    "sensitive": false,
-   "score": 10.1
+   "score": 10.09
   },
   {
    "id": "80bc8b8512",
@@ -738,7 +734,7 @@
    ],
    "published": "2026-11-21T20:07:00+00:00",
    "sensitive": true,
-   "score": 8.19
+   "score": 8.18
   },
   {
    "id": "70a3a8d10c",
@@ -767,7 +763,7 @@
    ],
    "published": "2026-11-21T08:27:14+00:00",
    "sensitive": false,
-   "score": 7.22
+   "score": 7.21
   },
   {
    "id": "a719018266",
@@ -795,25 +791,25 @@
    "score": 5.31
   },
   {
-   "id": "30f7b7d0c1",
+   "id": "e16c9ee84d",
    "topic": "cyber",
    "kicker": "Cybersecurity",
-   "headline": "Latest hack of FBI puts personal records at risk",
+   "headline": "Cyberattack disrupts European institutions: EU systems breached and digital services disabled",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Axios (22 Nov, 11:03 AM IST)",
+   "source": "صوت الإمارات (22 Nov, 11:21 AM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Axios",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90d3daMHJ2WG9UMlB0eDlrSlFBMVYwdDd2R09PdzBwUG5EcGZTUzNsVVZzR2U2elhGcnhSOXRIMVRKUHhQdkxEWHE1Z3d5dExCSnF0OFFxX3ZSVkdGaFk3cmgyeG1XbnI4X1hDcUxxcVY?oc=5"
+     "outlet": "صوت الإمارات",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRFN5RWdpOFR1d00xWkF1QnNuMWZLaFgxWjBvRDl1TktQYXJjMUprVWY0a3FfRF9fTVU0UDA5aHZSRVg3cmhTeXlkV0EyM3dMYkk1RDZJUmJCQXVlVGl4RFBmbHNFak9JVWVPMzYzZTNUZUpqdW45M0RtaXRzWnFsNS1mWXFRZHppRGxUaG9idUtVclU3MXYtNEY0eVZqWUQ4VDBWZjIzbFJENUlHX0ZTNzNfOTdHM09DNXFiQ3hJVFFCbnJpYktycFZGOXVhd2NCVW1xWW81WVhDdl9oemRYaGR0czF0QnlodEs3Sg?oc=5"
     }
    ],
-   "published": "2026-11-22T05:33:01+00:00",
+   "published": "2026-11-22T05:51:32+00:00",
    "sensitive": false,
-   "score": 4.97
+   "score": 4.99
   },
   {
    "id": "b749d9ebcc",
@@ -867,7 +863,7 @@
    ],
    "published": "2026-11-22T00:30:00+00:00",
    "sensitive": false,
-   "score": 6.55
+   "score": 6.54
   },
   {
    "id": "ad49e83e3a",
@@ -895,6 +891,27 @@
    "score": 5.15
   },
   {
+   "id": "c54ee4113e",
+   "topic": "economy",
+   "kicker": "Economy",
+   "headline": "Domestic demand, manufacturing to drive 6.7% GDP growth in FY27: RBI",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "DD News (22 Nov, 8:50 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "DD News",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEtrMGdQV1lvaGFFYWJteThIZmNEOGZXS2RsQ05RblFsalExcllVdzJkU2RHYU1tU0s5Sm1PNnNFVmVzMS1EYUhpRU9wdU9EY1Z6MEtFd1RsNldhZXZ2SVpTWVVFNS14bjdENGZYM1BLbzFnNnJtZnQ0b0dOdC1xZVYxSml1d2ZSTHlJRmpkOUY0LVMxN2c?oc=5"
+    }
+   ],
+   "published": "2026-11-22T03:20:09+00:00",
+   "sensitive": false,
+   "score": 4.78
+  },
+  {
    "id": "270903d986",
    "topic": "economy",
    "kicker": "Economy",
@@ -913,28 +930,7 @@
    ],
    "published": "2026-11-22T03:20:07+00:00",
    "sensitive": false,
-   "score": 4.79
-  },
-  {
-   "id": "ef5784ad06",
-   "topic": "economy",
-   "kicker": "Economy",
-   "headline": "Charting the global economy: GDP slips in Japan on weak consumer",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "The Economic Times (22 Nov, 8:35 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQY1JBOXRGcjFSRDdsSF9nSWFMNExMVVZrY05RTmNTdEtOZnNxYlNTbmlvWnBXbmxyQmxXcDlfWW8wUi1iem9mQU1LN0RiMnc1N0FVQjc5LVlDOGVjM1VVRlMyZDc1ZUc4T3dzZDZaemdjSlAzOGVrVnZDSXd5QWdHbF8wazRhUTRyZFduc2lsNVlIZHVGWm9FMW1UYm0xeUxhVE1kVEMzdmxLbmQ4NmFQXzg3dmFVQ09fUFduaGFYdEp1anZMN282U3k2VDA4Y3I1enFIRTRtT3JLaVBIZjl6RlN0VG3SAeoBQVVfeXFMT0VYQkV4Z2tDc2V5eU03bHlra0piR0VJT0pwblFBanBrekV4Z2RHLU9ETzN2MV82UHQ5VDJ1cWxvbTFWT0E2WUstemRFTlVRQng4eVNtdUxpaVVIdTl6NEh2V1dyRER6V1BLNVlmUlpXNi1fZklLOGIxUHg1X0dDdGh2ZnhKQmNfYnpyMFlCZzdsSmtxQy1jWWphaXZ4aDUzNWlsUDdKTXY5SUpmUDNXYkdCMzdreVlXUFd3bWpITHdzQW1VTTdwbURydXVnYS14ZVVrdmw4clRGM0JWMVdxemk1dXBrcEJmcTNB?oc=5"
-    }
-   ],
-   "published": "2026-11-22T03:05:00+00:00",
-   "sensitive": false,
-   "score": 4.77
+   "score": 4.78
   },
   {
    "id": "86ba38cb1d",
@@ -959,7 +955,7 @@
    ],
    "published": "2026-11-21T07:24:55+00:00",
    "sensitive": false,
-   "score": 5.13
+   "score": 5.12
   },
   {
    "id": "8a77cda5cd",
@@ -980,7 +976,7 @@
    ],
    "published": "2026-11-22T05:49:05+00:00",
    "sensitive": false,
-   "score": 5.0
+   "score": 4.99
   },
   {
    "id": "2fd23fc2b0",
@@ -1001,7 +997,7 @@
    ],
    "published": "2026-11-21T23:02:00+00:00",
    "sensitive": false,
-   "score": 4.43
+   "score": 4.42
   },
   {
    "id": "a7f2118e3e",
@@ -1043,7 +1039,7 @@
    ],
    "published": "2026-11-21T20:14:00+00:00",
    "sensitive": false,
-   "score": 4.2
+   "score": 4.19
   },
   {
    "id": "d673db2287",
@@ -1085,7 +1081,7 @@
    ],
    "published": "2026-11-21T20:56:08+05:30",
    "sensitive": false,
-   "score": 3.8
+   "score": 3.79
   },
   {
    "id": "ba2bad5d11",
@@ -1106,7 +1102,7 @@
    ],
    "published": "2026-11-21T20:54:58+05:30",
    "sensitive": false,
-   "score": 3.8
+   "score": 3.79
   },
   {
    "id": "7d8713d13d",
@@ -1127,7 +1123,7 @@
    ],
    "published": "2026-11-21T14:42:58+05:30",
    "sensitive": false,
-   "score": 3.28
+   "score": 3.27
   },
   {
    "id": "aad4b9579d",
@@ -1148,7 +1144,7 @@
    ],
    "published": "2026-11-21T14:42:41+05:30",
    "sensitive": false,
-   "score": 3.28
+   "score": 3.27
   },
   {
    "id": "90bd78d044",
@@ -1159,7 +1155,7 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Motorsport Week, Crash.net, GPblog, Northern Ontario Business (22 Nov, 11:17 AM IST)",
+   "source": "Motorsport Week, Crash.net, Northern Ontario Business, Rocky Mountain Outlook (22 Nov, 11:17 AM IST)",
    "label": "multi",
    "sources": [
     {
@@ -1171,46 +1167,83 @@
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONjViTXl6enIxSDRzT2p4TXFQcnRDei1TckZSek5sOHFzOFRya1ZXb2FNZXl3ZTdGNUtIc25jMDlOeGlaNjh4YjdLZnFVTU9iM0lGcnhFaHFiUTFQZTVCQXlzenhsUlV4cE5UTkdPZ0lyc012alRKendDZkNGR09RTHlDUE1UUXJEbExaN01oSENoMFlzQVE?oc=5"
     },
     {
-     "outlet": "GPblog",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ09FTmV0NVc5blRyRXVXZmh4LVphaVMyb0FnbU1UcDFHMlRIQkFzbi10UnIyb0ZPZlQyY0dndXR2WTdUZmRueV9DVGx6U1laRU9BeXMwUlVIajdWcWF4MWVXWFNSYjduNkNWZmYxMFJoSnl0TUhweHdHd1RWal84Tjh4NFJxa3BwZXBwd0xEUlA1TkNCd1BWekpFTWh0YW0ycTZpWWdRaDNQU2s?oc=5"
-    },
-    {
      "outlet": "Northern Ontario Business",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZkhwdXVIQ21rU2NzMUtJX3hDTWhkQmpFdXZUSE1uNUozUngzLWpMWHFOLUlBNzhLbm1LM1Bzb1laODVqVHNOYjBWNXl3dWhMaEdKaDFfeG5uN0pHS2FsU2g5SkxXeEdtV3hMMWtLMDhiSGJEVzR6dWdHYkNlNk1PTTQyY0pjaXV5RDBv?oc=5"
+    },
+    {
+     "outlet": "Rocky Mountain Outlook",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2xYQkhKNUtuYTZmd0xFQ1pIOG9MNmwwNWRfOWRRX2R1UlFpTk9WSkNVdGg0ZncwNHRpd1E2U2l4SndMbm52akxWYkoxR09oQTA3WGJBMUprMHVqRTRfOWdOTldKcmM1a3hBS1Jwai04ZXJoTEpGd3FSZE9BWFM5OWVGS3NKX2RFM1lxdVJUNA?oc=5"
     }
    ],
    "published": "2026-11-22T05:47:33+00:00",
    "sensitive": false,
-   "score": 36.99
+   "score": 32.99
   },
   {
-   "id": "78fce49b26",
+   "id": "8e60a8c11c",
    "topic": "f1",
    "kicker": "Formula 1",
-   "headline": "Las Vegas Grand Prix briefing: Max Verstappen wins a wild slipstream duel with rival Russell",
+   "headline": "Max Verstappen cashes in by winning the F1 Las Vegas GP",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "The New York Times, Las Vegas Review-Journal, Yahoo Sports (22 Nov, 11:07 AM IST)",
+   "source": "Motorsport Week, Autosport, GPblog, Yahoo Sports (22 Nov, 11:23 AM IST)",
    "label": "multi",
    "sources": [
     {
-     "outlet": "The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNHRDZlZGWFlycTJPZkRCNDdadlVZUVNyVmpyeV9RMEhpNWVGajJnWG84UlhfcDBzSEFQemdXbWxCTFhaMm1tNThOQUlxOFZERkRDUGYzUDI1V05BUUM5MXpFbmVGcVVEUmptVlAzRlFHQ2pxOFVvU3hIaDZvRHlIMTlhYVdNcWxaU1hfTVMwQ3VqbVFMQlVldUxlMzEzZw?oc=5"
+     "outlet": "Motorsport Week",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMFYtQ3lIU2JJUXpZMVFFNnRTMG1TSU5uRnI1Um1PNjI5azhscDlSeXNwOHR5LU0zeXJ2X0pZYzhwMmVnRVRLbjFsd2pGUHBIOEtfOXJaUG5CaW42OVQ1NWFVT19sNllfdDhNdE5MMGpMbHhseUYxWjYteW5oN1pIYWg2WFI?oc=5"
     },
     {
-     "outlet": "Las Vegas Review-Journal",
-     "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxQYy1FeFNvTGRobFh5ZGNtS0kwLUpDdjZYb2RXSFpHcDdQa2Y1SVByWGE3NW9IODM1aWpPSl9TWDlGVmlxeV91ZnFIU3ZuWjBWYnlQQWt1WHpNWTFBUmdSX25SYVlLTXdoZG4wZGRXYVZXcDVtUXo4WlhsNzZEWlNkcXY3VC0xMWZYYVl1cUhGb1dScXpzRGF5MExHVE9qSmZJQlJRcjY5bk4tRVprb0lGbUJJallBNDh6MVFFU0t6QUVFRkp2M2JDMHZfa25qbThlY2pkaFJicHNvSFhxWEM4U19YSElSaW5UdVZuQ3BOVFBGekFoNGMycU9kMUw2bXBsLVJzalBZc3Y0SHc0VHpCYUlzdkhyZTM1bHBkMUZmdThOZ01xc1Ntak8wYzRXcHhlY0hWRVVZSFdUWHpRSDF1NHF3TjlOSnFYclF4cjVIQ09sUUxxRURvemJLWGdPNlVrcWl1bzlpWnNzYXlfbWxxZUpiM3p4ZDRGbl9VNVJHSEU4NTEyZ1dMZEgtTGp5ZzVKNUZacWp6YWlNQkdE?oc=5"
+     "outlet": "Autosport",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0Wmk0WktEcVdVclh6RnB3RnVHRmZ5aFNaOHczZnRtclkwZVk2UjNwYkd6ejQ5MEZVSTdvYlZLb2s4V2Jsa3g2elNESUR4cExOcEJnb1JuNktFM0d3aE9JNzA1V29EdmFfNU51MHN5VHJhYTVW?oc=5"
+    },
+    {
+     "outlet": "GPblog",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ09FTmV0NVc5blRyRXVXZmh4LVphaVMyb0FnbU1UcDFHMlRIQkFzbi10UnIyb0ZPZlQyY0dndXR2WTdUZmRueV9DVGx6U1laRU9BeXMwUlVIajdWcWF4MWVXWFNSYjduNkNWZmYxMFJoSnl0TUhweHdHd1RWal84Tjh4NFJxa3BwZXBwd0xEUlA1TkNCd1BWekpFTWh0YW0ycTZpWWdRaDNQU2s?oc=5"
+    },
+    {
+     "outlet": "Yahoo Sports",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWFUelJlTmNDa05XamZYZjJHQ05nZEkxSWZ0RlVqSXZHZEpvbzEtY0duM005bWZhbFpUamtyZGRlTXUwYm9jTUlaZ21uTWotV3hhd3o5SklYSWJscXJ3TWduN0RWUEQwS3Q0SWVCcmcyVFMtMWtyY3IxVU1SZWxlMWdHajNfbzFPTVJiWEt0SzJ1MzdVaGtidFRxWVR4YWljWUUyeGx6Vk5OVjZQSy1pZjhfcTlPM3RWVGgweE9jSDNFa0xpdTBZODgzTkVSNUROMlp0dXFxbGg?oc=5"
+    }
+   ],
+   "published": "2026-11-22T05:53:03+00:00",
+   "sensitive": false,
+   "score": 10.99
+  },
+  {
+   "id": "6c314a4a21",
+   "topic": "f1",
+   "kicker": "Formula 1",
+   "headline": "Max Verstappen wins the Las Vegas Grand Prix for the third time in 4 years - News-Press NOW",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "News-Press NOW, Toronto Star, The Winchester Star, Yahoo Sports (22 Nov, 11:15 AM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "News-Press NOW",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTEhlUmxzbGxxSVhxQ0pJclFNVGVQclBGQUhKamJRQkd0cF9GcU5SUjNKbXZuTkc4U1FrTW1Ed3FCRF9xZW5fM0t5dnduSUJRY2FTMW95MDF0TkU4U3FtOGZkUG1pSGh4N210OXkyWDlWa3BGb3FQR0cwVVdFOFVNVmxjQkR2djIxNmVrbjNMY0xLODZZT0h6ZWJqWkk4MXVIY2pLTGYtY1R2bkVrZDhSM1FYcWMtcjBhUUdRcmZ1RUhybTV1OFVKcnh0bEJRaVRvdW9SUDFkbzlfQ191MnVfeHYwWU9odlM1VVhGejl4RnhqcktnOE9BdVlueE1GZw?oc=5"
+    },
+    {
+     "outlet": "Toronto Star",
+     "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNcVg4Ui15NjdKa1duUmlLd2RRNVVJRkM3OEg4NHZCZ0ZITzRaRjByZ0Z2NGJvLTU1MHdLU05XckNKdmJzbnJYM0Zmb0R0X3poVzdvcDkzLXRIRUpRZHRHSGprOXVUZFRwcF80azQ0a3NpVDdUTWYtVlNHV0Q2TGUyNmgtZWNMU0JsZ2F4Z2N4SjFHbkVFVDhMX2ZXQnVrd09YLW9PeS1aNlVlVGF0YUJMTGc0U3pwTExWSXNpUWF6N3h1bHZDT1ZydXFjRl9ZdVdMNmFmX2JnTmRuYjYtVmhFeHJQTnltNzh1S1RZdlItdlNsZWJ5V2tFbEw3dk9NQUVnd1J5M0FwSjRLUXFJTnEzcmx6ZnZ5dk1MOURiTFlvVURJeE5CcnJKa2F6OG5VVkxWNXRDUzR3?oc=5"
+    },
+    {
+     "outlet": "The Winchester Star",
+     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNYm9uOFBraEppV0gtS0lLRlRHeGt0dEpjR09hSFI3R0k2RlNxaEhvbEw5bkpzU29rdFRTeHpDZHQtaTZwRm5Zc3ZPZnZJczZRdjJzbWZqZEFoNG9RUjRkclBuejZsbTUyaFFuY1JJazVDSUttSElMVUwySlFpZ084dW5UTUF2SHBpREJSdWRHbUhFN1BRLUpybUs1WGRybzBzNXJvSHFqeXBxS1FOR2ZrWE9ZeEZsSk5FZ1lIdjZTVlVnc3Y4WEVaSkk2V2xScUNoUnQxYWZQMEp6VUJvMVFtVWl3V3NmaXVqVU1kcUFINmNnX2VhUTQ1TlN4dDZURi1TcGduWXNtZnZFblFnMS1EMV9nbTZuYUJ3eThSaUdOSTB2OGs2SFE?oc=5"
     },
     {
      "outlet": "Yahoo Sports",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44U2pMcm9PM0lDS1E2cG9UT0FTSkMya2todi1wSGJXX3hIMEprRnpwVXJOVHluS1BsWmZKd2pwckI0NmlsZ1hwT205WHBJdXl1ZWlsZ1VoTFBCd3FueHd1azNyZkR3Mk1ILUE3cG9BdGRyMFZKeFI3TDVlQQ?oc=5"
     }
    ],
-   "published": "2026-11-22T05:37:59+00:00",
+   "published": "2026-11-22T05:45:47+00:00",
    "sensitive": false,
-   "score": 8.98
+   "score": 10.98
   },
   {
    "id": "7cbe1f36e4",
@@ -1239,7 +1272,7 @@
    ],
    "published": "2026-11-21T22:05:09+00:00",
    "sensitive": false,
-   "score": 8.35
+   "score": 8.34
   },
   {
    "id": "543381ce2a",
@@ -1264,53 +1297,28 @@
    ],
    "published": "2026-11-22T05:42:43+00:00",
    "sensitive": false,
-   "score": 6.99
+   "score": 6.98
   },
   {
-   "id": "d74ca22f72",
-   "topic": "f1",
-   "kicker": "Formula 1",
-   "headline": "Las Vegas F1 GP LIVE: Can Piastri pull off a miracle?; Russell reignites Verstappen feud",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Brisbane Times, Yahoo Sports (22 Nov, 9:52 AM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Brisbane Times",
-     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOM0JUVTRiZkdWMGhPNVJ6cGxyLVlYZFNvYkkyaEhkS01MR1hlemE2UkFYc04wTWR0X2YwUTZWLVd6SV9DWXYyZmRJVkp6RW9rSlMySmRPbEJUemtibVZHUHZBZTRMZlpBVVVEeWVtMGMyZWU2Y2g3c01ZUUsyR0tSWllSTlZKb0o1dnprTWtlcGJZTU1nRlEzVUlmZjhxaGVwdkt2TUVkcGNGRjFyVlE4WlJpY0hCc1V2TGVFdVBvV2ZsdTdWcVhCRFhlOTBzNFJFSFFMb0xTcDZ0V0ljSkt4RTREazA4ZTRTTGdWa0Y0a3FUSVZaVUlFQURIZ0xxUEFNVndEQ0ZEX2xmX21JcWFKa013Q09vaE5ZcUpURDRR?oc=5"
-    },
-    {
-     "outlet": "Yahoo Sports",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LS2lUZUlpa0tYR21SeU9MMlpVVHd2dC14ajRGc25QaHVjb09Ra2hQTTA0REVJdzRHak9nLTJ2S2JZUmdSQlN0anRqY0VyYnB4dmw2ZXl5MlNHU3EzajdKX25QN3ZJcGdaOHc3WVBiNHh5ajRNZTFBNg?oc=5"
-    }
-   ],
-   "published": "2026-11-22T04:22:49+00:00",
-   "sensitive": false,
-   "score": 6.88
-  },
-  {
-   "id": "144062f3ef",
+   "id": "c07fc7a4a3",
    "topic": "fashion",
    "kicker": "Fashion",
-   "headline": "Reliance Brands FY26 Revenue Up, Loss Narrows to Rs 137 Cr",
+   "headline": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Rediff MoneyWiz (22 Nov, 10:39 AM IST)",
+   "source": "The Economic Times (22 Nov, 11:14 AM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Rediff MoneyWiz",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRnh6dGhzRzU3MWJVWnpHVGJqbWs4NjFTNVZsbTduX0tJcndMVExKS1lZYVVFVFJrV3Q3cDN0VjNMLVpDaHVmcDI4NnNjN0EwVGdYYXloN2h2bXBuZU9MVjNTR0xpTUVUN3JHaHBZcFlvTGVkTkRXWFNDaktHZ2hlNzFvZ1Vjb1FodDRFWXlHeVRmZzlzWk90dzZZY2lTSUNYVC1Id2Y0NGllNHFDX3EzQjJSRdIBswFBVV95cUxPRnh6dGhzRzU3MWJVWnpHVGJqbWs4NjFTNVZsbTduX0tJcndMVExKS1lZYVVFVFJrV3Q3cDN0VjNMLVpDaHVmcDI4NnNjN0EwVGdYYXloN2h2bXBuZU9MVjNTR0xpTUVUN3JHaHBZcFlvTGVkTkRXWFNDaktHZ2hlNzFvZ1Vjb1FodDRFWXlHeVRmZzlzWk90dzZZY2lTSUNYVC1Id2Y0NGllNHFDX3EzQjJSRQ?oc=5"
+     "outlet": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcmNKZHJOUzJEOG1raWVOb0FvLXFpV0xQRWVobGd6b1owTEJZc0hSSjFNdE9LaVZTMFBpMFotSF9qX2Nod3pkVWJ0VXEtN1pRdXRUY2xySHdzcGdjalBDRXRtTTNYTGh5VmdTVnhDcTNFNWVpcWJ3ZTlOamZLcXFkX2xLV1ZyN0hfcmNvdURFVktHSGN6bjlkZndNY0Z2dDg4RVM4cnhaVXRaQm83VEN0MDJncHB5dUFpQ2ZyN08wNHFjbjJHUnVvYUVoYWlsSExmNDFacVpycXBGSUxmUmhYZFkzZk12OVJ3RDk1OGVBbFNIWTTSAfgBQVVfeXFMTlROTzBlbWwtS3VxTjlxaDlLVFFqc1BxRml0aFpKTkxfQjQxRFczS0hnT3ZieVBuYXhHak1NaVNvWW5wTjBNTW1wNEpNQmdkaGNoLVNYRFQ2dXREY1ZsY21JMjZncnoxU09XMXp1SWdTYVk4UFAzRmF3WTB4OV9GSUIwUzhEWVg2VnZfVVlRaGxHLXJmYUZqWkt1QlhQQWdFWktub0VEVVhhM3ZPSkt2dDFLZkxXdnBjVHljajN1NTIxcGNabWZ6MDNYVlF4N3ZoUUt0ZzAxdGs1RlRYMUxXdDFNUUxBUmdZY1UwZXlTanZNV0phQ2dZREU?oc=5"
     }
    ],
-   "published": "2026-11-22T05:09:03+00:00",
+   "published": "2026-11-22T05:44:52+00:00",
    "sensitive": false,
-   "score": 4.94
+   "score": 4.98
   },
   {
    "id": "c408608e0d",
@@ -1331,7 +1339,7 @@
    ],
    "published": "2026-11-21T11:52:43+00:00",
    "sensitive": false,
-   "score": 3.5
+   "score": 3.49
   },
   {
    "id": "efb73e0e4d",
@@ -1352,7 +1360,7 @@
    ],
    "published": "2026-11-21T09:54:45+00:00",
    "sensitive": false,
-   "score": 3.34
+   "score": 3.33
   },
   {
    "id": "2e57088449",
@@ -1373,28 +1381,28 @@
    ],
    "published": "2026-11-21T07:39:54+00:00",
    "sensitive": false,
-   "score": 3.15
+   "score": 3.14
   },
   {
-   "id": "0a8be41436",
+   "id": "f313f713f0",
    "topic": "fashion",
    "kicker": "Fashion",
-   "headline": "Celebrities bring the spotlight on top jewellery brands across fashion showcases and outings",
+   "headline": "Provogue Taps into India’s Youth Pulse with Associate Sponsorship of MTV Roadies",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "The Retail Jeweller India (21 Nov, 12:35 PM IST)",
+   "source": "MediaNews4U (21 Nov, 12:26 PM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "The Retail Jeweller India",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS2Q3TUxVTEhxZ0Q5U2FLX3NVREpfWkF2cWxxT3NpWFktS3dVUHBYR2Vfb2Zjak9aODlfakF3RmdtejdmM01hR1FLUjNTeFpZTFl5bHNKcDhBM1Z3RFFDbmt0U2tpOG5QR01pbjVnblRXWkptU2RyczE2Sy1DdHhENUFJQ2hSbXFFSXhwUHlOcDZmelpWUWt6MG13WVB2T2xrc3ZKdHJiS1BPYUZQUHZ6SHZ6R3NlVHJacVd6Y0s1WWgtNGs?oc=5"
+     "outlet": "MediaNews4U",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN3dLNjBleFFvZk1jdktsbDNyU3NCTmtUSXRadTMxNE5jV2JZZHc3aDQ4cEVYUE8wa1QxeFNQQ1l2SmdWS2F0T0IyRm9JTUNNQUdhWjhJNmNsdnhaRm9FeFJ0aTRGRFVxWkpseS1oeFJ1RzJpdm9YM3dxQU13azJ0cUhYcU14NDh0M3VfTFNaeHR6c2MxSGFGNFJ0N1VyMGxLd29qUkRJWlZuaTVT?oc=5"
     }
    ],
-   "published": "2026-11-21T07:05:25+00:00",
+   "published": "2026-11-21T06:56:04+00:00",
    "sensitive": false,
-   "score": 3.1
+   "score": 3.08
   },
   {
    "id": "c8ff875333",
@@ -1423,7 +1431,7 @@
    ],
    "published": "2026-11-21T16:01:30+00:00",
    "sensitive": false,
-   "score": 7.85
+   "score": 7.84
   },
   {
    "id": "b2ffc428dc",
@@ -1444,7 +1452,7 @@
    ],
    "published": "2026-11-22T02:38:47+00:00",
    "sensitive": false,
-   "score": 4.73
+   "score": 4.72
   },
   {
    "id": "425ba0fbfc",
@@ -1465,7 +1473,7 @@
    ],
    "published": "2026-11-22T02:06:38+00:00",
    "sensitive": false,
-   "score": 4.69
+   "score": 4.68
   },
   {
    "id": "9253b4d7e1",
@@ -1486,7 +1494,7 @@
    ],
    "published": "2026-11-22T01:10:00+00:00",
    "sensitive": false,
-   "score": 4.61
+   "score": 4.6
   },
   {
    "id": "e4e86cba92",
@@ -1507,7 +1515,7 @@
    ],
    "published": "2026-11-21T17:51:33+00:00",
    "sensitive": false,
-   "score": 4.0
+   "score": 3.99
   },
   {
    "id": "f2bdee3fd7",
@@ -1528,7 +1536,7 @@
    ],
    "published": "2026-11-21T19:53:00+00:00",
    "sensitive": false,
-   "score": 4.17
+   "score": 4.16
   },
   {
    "id": "5ea226fec5",
@@ -1549,7 +1557,7 @@
    ],
    "published": "2026-11-21T16:54:13+00:00",
    "sensitive": false,
-   "score": 3.92
+   "score": 3.91
   },
   {
    "id": "fc9d5ae967",
@@ -1570,7 +1578,7 @@
    ],
    "published": "2026-11-21T16:54:00+00:00",
    "sensitive": false,
-   "score": 3.92
+   "score": 3.91
   },
   {
    "id": "a944cf85fa",
@@ -1612,7 +1620,7 @@
    ],
    "published": "2026-11-21T14:30:34+00:00",
    "sensitive": false,
-   "score": 3.72
+   "score": 3.71
   },
   {
    "id": "839fbc76fa",
@@ -1633,7 +1641,7 @@
    ],
    "published": "2026-11-22T02:21:22+00:00",
    "sensitive": false,
-   "score": 4.71
+   "score": 4.7
   },
   {
    "id": "cd53b57736",
@@ -1675,7 +1683,28 @@
    ],
    "published": "2026-11-21T22:51:00+00:00",
    "sensitive": false,
-   "score": 4.42
+   "score": 4.41
+  },
+  {
+   "id": "87d923c7f0",
+   "topic": "food",
+   "kicker": "Food",
+   "headline": "DTLA Indian food",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "LAist (22 Nov, 12:21 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "LAist",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wSTFFQVV1cU9ENVZmcUs0TTJRNld6bXZDanhHOFExX1dPemZyTjBXWHNjS0RjZmpwU1N0VDZVeHpCRlFyNnZSOXRhaTJaU3dlZzF4eWNOS0xIb3BwaTNLUkh5TlZYQ0dZbjhLd3ZFb2tCbDM1ZklQdURGaks?oc=5"
+    }
+   ],
+   "published": "2026-11-21T18:51:00+00:00",
+   "sensitive": false,
+   "score": 4.07
   },
   {
    "id": "0fd690a280",
@@ -1696,70 +1725,7 @@
    ],
    "published": "2026-11-21T11:16:06+00:00",
    "sensitive": false,
-   "score": 3.45
-  },
-  {
-   "id": "c9004be53e",
-   "topic": "food",
-   "kicker": "Food",
-   "headline": "The Indian food renaissance: From the Indian kitchen to the global table",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "The Indian Express (21 Nov, 3:00 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "The Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONExqYjM0RXdSaDdXWDFGS1FUaGxHQ19ROVRKbkdhR2hTX3p2aGQ1NE13bTdRVWhkMEJ0WVppanhFb29uZDNFcGxQeHJ6ZWYyaW1LdDRkUkVra3ltd0Q3aWIyemlRU0NFSGVFSHdoVVJxdTJwb1Z4UHM0eElGNUVSS3Vfa1psYVBxMG9IX25FZE1NeXRsVjNOVUhNZUZDUWZqTjU1c2dFZFA4QUNqUlZ2aW9HNU94Zm5yS3NuNUN4Yjh4bFXSAcoBQVVfeXFMUEIwMzUtc3piSWNEQ0FEOFZqMF84RFF3T1N1Uk1GTVNDbkNnUGZlM3lVV2E2ejA5LXI1dGJFZ2UtUjFndmlValBSS3BxTkNMcFNtMHloOGFwbUJNTzJWZzlCR1VFOHM4M3ZwNXNCSmttN3Nmclk2aWhVOFdYOUNMc2k0R3VLWmJiNWVKZGZNMjJKQzg3Zk5vRm93Y0JkaTJfemdyZTF0SmRBcTVUMXFoS2VzMkJoaHo2RHlUeWt4Y3RxWnAzS09Va2hCdw?oc=5"
-    }
-   ],
-   "published": "2026-11-21T09:30:38+00:00",
-   "sensitive": false,
-   "score": 3.3
-  },
-  {
-   "id": "50a1177f38",
-   "topic": "football",
-   "kicker": "Football",
-   "headline": "2026/27 Champions League: All the league phase fixtures and results",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "UEFA.com (22 Nov, 10:29 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "UEFA.com",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYU1sR0picE9CWEtsaUZDekZKVk1yd2dwVjZwbUxZVUNSUHhaVVRsbzk4RmtzdW10VWx3T0JRSHNTLXkyQjd3SmhUWDl5ZmMxR0ZhQWJic0VsSE5UeUcyQldrLUpjM1pacnJhbnFnU3ZfQk5QNVN5aXJvSVNhdlQtamlkdlpMcC0yU3R3aUhYU2lEQW1FOXYybVkzUTVOM0phcElwVVFDOUs3aVRnOEZ4cGtIVkpwc2NTaXlub3lkZ2VidURrcktzeDNIWkFhalpwTGphNGYxRQ?oc=5"
-    }
-   ],
-   "published": "2026-11-22T04:59:37+00:00",
-   "sensitive": false,
-   "score": 4.93
-  },
-  {
-   "id": "f5caea84a3",
-   "topic": "football",
-   "kicker": "Football",
-   "headline": "Juventus vs Venezia Serie A football prediction",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Laodong.vn (22 Nov, 8:40 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Laodong.vn",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPXzgwN3N3WUJNR3NVeFVhVGZWUFZvYzhUMEhQWUVTSERoaTZfTjBaS1psV3p6UXY4cE5mQkFfWjFhMENYbi1mZlBxaVpHSGEzWi1jX0JoLXFLNWZ6b0p3NTJtQzJZdThFcVlIS2daM1ZuS2VtUXFEd3BsRjY2b001cTF2eG5NYVV4RjdMaFRYeDZfTkp2b3FqZ2M1M0dqSmktVGtz?oc=5"
-    }
-   ],
-   "published": "2026-11-22T03:10:17+00:00",
-   "sensitive": false,
-   "score": 4.78
+   "score": 3.44
   },
   {
    "id": "052572fe07",
@@ -1780,7 +1746,7 @@
    ],
    "published": "2026-11-22T01:16:38+00:00",
    "sensitive": false,
-   "score": 4.62
+   "score": 4.61
   },
   {
    "id": "fbca677b56",
@@ -1822,7 +1788,49 @@
    ],
    "published": "2026-11-22T00:13:01+00:00",
    "sensitive": false,
-   "score": 4.53
+   "score": 4.52
+  },
+  {
+   "id": "2a5a95ad92",
+   "topic": "football",
+   "kicker": "Football",
+   "headline": "I wish referee had opportunity to see 'handball' again - Hart",
+   "sub": "",
+   "card": "Match of the Day pundits Joe Hart and Alan Shearer disagree with Morgan Rogers being penalised for handball, as the Chelsea forward \"didn't make himself…",
+   "full": [],
+   "why": "",
+   "source": "BBC Sport (22 Nov, 5:38 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "BBC Sport",
+     "url": "https://www.bbc.co.uk/sport/football/videos/cme3dvk1kzgqo?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "published": "2026-11-22T00:08:13+00:00",
+   "sensitive": false,
+   "score": 4.51
+  },
+  {
+   "id": "26b7be51b0",
+   "topic": "football",
+   "kicker": "Football",
+   "headline": "Naderi's 'lucky punch' keeps Rangers in touch",
+   "sub": "",
+   "card": "On a Saturday laden with Scottish Premiership goals, Ryan Naderi's was far from the most impressive - but vital for Rangers all the same.",
+   "full": [],
+   "why": "",
+   "source": "BBC Sport (22 Nov, 5:31 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "BBC Sport",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ckzd930mjp1po?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "published": "2026-11-22T00:01:31+00:00",
+   "sensitive": false,
+   "score": 4.51
   },
   {
    "id": "0e09e56dfc",
@@ -1851,7 +1859,28 @@
    ],
    "published": "2026-11-21T13:20:17+00:00",
    "sensitive": false,
-   "score": 7.62
+   "score": 7.61
+  },
+  {
+   "id": "2d3a498548",
+   "topic": "gadgets",
+   "kicker": "Gadgets & Apps",
+   "headline": "Vivo's Next Mid-Range Phones Could Get Flagship Cameras as iQOO Prepares a Powerful Snapdragon Upgrade",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "My Mobile India (22 Nov, 10:26 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "My Mobile India",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVEl3YmN3TEtOcHY4MzUwRHVXdzJJRF9iT0xTN04xRnlZdUczNmJ2cU9lWHVfVmdiOFFELXJhUU1nay1IU3dnalJiOUQ4VC1venlVVmRfUGFvSjdTNnpMZ2kxdktlNlp4TURhODAwSXRqY1UwRzBBcWpNQWFQZlp4YUlaT1NMLXBLVk5YN2QwQnN0VXhKR0FjWEJrM3k1ZU5sQXUwSEdmY0gwVFBkUjNYdGNrdEI2eksxU2IyVU9XemU5ZVlfTm1wMV8yb2k?oc=5"
+    }
+   ],
+   "published": "2026-11-22T04:56:54+00:00",
+   "sensitive": false,
+   "score": 4.92
   },
   {
    "id": "1307496bd8",
@@ -1872,7 +1901,7 @@
    ],
    "published": "2026-11-22T05:16:29+05:30",
    "sensitive": false,
-   "score": 4.49
+   "score": 4.48
   },
   {
    "id": "0812dbe72b",
@@ -1893,7 +1922,7 @@
    ],
    "published": "2026-11-21T19:02:48+00:00",
    "sensitive": false,
-   "score": 4.1
+   "score": 4.09
   },
   {
    "id": "4a27bb981b",
@@ -1914,28 +1943,7 @@
    ],
    "published": "2026-11-21T17:30:53+00:00",
    "sensitive": false,
-   "score": 3.97
-  },
-  {
-   "id": "164750fa76",
-   "topic": "gadgets",
-   "kicker": "Gadgets & Apps",
-   "headline": "Vivo Y21s 5G, Y11s 5G and Y05s Specifications, Renders Leaked Ahead of India Launch",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "My Mobile India (21 Nov, 7:33 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "My Mobile India",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSFk5TmlZNWRacDE1a3RuRVhzbzhCaUk1NjZaN3Y2OVAtVUQ1b3JLMk1OWmRNN01MbXlER05ZclRTTXpWTEtoczIwWUc0RU1wVzB0WHBRRl81SXZkM1ZkY0xWN0J2LTU4bzlRdzR6QzlWQ0FEQXJVem5PcjBIbi10RnNPRmtJWEZiMmRpYTlwQlVNZWpKX090amZyUkV1RXJlRk9Yckl0TkNSbWNieER0RkJ3?oc=5"
-    }
-   ],
-   "published": "2026-11-21T14:03:05+00:00",
-   "sensitive": false,
-   "score": 3.68
+   "score": 3.96
   },
   {
    "id": "84b7844032",
@@ -1960,7 +1968,7 @@
    ],
    "published": "2026-11-21T18:44:20+00:00",
    "sensitive": false,
-   "score": 6.07
+   "score": 6.06
   },
   {
    "id": "5e76165f37",
@@ -1981,7 +1989,7 @@
    ],
    "published": "2026-11-22T04:30:00+00:00",
    "sensitive": false,
-   "score": 4.89
+   "score": 4.88
   },
   {
    "id": "6646520cde",
@@ -2023,7 +2031,7 @@
    ],
    "published": "2026-11-21T16:33:18+00:00",
    "sensitive": false,
-   "score": 3.89
+   "score": 3.88
   },
   {
    "id": "17da08f929",
@@ -2047,35 +2055,6 @@
    "score": 3.02
   },
   {
-   "id": "c898925b4c",
-   "topic": "gold",
-   "kicker": "Gold",
-   "headline": "Gold-Silver Price Today, November 21: Gold at ₹1.25 Lakh, Silver Below ₹1.75 Lakh; Check City-Wise Rates",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "theopenpress.in, Kalinga TV, Sakshi Post (22 Nov, 9:48 AM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "theopenpress.in",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY2hnMndUYWtYaGR5Qy1QbDlmZXE4Nzg5bEZIamVKaGtydTlMTUU5Y3JlMXYyd1YwOEE2VFluaWllU2g3TkRGbjVjWFI5R2FWTGhaRGRFNDNyRzlMMGZ2VzJjRXlfc1VBV3NfaEROU2gta2EtLTBYLTFWTHYxcUZobmhINnNsMUw0aEd2b1FlY2swUQ?oc=5"
-    },
-    {
-     "outlet": "Kalinga TV",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nRlk4UFRSVXh1d3hqTTc5c1FHcmsxcjVFaHUzNThOY2FLOVNvVVBkWDZUMXBJR1NpWHRORldEbTItNHBDRjRwblc2WFI1Z2Z5dUI2VXRNTEZvYVhHQmd3UExkU1dMcDB2aDVnMWJvekdobjFmUkpn?oc=5"
-    },
-    {
-     "outlet": "Sakshi Post",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX0JONG0zbzlKNVRMR0Z0dzZ4ZTAydnBpVVBROXhfTDVRUzFjWTFkVFZEUEJmNjhPdk9NZVhITUl4bWlNSHRMdUF6ay0tSUo5cGQzTEptbE5QYnZ4UGlMeXg3MHk3eDhVX3lBMTd3VU9MblBBajVWcWx4RUhsTWlpZUtGckozekwwV1FRZWZkYlRSTVNKemtMNXlQNkVLQktGODVZcDNpQmhoMUpjbjZUdXJEUHpfejdIZnZIVi1pNNIBvwFBVV95cUxPX0JONG0zbzlKNVRMR0Z0dzZ4ZTAydnBpVVBROXhfTDVRUzFjWTFkVFZEUEJmNjhPdk9NZVhITUl4bWlNSHRMdUF6ay0tSUo5cGQzTEptbE5QYnZ4UGlMeXg3MHk3eDhVX3lBMTd3VU9MblBBajVWcWx4RUhsTWlpZUtGckozekwwV1FRZWZkYlRSTVNKemtMNXlQNkVLQktGODVZcDNpQmhoMUpjbjZUdXJEUHpfejdIZnZIVi1pNA?oc=5"
-    }
-   ],
-   "published": "2026-11-22T04:18:42+00:00",
-   "sensitive": false,
-   "score": 8.87
-  },
-  {
    "id": "e257e4194c",
    "topic": "gold",
    "kicker": "Gold",
@@ -2084,16 +2063,12 @@
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Livemint, Kotak Neo, The Hans India (22 Nov, 9:22 AM IST)",
+   "source": "Livemint, The Hans India (22 Nov, 9:22 AM IST)",
    "label": "multi",
    "sources": [
     {
      "outlet": "Livemint",
      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQT0tvaVFoMWVobGVXeWltV1RYU2NsdHlCLXVLbDZNSGlndUZobEJ2ZDBPUFpzaWFkclp5ejRrNFJGakMzcEF0bDRyNFZyQzltU1Z2N1ZtOUxsQmR0TUNWWEJGbmJJUFNWQlN3VzdjWFBpemUzTWtFZDl2TmZJYVhsb2paX2NNdkFEbXdHSXVTWTR3VFhQcV83TXl0OEdzNUd0M3gzTEo0SC1nYjZXeEYwMWRpVUVjVkdycGJTYWZSZHQwLUZoN2hTX1BCaDRxNTczSEVHdldReGpKdW1tRGE1dTFlVjJmVktoOWJTcW1jTnlLNXF0LUpRZGw0WlR3SHfSAYQCQVVfeXFMUEZaU3htUlh2QjhMQmNmRHNBanNDS0VoTUdkZFdvaU9vOHNWajh0VnZjS3QxQXVqVi05bDdZWDBBMVVqeVZYcEFsT1k2X0ZHTFloalhWZlFObFZidEZHWlp2WnhpRHRUUFlBaVhFWjU0ZEl3UFdfU0htMC0wQVBPaFNub0tCajFnT3VrOFZYRzZnclRGZ1lPNUpUM2E2NXFkSzU1V1JCblJZRk94bVNSNU5WQWtrUjA2Wlk2TUk4akl4d251Y3JzU0V1WWlIVTNJQUk3Mlk1YzROazhfVDJnbXVZVlM2bDJWUGVIUWZEY1I0QndvWXdCeEFfWVI5cU1pQUp1VUo?oc=5"
-    },
-    {
-     "outlet": "Kotak Neo",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIS3F4MDVZR0tIVWlxMVltN080VkdVODBxWk9NTnp2Z2t6ODdyZ2ktSWNjM2RFSWIwWGU5UmZONnVZR1A3MUE5MG55aW5PNkpTRlJyTmVJZlItcmxaUlN4MFFYMVo4X3lFb0lrOWVMdUtnaWs?oc=5"
     },
     {
      "outlet": "The Hans India",
@@ -2102,36 +2077,7 @@
    ],
    "published": "2026-11-22T03:52:52+00:00",
    "sensitive": false,
-   "score": 8.83
-  },
-  {
-   "id": "2f818321b8",
-   "topic": "gold",
-   "kicker": "Gold",
-   "headline": "Gold Rate Today in Greater Mumbai 22nd November, 2026 : 22 & 24 Carat, Todays Gold Price in Greater Mumbai",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Business Today, NDTV Profit, The Indian Express (22 Nov, 6:43 AM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Business Today",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB1b2xKS29ZcnRCVWx2WS1PR2piMjZ6cXlXM3JKVUZsQnJfVnpPb00tdGl4bjh2Y3YyeGJJT3E0MHU1U2l2VDdLdEVkUWdSZElMRjk4VFlJcWptWk9zME1NLUZfdlhxZkxrQzNoT0F0bFIwT3VTNF9KeWlUTVc?oc=5"
-    },
-    {
-     "outlet": "NDTV Profit",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBURmhkdHpKcVlycG9sNENtUHI3MEJaaV9ZeUxEanhiMV9PYkV6VnJoOHF3UzZQS002SVRSNDE1RU5wRXdibFJsRlpLZ3p4ZDFtQm5ZLXktV2FyN2lOVjdXcGdacWJ0VkNFWnhjRjM3bW1tV3luUVE?oc=5"
-    },
-    {
-     "outlet": "The Indian Express",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUmNqY3gzMVY3Tl9GcmxVcXh4MHhLZUhCaVROTUhzZUlBRS00NXJydTNSY3d2ektxT0VlQ0htVG1Mamt2aFFHZXFtU242X3pGUWxpUzRvalduZnNQQlg2bFlIY3cwT1ZVejBEaGZGc0RNaFFjRDB5N1NYNHNwZVdXUFVadEptTWV3UXVremxfVXlxalBMZmxHRFZ5azNEWUVzX3Rwc3dqUnRYZEx1OUFxNE5TODliTU5pbFpXRVBrWWdobzdDN0NhaVM4MUxyTXdFQ0o2ZzloaFhDOXliUW9JZVFna3I3Mnl2Rk1mUDcyZVdaTHU4aXfSAfwBQVVfeXFMUGwxZ1RJMS1uMEVmT2tWMFowTU9ZYnlHZnBDQVc4bDk5c0dES01LaUcxLTNVUENNRVJPckZrOWtoMWRhU1dGZFAzMnpWZ2YxYlRwWlRQYjFiSDVGV1hnLUFjcDBiMzBKZk0yZHc5aEc2STNZUGhqd0hBdzBqR2VqN2dVdmtJNlIyUXd1aGJ1Z2ZfVFVlMFJsOFhJUHZWODJqVmtab0ZmeWJ5TnY0ZmdpemlwWHlfeGY3dDg4UWJ3cmhDQVlSVEo5MDhRVGdNZmNsVTBRQXdFQ0tScktBcVB1SUsxbzhlMjVmSjI1WlloQXRXUkhJWmh6U3dla3VN?oc=5"
-    }
-   ],
-   "published": "2026-11-22T01:13:58+00:00",
-   "sensitive": false,
-   "score": 8.61
+   "score": 6.83
   },
   {
    "id": "638a20c3a9",
@@ -2156,32 +2102,74 @@
    ],
    "published": "2026-11-21T18:56:26+00:00",
    "sensitive": false,
-   "score": 6.09
+   "score": 6.08
   },
   {
-   "id": "bddcacd332",
+   "id": "4847259e51",
    "topic": "gold",
    "kicker": "Gold",
-   "headline": "Gold Price in Dubai Today (November 21, 2026): India vs. Dubai, Where Should You Actually Buy?",
+   "headline": "Gold Rate Today, November 21: Gold Prices Fall Across India, 24K Gold Drops To Rs 12,508 Per Gram, 22K At Rs 11,465; Check Latest Rates In Delhi, Mumbai, Chennai, Bengaluru And Other Cities",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Flickonclick, theopenpress.in (21 Nov, 1:45 PM IST)",
+   "source": "The Sunday Guardian, The Indian Express (21 Nov, 11:35 AM IST)",
    "label": "multi",
    "sources": [
     {
-     "outlet": "Flickonclick",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZnZvQ0dHZ2VUOXdMamhtQU1OcmdSZU1tS1EyTW9EdC15YXhNU0x3ZGxXUUM1MW02WWoxOFpwWk9uUG9kSk1qVklYS2J2SjRiVTNRalIyN21rZDdMRkU0MEtOdnFDaEhlQXlWTjdJTjRha2RpRGtOelNzV2lFUEl3aVQ4ZmZldjNZb3lFT2lvSjhTcUtPZFZrSHJIbDNJLVctLTRsckNYOEstYVpaaWJpVXdQWWdiSWRJ?oc=5"
+     "outlet": "The Sunday Guardian",
+     "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOc21BS1dkcUdDV1Q0US1WUzUzZTNWODgydm9VRlEtcUlrLVE5M1JzZUpEZ1VxSG1BN2xiZlRTdjNwYjFHd0xQNy05N2x4eGlCYTh2QkFTc3VfNTRjaHFIeWtTelVHajUxNXJqRFh1MXJqeUlncTlGY1pMZ1gtV2ZQTThzV29QY1EtQ011bm56S0EyeDNITkZhTFJleERyQVVqdTJyTW9FY3NWQUZCTV9pclo2TFo1MkRvdTBodzZpbHhIMUJFZncwVmx4bmlrdU56SlVITnJOM3RlZWhoS2VUSlFUSXZFZUt0bGdkb0pTSlBBcW5oREJKZlVvbmx2YTZHZmdwdGxRUXhEY2Rlc0VNMVJHeDU1R3NFWW1mSzdtd3RZaUZjYmo1SHo5cmFIUFhyYUtYbnRHb1ZaNDNoZWsxdDN2c256MlRGV3JN0gHQAkFVX3lxTE5SdU5NRERZdU9pS3ZNQTdWalJNMFBmaTdJWTNmMTZYTnRQQUJIZ1FobnBVQ1ExemJVZEViT21CeHgwOENQVzdrYmNtcUtqMzVQcHU0UWt4elpWNkVZWFdwbFM0aGNHc1pLcjFlT0VyRV9ReHlTZUlnNlU5YW10cTRGRTBNT0d4X0ZLWnVMa2pkX0p4eG1LR3BwbXNHa0YtT2NDOG9RcmhaSUtMSk9VWklaUXE5M205cXFlUmxhdFNOQUFjLUR1eDdoTWpWVXZ0Z1FaWXRrV1BRMEhseFRKMjVOZGJWTVBPRkR4V1YzdFVYZFZSMkxjc01UNERIWnVacy1HRWkxVG1mMloyci1lYUFmdHlQYjljNnpYQ0d1VG1Od0JfTWJRX0F2cTFVXzE0czRQcnVNNDVYZ2tWNDlTT0tXdkl5SHpuZFEzVkJsaXZOMg?oc=5"
     },
     {
-     "outlet": "theopenpress.in",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa3ZmRS1DX09OYlJRNF96QlctSjlma240d3RNdFl5dFQ3WmpTdTQ4V0JLeGlkVXhnbzVoOXJSY1dNTnNfUGZFOE5WbXZNM1g5NkY0WEl5ckx6MXFhMUNzcDNTOHVPUUhHZVp4R09sTnJiVkprQS03WlJxNnBPUG1UV1BLcVc2cGNF?oc=5"
+     "outlet": "The Indian Express",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUmNqY3gzMVY3Tl9GcmxVcXh4MHhLZUhCaVROTUhzZUlBRS00NXJydTNSY3d2ektxT0VlQ0htVG1Mamt2aFFHZXFtU242X3pGUWxpUzRvalduZnNQQlg2bFlIY3cwT1ZVejBEaGZGc0RNaFFjRDB5N1NYNHNwZVdXUFVadEptTWV3UXVremxfVXlxalBMZmxHRFZ5azNEWUVzX3Rwc3dqUnRYZEx1OUFxNE5TODliTU5pbFpXRVBrWWdobzdDN0NhaVM4MUxyTXdFQ0o2ZzloaFhDOXliUW9JZVFna3I3Mnl2Rk1mUDcyZVdaTHU4aXfSAfwBQVVfeXFMUGwxZ1RJMS1uMEVmT2tWMFowTU9ZYnlHZnBDQVc4bDk5c0dES01LaUcxLTNVUENNRVJPckZrOWtoMWRhU1dGZFAzMnpWZ2YxYlRwWlRQYjFiSDVGV1hnLUFjcDBiMzBKZk0yZHc5aEc2STNZUGhqd0hBdzBqR2VqN2dVdmtJNlIyUXd1aGJ1Z2ZfVFVlMFJsOFhJUHZWODJqVmtab0ZmeWJ5TnY0ZmdpemlwWHlfeGY3dDg4UWJ3cmhDQVlSVEo5MDhRVGdNZmNsVTBRQXdFQ0tScktBcVB1SUsxbzhlMjVmSjI1WlloQXRXUkhJWmh6U3dla3VN?oc=5"
     }
    ],
-   "published": "2026-11-21T08:15:00+00:00",
+   "published": "2026-11-21T06:05:19+00:00",
    "sensitive": false,
-   "score": 5.2
+   "score": 5.01
+  },
+  {
+   "id": "065705538c",
+   "topic": "gold",
+   "kicker": "Gold",
+   "headline": "Gold Price Crash: Will Gold Fall to ₹1 Lakh per 10 Grams? Buyers Get Relief as Prices Continue to Decline",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "theopenpress.in (22 Nov, 11:23 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "theopenpress.in",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMTJlVWpHVGtsTFdyVGlzbFU1clliYkJPdmFXXzdSNnc5U21GYXdndnlscmx4ZVdFVEdENVFXNzBfakhYRHRlMmU1bThrWFBHaEFPYmg4WU4yZ3p2aW1Ed0pFNVNuUnE0MHZXWnhrRl9CT3JpNUZUM3hlOHpwdThrbWFNRDZheFZfVVEzMi1rMlhGdWZaUEdsYU9feXM?oc=5"
+    }
+   ],
+   "published": "2026-11-22T05:53:27+00:00",
+   "sensitive": false,
+   "score": 4.99
+  },
+  {
+   "id": "48105ad52b",
+   "topic": "gold",
+   "kicker": "Gold",
+   "headline": "Gold Silver Price Today: Gold Falls Nearly 9%, Silver Slips…",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "theopenpress.in (22 Nov, 11:13 AM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "theopenpress.in",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmpNeW1iTTZFejRwZGdrSFBUdTltM3hfOVpWa2JRVjRlMkdSNU10UlhycThlclNZbkhwM21BaU50NElVSnNOdFJTVVNzUUkxZzlReGhRV1RHVFhEUFZyQVY3RklKNDZiUGc2RURFc0NNYkNhU1ZZNmV3MUQ3aGJsWkszYm1TOGt5b0JFY0g4eHV0NFFNWGlsWWV2TQ?oc=5"
+    }
+   ],
+   "published": "2026-11-22T05:43:58+00:00",
+   "sensitive": false,
+   "score": 4.98
   },
   {
    "id": "92618746f5",
@@ -2210,7 +2198,7 @@
    ],
    "published": "2026-11-21T20:00:03+00:00",
    "sensitive": false,
-   "score": 8.18
+   "score": 8.17
   },
   {
    "id": "55b088f98d",
@@ -2235,7 +2223,7 @@
    ],
    "published": "2026-11-22T05:14:15+00:00",
    "sensitive": false,
-   "score": 6.95
+   "score": 6.94
   },
   {
    "id": "7f159c9d3d",
@@ -2260,7 +2248,7 @@
    ],
    "published": "2026-11-21T16:34:35+00:00",
    "sensitive": false,
-   "score": 5.89
+   "score": 5.88
   },
   {
    "id": "833f29c0f8",
@@ -2285,7 +2273,7 @@
    ],
    "published": "2026-11-21T06:20:00+00:00",
    "sensitive": false,
-   "score": 5.04
+   "score": 5.03
   },
   {
    "id": "dcfcd2a705",
@@ -2306,7 +2294,7 @@
    ],
    "published": "2026-11-22T04:29:26+00:00",
    "sensitive": false,
-   "score": 4.89
+   "score": 4.88
   },
   {
    "id": "d1d9fe2280",
@@ -2327,7 +2315,7 @@
    ],
    "published": "2026-11-21T15:00:39+00:00",
    "sensitive": false,
-   "score": 3.76
+   "score": 3.75
   },
   {
    "id": "21d1f8fa09",
@@ -2348,7 +2336,7 @@
    ],
    "published": "2026-11-21T10:26:10+00:00",
    "sensitive": false,
-   "score": 3.38
+   "score": 3.37
   },
   {
    "id": "b3ad65b077",
@@ -2390,7 +2378,7 @@
    ],
    "published": "2026-11-21T08:09:34+00:00",
    "sensitive": false,
-   "score": 3.19
+   "score": 3.18
   },
   {
    "id": "fe1d1366c3",
@@ -2432,7 +2420,7 @@
    ],
    "published": "2026-11-21T13:42:00+00:00",
    "sensitive": false,
-   "score": 3.65
+   "score": 3.64
   },
   {
    "id": "83de037465",
@@ -2453,7 +2441,7 @@
    ],
    "published": "2026-11-21T09:00:03+00:00",
    "sensitive": false,
-   "score": 3.26
+   "score": 3.25
   },
   {
    "id": "c6634a17ca",
@@ -2486,7 +2474,40 @@
    ],
    "published": "2026-11-22T04:02:00+00:00",
    "sensitive": false,
-   "score": 16.85
+   "score": 16.84
+  },
+  {
+   "id": "c51cd31800",
+   "topic": "movies",
+   "kicker": "Movies",
+   "headline": "'Ramayana: Part 1' box office collection day 17 (LIVE): The Ranbir Kapoor, Yash, Sai Pallavi starrer cros",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "The Times of India, Bollymoviereviewz, theopenpress.in, India.com (22 Nov, 1:41 AM IST)",
+   "label": "multi",
+   "sources": [
+    {
+     "outlet": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMizgNBVV95cUxPQUtzYnhlR19leXFfWS02MFdzRi1kZ1JqdHpWWjR5Q3N3SnJIRjMxVnQyQ2xkS3dtUGtiemI5U1JoTHpKVzB4MXN2UV9INmZfYjdhLW9uSUhnaTV1RzUtc2haYXFjZ2JZdC1YTjd3UWx3azVTcFpBaFpxVEFFLTlRcDJ4SGU3TkhSc3lfY3V1WGE3MDg5TlFHbTJtbDBKMUNTbDN0aUEyaUVnOVpNWjdfNldhWEZpZ2ZXcm9HLTBjSXlaVGU5dzhkVE5GQ0xZaDJPMW5iaXY3N2hINHZoZlZqR0VEcGIzbzBZb3lBWGZrbkVYZ2p0VkVyNEZIMmp1Z1JNR1hpc0hMQ0pQQmxNNWV6azBrbUFXNUw5d2s4aDVuNHhPNkFKUnlfQ2EtUW9ycF9qdm9rb19xU0hiSUtBVVN3VF9YSU5OQXRfNTFzVXBUVnR1cmtaWVNLNG5ycmlUYVNVYmRDWTFab2dERm9hSmJCVHdMYWdqTjRKYVoxVnNMekNGUWh2RzcydUxEVnhGUERlb0E3U3FERWFpMU51LTlRUmp3MXE3Z2RkQnNlalJDMWUtOEd3VWRMNTFhSmpSeUFJOFhZVkVneGRKLVp6eXfSAdMDQVVfeXFMTllLd3A4ODR5bFpYOG56RW93blZTV19GUWNrbUFnbVoweGhUelpBWmppQTRGVGctYk1RTWNGT0JEelM4eVlaWWtlcDBXQlliX3NOVHhKV01NN1dsRFZUVzRDWUpQb3M0amVRZVhFVWo3MUR3WjFTaHplbEQwMjQ2MGJOWXZQRUpXbGIyOUwyX0dtZHpJT21sSFlIN0ltcWRydVVUaUc2aENlQ3ZydTJrNDI4SmVZTTNHTm94aE1rTV9LaHMwZGtEVDNYWmdYTjduZTBzRTZCaVdyd1RTcUF5ajZtMy1RRHlEekRZTjZtaWR4ZkRKMGRITDNXSzQ3bEYtLXliTXFScGs0dFFHeUlzQjJFNXdBRmoyUENLc1o1Q2IyeENMbHREd3I2bU5naFdwYm1FSHgwa3E0MThwazBoazdqMnRMZDhiN2JZcHdCSFM1QUV2dGY1dmVlb1FHSWlPeTdOUFRoY01MenJkRmxHRVdYUHFlSjFUQnZBclRUc3VQR0dJMDJsOEJPeW5VNVpMVG42dVY3ek5wYmsyTG1VOTZsYlNkRno2Q0hfUjlaX1hqUlJnckRoLUxaNHM1bWFRLTZWdXRHWWlIN3hvS1pSLXlPVFk?oc=5"
+    },
+    {
+     "outlet": "Bollymoviereviewz",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOGk0MGxxZ1RKSGtyT0dFN2FraGN1M2JIYmFBYzdBSGFORVZPdERtd1BRUUdTTW1lY2JsbEl3am9ZeExMbGhpbi1jT1BUc3Bxcl85a2lkV1dGdG4zM0Q2OE1DSXQxT3l0UE9Nai1NVjhFdTh3Smh4VkNNd0I2ZFRTeEd4Q181V0FFbGxINzNmaThwbjBRZWFrNkdBRmY4empBV1RPb3IxUFNyZEJ5bEFzSG40ZXJyT3pMTUhnQ29CTTlHSzU4amhTVjVn?oc=5"
+    },
+    {
+     "outlet": "theopenpress.in",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeTlZRWdfM1dka0VMdWY4bTFJQkJJbHBZN3ZzRUs5VWRab25LRkNhOXRmZDZBZUl3UXc1UEM3NmI0clZkeVZsY0FLclBmSnRiV0lOT3ppc01ESTVxcWpxVzJWUll6ZGhFOEY2YTRReGRkVzcwLWR4VEFOTVBHNldDaDJuVVRUc2g1?oc=5"
+    },
+    {
+     "outlet": "India.com",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPZEJWWkhtVy1SZXRleE1iTHIxbmpRaVY3VFZDYTU0N2pQVXlJN3BlRG56YnBGLUJzOXdqcGxoZmRxZ3U3Vlg0amc0OUF4cm94YS05RVZQOThlam1FNmZCak5vVG91b2ZXMUlDSnVmc1F6Y2RFcVJOM0M5NGJETjZtTmJtOVN4dmFpaGtTY2ZwcHpicjdBRlE3STVQRWM0NHl2cEFwV0xkbjNsc2FsOVpWVTF6aXRObzBJVHN2N05DNE5ydGxWcnNvVmJwaDZMY2xYYkh5NzY4dHJZZm1CSnFoSXV5ZkNfRUozaG5ycmFEelVrUXkxNVNOaWdKUGdnMzh2bFNKMm530gGLAkFVX3lxTE90UnJfblBjNUxzazJfY0NWZVlMN2dxSG9WeHlLb1FSV0JzNndQQXNBaktXT29KY09rM1ZwMEpkak90b1AxM0dqaW9ndGM3SExQR1BQVGZFWERjZFQxa0lCTGc3cEZLd1FhUXZ6ZU1iLUtJMDlUS21tbmxwUHViVEdQeFY4akJRLXI5WGx5VGdSTzh5aHRQNUZJT3VrT1o0S1l1VWtJRnVhQnlTVzNwMWlCcGFPMjFIaFZuTjlsUVNFLUVNY1pVMUMyaHhhYVBoTDBmVDFCR1hXbkxPQ29zaTBNOWRtQjNhLXdod3J2bURuWTBBRTRsV0E1NnlzMGlINllRTTZqNDEyaks3aw?oc=5"
+    }
+   ],
+   "published": "2026-11-21T20:11:00+00:00",
+   "sensitive": false,
+   "score": 10.19
   },
   {
    "id": "f0ea9559b2",
@@ -2515,7 +2536,7 @@
    ],
    "published": "2026-11-22T05:14:09+00:00",
    "sensitive": false,
-   "score": 8.95
+   "score": 8.94
   },
   {
    "id": "b093f9c766",
@@ -2544,7 +2565,7 @@
    ],
    "published": "2026-11-22T04:18:46+00:00",
    "sensitive": false,
-   "score": 8.87
+   "score": 8.86
   },
   {
    "id": "9444acd517",
@@ -2573,36 +2594,7 @@
    ],
    "published": "2026-11-21T14:30:39+00:00",
    "sensitive": false,
-   "score": 7.72
-  },
-  {
-   "id": "bac80b391e",
-   "topic": "movies",
-   "kicker": "Movies",
-   "headline": "Ramayana Box Office Day 17: Ranbir Kapoor, Yash-Led Epic Set To Enter Rs 900 Cr India Net Club",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Bollywood Bubble, Bollywood Hungama, theopenpress.in (21 Nov, 6:27 PM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "Bollywood Bubble",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOamJRaU42Z0hZZXpWMEx5cGlXRDBucFpKS0pISy1BSjBjeFh2MEFzTk5rN2xtOHdiNnF6QkVFRWU5TWNEWUVNdUxVM3lNTnFKeGFfa0N3VndhTnlUb2h3Z1JtU21OMGZTMGFuc1VfZ2Z5XzgwdE5QbC1OV1RYMU5DR1NCbFdKU1BEOXVJdE90U0JFeTB0VUMwaUlZaVlFZThJM1E1SmJZU1BCeGNna2toNmYxbXNVQmh2SWtjWkIyU3lfcnQzODQ5dnQwR0lCUVE4RTdJV2h1STZyakxjeGpBSzFJTW56a2pXdkFweVAzWQ?oc=5"
-    },
-    {
-     "outlet": "Bollywood Hungama",
-     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQOHRaSklRWGpfXzBKTGUwZDI4aDJtUGJfQmw2MmVrVjFFaGtmWGFEZGRaNWhuc2pReEo0VXh3a293TjdwUTdPYVpJZXVlSlRlWmxBRTFUVFFNM3NKdkEydDBxRWs4ejE4eDR6ZThQR2lHWkE1V1owRktIelRkcjNndWR0ckVaTXh3T0wtcHh3OTh1MTJDZFNQZENGTncwUjBPMjFxWHNDQklSM0x3d1FFZ0E0aldDZDFWZ3d2VlRGVS1PNWE3VUNkaURLTWpXZGFuS1VDNDFrcG1ab2lQYzc0c0hwWWhzdGUzY3o1OG8wbDBUaEd5dUFVRXJyVFpZeFJDWHdnSXIzdjlaMWYxNlJZemh30gGXAkFVX3lxTE0wT3VtNlZsOTZVV0w0ZEcwSkxCYWhHZi03YUQzbExDY2MxR1RoME1QVV9rM1had1Jqay1NV0ZSWElLdDNCTUJxR0Q5dXVSdUJUa2hZUkx3MFZxQlcxYVlGcVJSTkExOXBCTXpZSE5TcW1RSTRRSnAzcFlSdEUxaUxMcDNiQjBreE9DWW5Yemk5Ujg5RHMyamNKWlI0N1Z6V2I5M0RtVVF4WjhUVUYtY01reHFwaE1CdFNnNXh5SGttYjBkNGxJRWE1eWhEVFgwQWltdUNFcG9ocTNzX1VUNUFqQ1dRTWU3WTU0WVdOS2RVb0hQVUlkQ2VLazNaZEVoZ0l0cExJOU5LcHl6dzllRzlGbjMwUWN0WQ?oc=5"
-    },
-    {
-     "outlet": "theopenpress.in",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeTlZRWdfM1dka0VMdWY4bTFJQkJJbHBZN3ZzRUs5VWRab25LRkNhOXRmZDZBZUl3UXc1UEM3NmI0clZkeVZsY0FLclBmSnRiV0lOT3ppc01ESTVxcWpxVzJWUll6ZGhFOEY2YTRReGRkVzcwLWR4VEFOTVBHNldDaDJuVVRUc2g1?oc=5"
-    }
-   ],
-   "published": "2026-11-21T12:57:06+00:00",
-   "sensitive": false,
-   "score": 7.59
+   "score": 7.71
   },
   {
    "id": "010c568fa8",
@@ -2690,7 +2682,7 @@
    ],
    "published": "2026-11-21T10:11:34+00:00",
    "sensitive": false,
-   "score": 3.36
+   "score": 3.35
   },
   {
    "id": "c4f4567eaf",
@@ -2711,7 +2703,7 @@
    ],
    "published": "2026-11-21T08:45:29+00:00",
    "sensitive": false,
-   "score": 3.24
+   "score": 3.23
   },
   {
    "id": "3b8edb7273",
@@ -2732,7 +2724,7 @@
    ],
    "published": "2026-11-22T01:03:00+00:00",
    "sensitive": false,
-   "score": 4.6
+   "score": 4.59
   },
   {
    "id": "56c6bd6b59",
@@ -2795,7 +2787,7 @@
    ],
    "published": "2026-11-21T18:00:48+00:00",
    "sensitive": false,
-   "score": 4.01
+   "score": 4.0
   },
   {
    "id": "3bc495ab0d",
@@ -2837,7 +2829,7 @@
    ],
    "published": "2026-11-21T13:52:15+00:00",
    "sensitive": false,
-   "score": 3.67
+   "score": 3.66
   },
   {
    "id": "84c29f04c7",
@@ -2858,7 +2850,7 @@
    ],
    "published": "2026-11-21T11:29:23+00:00",
    "sensitive": false,
-   "score": 3.47
+   "score": 3.46
   },
   {
    "id": "ff61e85890",
@@ -2879,7 +2871,7 @@
    ],
    "published": "2026-11-22T05:16:00+00:00",
    "sensitive": false,
-   "score": 4.95
+   "score": 4.94
   },
   {
    "id": "fea857115a",
@@ -2900,7 +2892,7 @@
    ],
    "published": "2026-11-22T03:11:37+00:00",
    "sensitive": false,
-   "score": 4.78
+   "score": 4.77
   },
   {
    "id": "94b872b3e2",
@@ -2921,7 +2913,7 @@
    ],
    "published": "2026-11-21T14:51:47+00:00",
    "sensitive": false,
-   "score": 3.75
+   "score": 3.74
   },
   {
    "id": "074672efd3",
@@ -2963,7 +2955,7 @@
    ],
    "published": "2026-11-21T06:26:51+00:00",
    "sensitive": false,
-   "score": 3.05
+   "score": 3.04
   },
   {
    "id": "e80811b026",
@@ -2984,7 +2976,7 @@
    ],
    "published": "2026-11-22T11:15:02+05:30",
    "sensitive": false,
-   "score": 4.99
+   "score": 4.98
   },
   {
    "id": "835906425a",
@@ -3005,7 +2997,7 @@
    ],
    "published": "2026-11-22T11:07:39+05:30",
    "sensitive": false,
-   "score": 4.98
+   "score": 4.97
   },
   {
    "id": "04ff7107b9",
@@ -3026,7 +3018,7 @@
    ],
    "published": "2026-11-22T11:05:59+05:30",
    "sensitive": false,
-   "score": 4.98
+   "score": 4.97
   },
   {
    "id": "0a2a38edfb",
@@ -3047,7 +3039,7 @@
    ],
    "published": "2026-11-22T10:48:02+05:30",
    "sensitive": false,
-   "score": 4.95
+   "score": 4.94
   },
   {
    "id": "4f0c4611b5",
@@ -3068,7 +3060,7 @@
    ],
    "published": "2026-11-22T10:45:52+05:30",
    "sensitive": false,
-   "score": 4.95
+   "score": 4.94
   },
   {
    "id": "5529e7685b",
@@ -3110,7 +3102,7 @@
    ],
    "published": "2026-11-22T02:48:52+00:00",
    "sensitive": false,
-   "score": 4.75
+   "score": 4.74
   },
   {
    "id": "a80951d43e",
@@ -3152,7 +3144,7 @@
    ],
    "published": "2026-11-22T00:11:35+00:00",
    "sensitive": false,
-   "score": 4.53
+   "score": 4.52
   },
   {
    "id": "3e1d905ee7",
@@ -3173,7 +3165,7 @@
    ],
    "published": "2026-11-21T23:37:53+00:00",
    "sensitive": false,
-   "score": 4.48
+   "score": 4.47
   },
   {
    "id": "a8813fa2a0",
@@ -3194,7 +3186,7 @@
    ],
    "published": "2026-11-20T21:19:33+00:00",
    "sensitive": false,
-   "score": 2.29
+   "score": 2.28
   },
   {
    "id": "2c7a8cc594",
@@ -3215,7 +3207,7 @@
    ],
    "published": "2026-11-20T20:27:39+00:00",
    "sensitive": false,
-   "score": 2.22
+   "score": 2.21
   },
   {
    "id": "bd17ef71df",
@@ -3239,6 +3231,69 @@
    "score": 3.91
   },
   {
+   "id": "3778bd9257",
+   "topic": "startups",
+   "kicker": "Startups",
+   "headline": "SatSure targets ₹200 crore Series B for satellite, AI expansion",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "TechGig (21 Nov, 9:48 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "TechGig",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbHJIdmNPc1BKRk16dEYtaV9vRUZyUmJOZ1pMdWxXUVd4MG9SQkU1ekJLU3Jnc1FJaVVTQ01HVkRFd2FYdWV1NWppcjI1REN2WEJIRm02VmZZWVFFZWpwMnpEaGRPM19hcnNxTWVRRWRRcmx3S0gzYkpYWFFyYlhGTTRTMEZaZWNXWERqNHZSRzRHTm1TZXUwakVQaGdCbmlyLU10akQ3NDk?oc=5"
+    }
+   ],
+   "published": "2026-11-21T16:18:45+00:00",
+   "sensitive": false,
+   "score": 3.86
+  },
+  {
+   "id": "2639d768f9",
+   "topic": "startups",
+   "kicker": "Startups",
+   "headline": "August AI Raises $12 Mn From Accel And Peak XV",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Bharat Fast (21 Nov, 7:40 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Bharat Fast",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON25Ob1F4RmNhS1ZYeWIxUzJkTTM0clJPYnQ5dFlwbmhJOVVJR2lOM0RtamstUktKb3V0QkszMjRHUHIweFJBNnpIeV9KUlQ4WU93NW84bWN1MEQ0bFB5ZGc0ZFY4RGNaMWZmc1Y0MWNxNkpEZzBlN0xuTzBFaUE4UUVnbG9fbl82LUFaMGNUTTE?oc=5"
+    }
+   ],
+   "published": "2026-11-21T14:10:25+00:00",
+   "sensitive": false,
+   "score": 3.68
+  },
+  {
+   "id": "2d9f269d72",
+   "topic": "startups",
+   "kicker": "Startups",
+   "headline": "Long bootstrapped, Redbrick Offices raises Rs 630 crore led by Abakkus and India SME Investments",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "Indian Startup News (21 Nov, 7:35 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "Indian Startup News",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNW9pckVZcEIwSVVjM2lpZUNYRGJaY0xNMnBYNk1CU1V4ZnBBZEVJaTV4b0FpcENGZm9KQ2xTRmRqeGpHZDZLdHEwbkhfeHJvR3lwZmM5S2FWQ0I0OXh3b2VDRE5WNHRNMnBpb0NXMk5LT1JwekJUSEd0LWttQVhZNmxLa2ZEY1ZJQ1FKVXN3cWV2YWtmd2loYnU1OC0tTy1CdDNsTFZmWEJ4MllMclJsUlFXX2UzWmJGMEFqclY2Qzg2LS1oYlBLUnBpSHRuVzlWZVVGWUpXMTRlUdIB2gFBVV95cUxNNW9pckVZcEIwSVVjM2lpZUNYRGJaY0xNMnBYNk1CU1V4ZnBBZEVJaTV4b0FpcENGZm9KQ2xTRmRqeGpHZDZLdHEwbkhfeHJvR3lwZmM5S2FWQ0I0OXh3b2VDRE5WNHRNMnBpb0NXMk5LT1JwekJUSEd0LWttQVhZNmxLa2ZEY1ZJQ1FKVXN3cWV2YWtmd2loYnU1OC0tTy1CdDNsTFZmWEJ4MllMclJsUlFXX2UzWmJGMEFqclY2Qzg2LS1oYlBLUnBpSHRuVzlWZVVGWUpXMTRlUQ?oc=5"
+    }
+   ],
+   "published": "2026-11-21T14:05:27+00:00",
+   "sensitive": false,
+   "score": 3.68
+  },
+  {
    "id": "1da6bb1986",
    "topic": "startups",
    "kicker": "Startups",
@@ -3257,70 +3312,28 @@
    ],
    "published": "2026-11-21T11:57:32+00:00",
    "sensitive": false,
-   "score": 3.51
+   "score": 3.5
   },
   {
-   "id": "f57d441b38",
-   "topic": "startups",
-   "kicker": "Startups",
-   "headline": "Funding and acquisitions in Indian startups this week [Nov 16- Nov 21]",
+   "id": "d8bce47bbc",
+   "topic": "stocks",
+   "kicker": "Stocks · Markets",
+   "headline": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
    "sub": "",
-   "card": "Read the full report at the source.",
+   "card": "Reliance Brands has marked a significant financial milestone, achieving a revenue of Rs 3,390.89 crore for FY26 and reducing losses. Operating more than 1,085…",
    "full": [],
    "why": "",
-   "source": "Entrackr (21 Nov, 5:26 PM IST)",
+   "source": "Economic Times (22 Nov, 4:44 PM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Entrackr",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeTVzck0ySGtUZHJac2lhZ2lQLWF3ZUZ5bzl0MnZSQ3FhelhOT2pwTlBVRVlRWDNzQ3dMQjA1OTU4UllWVVljeGxuaUZNSlFOS1FVR2NubG5ZbkFodzdXcnlud2JOaDhMN1BXRV8tMW9Sa1VaaHMya3lEZEtIMDQ4bEd6SDVxRVRHV25QbFJhWldkbmRqNGNaSDlFcy1FQWdIVndHMWNkMVptVlkxdVJ4TEtFOU1GM1FIRWExMVhMaVF3UUlXMVRkbEJOcFVzODlZTFJXV21CVTl4NG1JMVFIRGdB0gHiAUFVX3lxTE55NXNyTTJIa1RkclpzaWFnaVAtYXdlRnlvOXQydlJDcWF6WE5PanBOUFVFWVFYM3NDd0xCMDU5NThSWVZVWWN4bG5pRk1KUU5LUVVHY25sblluQWh3N1dyeW53Yk5oOEw3UFdFXy0xb1JrVVpoczJreURkS0gwNDhsR3pINXFFVEdXblBsUmFaV2RuZGo0Y1pIOUVzLUVBZ0hWd0cxY2QxWm1WWTF1UnhMS0U5TUYzUUhFYTExWExpUXdRSVcxVGRsQk5wVXM4OVlMUldXbUJVOXg0bUkxUUhEZ0E?oc=5"
+     "outlet": "Economic Times",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms"
     }
    ],
-   "published": "2026-11-21T11:56:03+00:00",
+   "published": "2026-11-22T11:14:52+05:30",
    "sensitive": false,
-   "score": 3.51
-  },
-  {
-   "id": "2138ea711e",
-   "topic": "startups",
-   "kicker": "Startups",
-   "headline": "Indian space startup SatSure gets Rs 60 crore to advance satellite technology",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "India Today (21 Nov, 12:06 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "India Today",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNY3JBNG1hUHJMTmpMYVhEUU43LThBbkU5ZE5rX2Z3WjZXX3dHVXRaT01BUnY0VnhEOHdRNUVpazdkaGoyTnZCMTRQcnJzaVpuNTluSFFYbFZwcEFtZkpqYzc5Um1TczB1R1gxeVJFbVR3Rk1rOVJNSnZKMHQtbkNwUlVJM2ZBdHVEWjRweDY0U3kydlFTLThEZFNFV3UxMVNxT0pOYVU0OGtMdUUyOS16a3E2Ylo2RFJXTWZidHFNOS1seUVWS1ZRbkJXUTVTNXpURW4zbzJhME5HX21fYWfSAeMBQVVfeXFMTURrb2V5ZjhFSXhmNE1xb2FMWjRiLS1ObnQzX2JjYTVfSFdoQTlRVmc1N3d2bERoVGstUkRUeWJWSW9kMVJiTkVLNmlmRkZWU3c5QXNMUTJ3bFY5aXdsT1NueDlSUHhkVHRraFRMT0RuVl9FRzJyNGx6TGNnNUdBbHBHU1k3b2tKV0VzeTdEVVd0UFNHbU9LeGpxaS1iT25rS0Y1SjJZNHBMYTVyRnVHZlN5NXFVN3FNQzR5bnhCd2ZhTk5wNTFCSmlzaHpYWkh1bVZROXhpdWUzUlYzWUY5ZlpnSEk?oc=5"
-    }
-   ],
-   "published": "2026-11-21T06:36:07+00:00",
-   "sensitive": false,
-   "score": 3.06
-  },
-  {
-   "id": "e281f2301b",
-   "topic": "startups",
-   "kicker": "Startups",
-   "headline": "Weekly Funding Roundup: The startup deals you may have missed in week of November 22",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "Moneycontrol.com (21 Nov, 9:28 AM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQV0xiZzFzLUwzU0xabTdLMktFYmpiWE5BeDNlUi1oc1Z4eWh1OFlScXZJYVpiakg3eDVnWHlFV2tlUXBTZ2s5bU1wMGs0NzNBWkhfMFdjcDJ0ZEl2OVozODVrUXJrVTZkSmxfVlV3N2pOLS1yckNjLUhnREluREJrNUE3ZjNpa19sOEpsVkdQVzhwY0FGSHItc2VkeWNkbjlMTWpxX2tiVUNkMXBhdmxFTlRocHdjcEZpd1RFOUltZmxSSW1iTHhZS211Yzh3NXJwVFU3ZEd6V2h6bDBTbHljemk4TnliNDTSAecBQVVfeXFMUFdMYmcxcy1MM1NMWm03SzJLRWJqYlhOQXgzZVItaHNWeHlodThZUnF2SWFaYmpIN3g1Z1h5RVdrZVFwU2drOW1NcDBrNDczQVpIXzBXY3AydGRJdjlaMzg1a1Fya1U2ZEpsX1ZVdzdqTi0tcnJDYy1IZ0RJbkRCazVBN2YzaWtfbDhKbFZHUFc4cGNBRkhyLXNlZHljZG45TE1qcV9rYlVDZDFwYXZsRU5UaHB3Y3BGaXdURTlJbWZsUkltYkx4WUttdWM4dzVycFRVN2RHeldoemwwU2x5Y3ppOE55YjQ0?oc=5"
-    }
-   ],
-   "published": "2026-11-21T03:58:12+00:00",
-   "sensitive": false,
-   "score": 2.84
+   "score": 4.98
   },
   {
    "id": "ecc13973ba",
@@ -3345,7 +3358,7 @@
    ],
    "published": "2026-11-21T10:50:04+05:30",
    "sensitive": false,
-   "score": 4.96
+   "score": 4.95
   },
   {
    "id": "0c4347b077",
@@ -3366,7 +3379,7 @@
    ],
    "published": "2026-11-22T10:44:39+05:30",
    "sensitive": false,
-   "score": 4.95
+   "score": 4.94
   },
   {
    "id": "3b301d13cc",
@@ -3408,53 +3421,7 @@
    ],
    "published": "2026-11-22T09:20:25+05:30",
    "sensitive": false,
-   "score": 4.83
-  },
-  {
-   "id": "62840b989e",
-   "topic": "stocks",
-   "kicker": "Stocks · Markets",
-   "headline": "Wall Street sell-off: Is the worst over? Goldman Sachs warns of fresh selling wave, flags 3 recovery triggers",
-   "sub": "",
-   "card": "Goldman Sachs warns that systematic investors may drive another substantial wave of selling after the S&amp;P 500 entered correction territory.&nbsp;",
-   "full": [],
-   "why": "",
-   "source": "Mint (22 Nov, 2:33 PM IST)",
-   "label": "single",
-   "sources": [
-    {
-     "outlet": "Mint",
-     "url": "https://www.livemint.com/market/stock-market-news/wall-street-sell-off-is-the-worst-over-goldman-sachs-warns-of-fresh-selling-wave-flags-3-recovery-triggers-11795316021375.html"
-    }
-   ],
-   "published": "2026-11-22T09:03:53+05:30",
-   "sensitive": false,
-   "score": 4.81
-  },
-  {
-   "id": "22b39ec978",
-   "topic": "tennis",
-   "kicker": "Tennis",
-   "headline": "What were the Nitto ATP Finals results?",
-   "sub": "",
-   "card": "Read the full report at the source.",
-   "full": [],
-   "why": "",
-   "source": "ATP Tour, LTA (22 Nov, 9:46 AM IST)",
-   "label": "multi",
-   "sources": [
-    {
-     "outlet": "ATP Tour",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pMnRNaHdpX1o4b3BFNGJvTDJHT2ExLWsyaV9GRWpKbWpxQWVtQmZIb0VKYzdBU3A4Wm5UVElhemswSXRiOFVlYUJ4S2NRZlNFU0p2cTlBOHpRM0E4M0k4bkF3MUExazg3QXBfbFFB?oc=5"
-    },
-    {
-     "outlet": "LTA",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zNVhvNmh1cFNjbWxIajlVdXdDemN3WGpjY2dYajdLWlljeVJ2d0dUemNsVTJTeWluOW1lMkxzLU1menhMQWdRbHZTZzkxTHpKbGVPaURIcEU4Z216djA5MnpwOTZWZ3FudnZHcnhkWk1VVC1hbW00cg?oc=5"
-    }
-   ],
-   "published": "2026-11-22T04:16:28+00:00",
-   "sensitive": false,
-   "score": 6.87
+   "score": 4.82
   },
   {
    "id": "609a73177d",
@@ -3482,46 +3449,46 @@
    "score": 6.41
   },
   {
-   "id": "08a780b389",
+   "id": "2990feb035",
    "topic": "tennis",
    "kicker": "Tennis",
-   "headline": "November 22, 2026: 2026 Men's ATP Nitto Winner: A. Zverev vs C. Alcaraz Tennis Prediction Market",
+   "headline": "Nitto ATP Finals 2026: Results & updates",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Robinhood (22 Nov, 3:18 AM IST)",
+   "source": "LTA (22 Nov, 8:43 AM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Robinhood",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV09UYWpBT05nc25tWmwtbm1Db1d0ZG1RVFdndWRreTAzcVB6cWtGTnBhalFCeUN1TURmYXJWeEVfNWs0SWxqUERaVkJZc1g4Sm5HQlZwRGI5Mnk3UDUzLU5QbW4tNzVxVFpGNkYxc2JleUdwUkNFbkoxeDJ4UXp3VDBRUkxKNnJ3SGdVd0xsLUo0ckdjNUdpcXhBMm1ZdFFUT0k3ekR5ekRUSXpHaXNJZHI1RElCbnQzOEJKbmdmbw?oc=5"
+     "outlet": "LTA",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zNVhvNmh1cFNjbWxIajlVdXdDemN3WGpjY2dYajdLWlljeVJ2d0dUemNsVTJTeWluOW1lMkxzLU1menhMQWdRbHZTZzkxTHpKbGVPaURIcEU4Z216djA5MnpwOTZWZ3FudnZHcnhkWk1VVC1hbW00cg?oc=5"
     }
    ],
-   "published": "2026-11-21T21:48:44+00:00",
+   "published": "2026-11-22T03:13:41+00:00",
    "sensitive": false,
-   "score": 4.33
+   "score": 4.77
   },
   {
-   "id": "33103531a5",
+   "id": "09321196b5",
    "topic": "tennis",
    "kicker": "Tennis",
-   "headline": "Nitto ATP Finals 2026: Schedule of Play for Sunday November 22",
+   "headline": "Highlights: Alcaraz rallies past Shelton, returns to title match at Nitto ATP Finals 2026",
    "sub": "",
    "card": "Read the full report at the source.",
    "full": [],
    "why": "",
-   "source": "Tennis Connected (21 Nov, 9:42 PM IST)",
+   "source": "ATP Tour (21 Nov, 9:25 PM IST)",
    "label": "single",
    "sources": [
     {
-     "outlet": "Tennis Connected",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmo5dkNPVm9lMEpEY3JDempnT29NRWZlWUR3TUtfcE41V0lmRXZiWFBhckZTNExYdFN2UjhDcnVwUzBuZWtEUkNIXzZuSGRjNGxneWJsLWFFZW40enUtak9xdXdMWHQwWmRyYlgxd0hTVnhaQUxzTFpydzJVamxqOVRHT25fZThNSEFfcjZLUEtfa09v?oc=5"
+     "outlet": "ATP Tour",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR3ZmOG9RWnpyMjdvNXVDZHU1bGZ6QndIWUNfU3JjSzM3cHZub3k0VndMZHNwYlVDWWxzdElWY1JwVWg5cjY0VDRDcXpEejYxTjgtV2hLdXM4MUdaYTBjdGdpU0E3U3ZjS3JFU2dDQTVWZzFvOWM3QjU5TGk4WDlXTzdtTnZQenNXcExYa2NKNE1lelRjSzExWUxkX3lWVzdrcmJsRkFjX09QWExsVjNDTGVDYXpUYW1FWTZOaw?oc=5"
     }
    ],
-   "published": "2026-11-21T16:12:31+00:00",
+   "published": "2026-11-21T15:55:34+00:00",
    "sensitive": false,
-   "score": 3.86
+   "score": 3.83
   },
   {
    "id": "34b81c9580",
@@ -3542,7 +3509,28 @@
    ],
    "published": "2026-11-21T13:54:51+00:00",
    "sensitive": false,
-   "score": 3.67
+   "score": 3.66
+  },
+  {
+   "id": "ff1f8a9455",
+   "topic": "tennis",
+   "kicker": "Tennis",
+   "headline": "2026 DI individual men's and women's tennis championship: Selection info, bracket, schedule",
+   "sub": "",
+   "card": "Read the full report at the source.",
+   "full": [],
+   "why": "",
+   "source": "NCAA.com (21 Nov, 7:05 PM IST)",
+   "label": "single",
+   "sources": [
+    {
+     "outlet": "NCAA.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR1RYOGtBR2ZJMVRaRVR1Ym5wX3dkeWxneDVVY21hODVTTEt6dzJSZUQ1ZXZndDhSZTE4X0QySWRKRW00ODIySUFna3RXTmhzTWVsUDFMUVliT1g0ZHYzZXZMdmpEcktSYVJPTHNiSTBJVGtQNFYwMlYwVTZ6TmI1eFhJeHVCZUFJZXlaMzExWnJ1MVB2MWNHUzN1eXB5NnppOFB6cjFnX0Q0NHM4Sk1GbXlRZUMtS2gyMWNVT25ZdDNxZTE3aFHSAcsBQVVfeXFMT3phX1JjQk1xT1B3N3NqM3VGTHVDTThoZERLdjNiZmxnU1dpMzV2SXNTWldFQ0lTUW9IN1lNbXpzcjA4ZFVMVUQ2MEhjVmltamVsZlJaanBzWFFxdFZIZXdFYWFNNnpUZk9WQVo5X2J5VkNxWTlVb0xHQnhacEV1akRCa2FLN1Q4c1V0OVhlOTlSMjlUM2RZZ3dYVDVIWGRNZ29fWTU4bGdCZzFmQ1oteGQ5cWVpZHl6bWVubFloNjNGZFUxQmludEtTOW8?oc=5"
+    }
+   ],
+   "published": "2026-11-21T13:35:30+00:00",
+   "sensitive": false,
+   "score": 3.64
   },
   {
    "id": "b3661cc896",
@@ -3563,7 +3551,7 @@
    ],
    "published": "2026-11-22T05:36:21+00:00",
    "sensitive": false,
-   "score": 4.98
+   "score": 4.97
   },
   {
    "id": "86135de73c",
@@ -3584,7 +3572,7 @@
    ],
    "published": "2026-11-22T05:05:26+00:00",
    "sensitive": false,
-   "score": 4.94
+   "score": 4.93
   },
   {
    "id": "65c9714c9d",
@@ -3605,7 +3593,7 @@
    ],
    "published": "2026-11-22T04:30:50+00:00",
    "sensitive": false,
-   "score": 4.89
+   "score": 4.88
   },
   {
    "id": "2532ef2bdf",
@@ -3626,7 +3614,7 @@
    ],
    "published": "2026-11-21T15:35:34+00:00",
    "sensitive": false,
-   "score": 3.81
+   "score": 3.8
   },
   {
    "id": "da9ced890a",
@@ -3647,7 +3635,7 @@
    ],
    "published": "2026-11-21T15:18:06+00:00",
    "sensitive": false,
-   "score": 3.79
+   "score": 3.78
   },
   {
    "id": "49187583ed",
@@ -3676,7 +3664,7 @@
    ],
    "published": "2026-11-22T01:53:33+00:00",
    "sensitive": false,
-   "score": 8.67
+   "score": 8.66
   },
   {
    "id": "cc325a8681",
@@ -3726,7 +3714,7 @@
    ],
    "published": "2026-11-21T16:30:41+00:00",
    "sensitive": false,
-   "score": 3.89
+   "score": 3.88
   },
   {
    "id": "3edeaae436",
@@ -3768,7 +3756,7 @@
    ],
    "published": "2026-11-21T11:42:08+00:00",
    "sensitive": false,
-   "score": 3.49
+   "score": 3.48
   },
   {
    "id": "1c3ee281ba",
@@ -3789,7 +3777,7 @@
    ],
    "published": "2026-11-22T10:43:10+05:30",
    "sensitive": false,
-   "score": 4.95
+   "score": 4.94
   },
   {
    "id": "5e9d81b254",
@@ -3810,7 +3798,7 @@
    ],
    "published": "2026-11-22T10:15:19+05:30",
    "sensitive": false,
-   "score": 4.91
+   "score": 4.9
   },
   {
    "id": "75358ca01b",
@@ -3831,7 +3819,7 @@
    ],
    "published": "2026-11-22T10:00:15+05:30",
    "sensitive": false,
-   "score": 4.89
+   "score": 4.88
   },
   {
    "id": "f0eee7231e",
@@ -3852,7 +3840,7 @@
    ],
    "published": "2026-11-22T09:59:25+05:30",
    "sensitive": false,
-   "score": 4.89
+   "score": 4.88
   },
   {
    "id": "d0e1310b95",
@@ -3873,7 +3861,7 @@
    ],
    "published": "2026-11-22T09:52:45+05:30",
    "sensitive": true,
-   "score": 4.88
+   "score": 4.87
   }
  ]
 }
