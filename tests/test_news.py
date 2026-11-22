@@ -19,4 +19,8 @@ assert not any("last week" in s["headline"] for s in out)   # stale dropped
 assert any(s["sensitive"] for s in out)                     # flagged for under-18 filter
 assert all(s["label"] in ("multi", "single") for s in out)
 assert news.outlet_key("BBC News")==news.outlet_key("BBC Sport")==news.outlet_key("BBC")
+assert not news.keep({"title":"PAK vs IND match prediction","desc":"","topic":"cricket"})
+assert not news.keep({"title":"Matt Henry leaves ODI squad","desc":"","topic":"kabaddi"})
+assert news.keep({"title":"Pro Kabaddi League opener","desc":"","topic":"kabaddi"})
+assert not news.keep({"title":"Sabalenka eliminated Laodộng Việt Nam tin tức","desc":"","topic":"tennis"})
 print("all tests passed:", len(out), "stories")
